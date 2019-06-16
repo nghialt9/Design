@@ -1,0 +1,47 @@
+<title>Sum 2 Number</title>
+<link rel="stylesheet" href="../css/cong2so.press.css">
+<!--disable right click then return false-->
+<body oncontextmenu="return true;">
+    <div id="back"><a href="/">Back</a></div>
+    <form id="contactform" name="contact" method="post" action="#">
+        <div class="row">
+            <label>Number 1: </label>
+            <input type="text" id="number1" autocomplete="off" onkeydown="return isNumberKey(event)"
+                oninput="myFunction()" class="txt" tabindex="1" placeholder="Enter first number">
+        </div>
+        <div class="row">
+            <label>Number 2: </label>
+            <input type="text" id="number2" autocomplete="off" size="100" onkeydown="return isNumberKey(event)"
+                oninput="myFunction()" class="txt" tabindex="2" placeholder="Enter second number">
+        </div>
+        <div class="row">
+            <label> Result: </label>
+            <label id="resultS"></label>
+        </div>
+    </form>
+    <form id="contactform" name="contact" method="post" action="#">
+        <div ng-app="myApp" ng-controller="costCtrl">
+            <p style="text-align: center" class="w3-left w3-text-aqua">Today is: {{dateNow|date:'MMM dd, yyyy EEEE. a -
+                HH:mm:ss:sss, Z, ww'}}</p>
+        </div>
+        <div class="row">
+            <label>Date 1: </label>
+            <input type="text" id="date1" class="txt" tabindex="3" onchange="caldate()" readonly="true">
+        </div>
+        <div class="row">
+            <label>Date 2: </label>
+            <input type="text" id="date2" class="txt" tabindex="4" onchange="caldate()" readonly="true">
+        </div>
+        <div class="row">
+            <label> Result: </label>
+            <label id="resultD"></label>
+        </div>
+        <div class="row">
+            <label id="resultT"></label>
+        </div>
+    </form>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="../js/cong2so.min.js"></script>
