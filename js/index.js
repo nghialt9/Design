@@ -10,47 +10,47 @@ slideshow.controller('appCtrl', function ($scope, $interval) {
             {
                 numbertext: "2 / 10",
                 image: "./assets/anhbia2.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Trang trí cho Trung Thu"
             },
             {
                 numbertext: "3 / 10",
                 image: "./assets/anhbia3.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Địa điểm mỗi nhà"
             },
             {
                 numbertext: "4 / 10",
                 image: "./assets/anhbia4.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Thi múa hát"
             },
             {
                 numbertext: "5 / 10",
                 image: "./assets/anhbia5.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Chuẩn bị phát quà"
             },
             {
                 numbertext: "6 / 10",
                 image: "./assets/anhbia6.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Hại chị xinh xinh đang phát quà"
             },
             {
                 numbertext: "7/10",
                 image: "./assets/anhbia7.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Anh tổ chức đang đọc bài phát biểu trước khi bắt đầu"
             },
             {
                 numbertext: "8 / 10",
                 image: "./assets/anhbia8.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Anh ấy đang xitj thuốc rầy cho đậu phọng"
             },
             {
                 numbertext: "9 / 10",
                 image: "./assets/anhbia9.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Poster quảng bá về hội đình thần"
             },
             {
                 numbertext: "10 / 10",
                 image: "./assets/anhbia10.jpg",
-                text: "Hình ảnh Bào Cát"
+                text: "Đám bắp đang tốt ở Bào Cát"
             },
         ]
     }
