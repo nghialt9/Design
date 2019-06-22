@@ -1,7 +1,12 @@
+/* start angularjs */
 var slideshow = angular.module('app', []);
-slideshow.controller('appCtrl', function ($scope, $interval) {
+slideshow.controller('appCtrl', function ($scope, $interval, $http) {
+    //khởi tạo hàm chạy và khai báo biến
+    $http.get('./json/data.json').then(function(response) {
+        $scope.slidesShow = response.data;
+     });
     var init = function () {
-        $scope.slidesShow = [
+        $scope.slidesShow1 = [
             {
                 numbertext: "1 / 10",
                 image: "./assets/anhbia1.jpg",
@@ -51,18 +56,23 @@ slideshow.controller('appCtrl', function ($scope, $interval) {
                 numbertext: "10 / 10",
                 image: "./assets/anhbia10.jpg",
                 text: "Đám bắp đang tốt ở Bào Cát"
-            },
+            }
         ]
     }
+
+    //chạy hàm khởi tạo
     init();
 
+    //hàm chạy thời gian.
     var updateClock = function () {
         $scope.dateNow = new Date();
     };
     $interval(updateClock, 1);
     updateClock();
 });
+/* end angularjs */
 
+/* start sliders */
 var slideIndex = 1;
 //-- use angular --
 // angular.element(document).ready(function () {
@@ -96,7 +106,9 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+/* end sliders */
 
+/* start cal date by input number */
 $(document).ready(function () {
     $('#txtDate').datepicker();
 });
@@ -125,3 +137,4 @@ function getdate() {
     var someFormattedDate = dd + '/' + mm + '/' + y;
     document.getElementById('follow_Date').value = someFormattedDate;
 }
+/* end cal date by input number */
