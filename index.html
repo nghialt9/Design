@@ -1,84 +1,103 @@
 ﻿<html ng-app="app">
 <title>Bào Cát Quê Mình</title>
 <link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body class="body" ng-controller="appCtrl">
-  <div class="slideshow-container">
-    <div class="mySlides fade" ng-repeat="slide in slidesShow">
-      <div class="numbertext">{{slide.numbertext}}</div>
-      <img ng-src="{{slide.image}}">
-      <div class="text">{{slide.text}}</div>
+    <div class="slideshow-container">
+        <div class="mySlides fade" ng-repeat="slide in slidesShow">
+            <div class="numbertext">{{slide.numbertext}}</div>
+            <img ng-src="{{slide.image}}">
+            <div class="text">{{slide.text}}</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
     </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-  </div>
-  <br>
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-    <span class="dot" onclick="currentSlide(6)"></span>
-    <span class="dot" onclick="currentSlide(7)"></span>
-    <span class="dot" onclick="currentSlide(8)"></span>
-    <span class="dot" onclick="currentSlide(9)"></span>
-    <span class="dot" onclick="currentSlide(10)"></span>
-  </div>
-  <div class="container">
-    <p class="time">Today is: {{dateNow|date:'MMM dd, yyyy EEEE. a - HH:mm:ss:sss'}}</p>
-    <!-- Product grid -->
-    <div class="w3-text-white w3-row-padding">
-      <div class="w3-col s12">
-        <h4>Thông Tin Chính</h4>
-        <p>Nguyễn Thị Kiêm</p>
-        <p>Bạn muốn biết ngày gì?</p>
-        <label>Ngày Mất-Chôn của ngoại(Dương) 08/03/2018 - 08/06/2018.</label>
-        <label>Ngày Mất-Chôn của ngoại(Âm) 06/22/2018 - 06/25/2018.
+    <br>
+    <div style="text-align:center" id="dot"></div>
+    <div class="container">
+        <p class="time">Today is: {{dateNow|date:'MMM dd, yyyy EEEE. a - HH:mm:ss:sss'}}</p>
+        <div class="tabbed">
+            <!-- first panel -->
+            <input name="tabbed" id="tabbed1" type="radio" checked>
+            <section>
+                <h1>
+                    <label for="tabbed1">test 1</label>
+                </h1>
+                <div>
+                    <!-- content -->
+                    def fjewkfnwefke
+                    <br> fwegrwegrwger
+                    <br> sgwegwergrwgrwg
+                </div>
+            </section>
+            <!-- second panel -->
+            <input name="tabbed" id="tabbed2" type="radio">
+            <section>
+                <h1>
+                    <label for="tabbed2">test2</label>
+                </h1>
+                <div>
+                    <!-- content -->
+                    abc def fjewkfnwefke
+                    <br> fwegrwegrwger
+                    <br> sgwegwergrwgrwg
+                </div>
+            </section>
+            <!-- and so on -->
+        </div>
+        <div class="w3-text-white w3-row-padding">
+            <div class="w3-col s12">
+                <h4>Thông Tin Chính</h4>
+                <p>Nguyễn Thị Kiêm</p>
+                <p>Bạn muốn biết ngày gì?</p>
+                <label>Ngày Mất-Chôn của ngoại(Dương) 08/03/2018 - 08/06/2018.</label>
+                <label>Ngày Mất-Chôn của ngoại(Âm) 06/22/2018 - 06/25/2018.
           <input id="txtDate" autocomplete="off" placeholder="Nhập ngày/tháng/năm" type="text" value=""
             style="background-color:white;" />
         </label>
-        <label>Số ngày thêm: </label>
-        <label onclick="decrementQty()" item-right>-</label>
-        <input id="numDay" type="number" min="1" value="49" />
-        <label onclick="incrementQty()" item-right>+</label>
-        <label>Ngày cần tính(ngày/tháng/năm): <input id="follow_Date" placeholder="tự ra khi nhấn vào nút Tính"
+                <label>Số ngày thêm: </label>
+                <label onclick="decrementQty()" item-right>-</label>
+                <input id="numDay" type="number" min="1" value="49" />
+                <label onclick="incrementQty()" item-right>+</label>
+                <label>Ngày cần tính(ngày/tháng/năm): <input id="follow_Date" placeholder="tự ra khi nhấn vào nút Tính"
             type="text" readOnly="true" /></label>
-        <button class="w3-button w3-block w3-black" onclick="getdate()">Tính</button>
-      </div>
-    </div>
-    <IFRAME style="background-color:pink;" src="http://www.informatik.uni-leipzig.de/~duc/amlich/PHP/index.php"
-      align="right" name="CurentMonth" width="100%" height="550" frameborder=0>
-    </IFRAME>
-
-    <!-- Footer -->
-    <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-      <div class="w3-row-padding">
-        <div class="w3-col s4 w3-justify">
-          <h4>Công Ty</h4>
-          <p><i class="fa fa-fw fa-map-marker"></i> FPT Software</p>
-          <p><i class="fa fa-fw fa-phone"></i> 0972.73.73.08</p>
-          <p><i class="fa fa-fw fa-envelope"></i> nghiagiaugiangho1990@mail.com</p>
-          <h4>Liên Hệ</h4>
-          <p><i class="fa fa-fw fa-cc-amex"></i> Mr.Nghia</p>
-          <p><i class="fa fa-fw fa-credit-card"></i> Lập Trình</p>
-          <br>
-          <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
-          <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
-          <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
-          <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
-          <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
-          <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+                <button class="w3-button w3-block w3-black" onclick="getdate()">Tính</button>
+            </div>
         </div>
-      </div>
+        <IFRAME style="background-color:pink;" src="http://www.informatik.uni-leipzig.de/~duc/amlich/PHP/index.php" align="right" name="CurentMonth" width="100%" height="550" frameborder=0>
+    </IFRAME>
+    </div>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="footer-padding">
+            <div class="footer-left">
+                <h4>Công Ty</h4>
+                <p><i class="fa fa-fw fa-map-marker"></i> Vietcredit.vn</p>
+                <p><i class="fa fa-fw fa-street-view"></i> 195 Điện Biên Phủ, P.15, Q.Bình Thạnh, TP.HCM</p>
+                <p><i class="fa fa-fw fa-briefcase"></i> Lập Trình</p>
+            </div>
+            <div class="footer-right">
+                <h4>Liên Hệ</h4>
+                <p><i class="fa fa-fw fa-user-o"></i> Mr.Nghia</p>
+                <p><i class="fa fa-fw fa-phone"></i> 0972.73.73.08</p>
+                <p><i class="fa fa-fw fa-envelope"></i> lamtrongnghia1990@mail.com</p>
+            </div>
+            <br>
+            <i class="fa fa-facebook-official w3-hover-opacity w3-large"></i>
+            <i class="fa fa-instagram w3-hover-opacity w3-large"></i>
+            <i class="fa fa-snapchat w3-hover-opacity w3-large"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity w3-large"></i>
+            <i class="fa fa-twitter w3-hover-opacity w3-large"></i>
+            <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
+        </div>
     </footer>
-  </div>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

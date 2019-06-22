@@ -1,13 +1,9 @@
 /* start angularjs */
 var slideshow = angular.module('app', []);
-slideshow.controller('appCtrl', function ($scope, $interval, $http) {
+slideshow.controller('appCtrl', function($scope, $interval) {
     //khởi tạo hàm chạy và khai báo biến
-    $http.get('./json/data.json').then(function(response) {
-        $scope.slidesShow = response.data;
-     });
-    var init = function () {
-        $scope.slidesShow1 = [
-            {
+    var init = function() {
+        $scope.slidesShow = [{
                 numbertext: "1 / 10",
                 image: "./assets/anhbia1.jpg",
                 text: "Hình ảnh Bào Cát"
@@ -56,7 +52,7 @@ slideshow.controller('appCtrl', function ($scope, $interval, $http) {
                 numbertext: "10 / 10",
                 image: "./assets/anhbia10.jpg",
                 text: "Đám bắp đang tốt ở Bào Cát"
-            }
+            },
         ]
     }
 
@@ -64,7 +60,7 @@ slideshow.controller('appCtrl', function ($scope, $interval, $http) {
     init();
 
     //hàm chạy thời gian.
-    var updateClock = function () {
+    var updateClock = function() {
         $scope.dateNow = new Date();
     };
     $interval(updateClock, 1);
@@ -79,8 +75,13 @@ var slideIndex = 1;
 //     showSlides(slideIndex);
 // });
 
-$( document ).ready(function() {
+$(document).ready(function() {
+    createDot();
     showSlides(slideIndex);
+    var x = setInterval(function() {
+        showSlides(slideIndex);
+        slideIndex += 1;
+    }, 3000);
 });
 
 function plusSlides(n) {
@@ -109,18 +110,21 @@ function showSlides(n) {
 /* end sliders */
 
 /* start cal date by input number */
-$(document).ready(function () {
+$(document).ready(function() {
     $('#txtDate').datepicker();
 });
 $("#txtDate").datepicker({
     dateFormat: "dd/mm/yy"
 });
+
 function decrementQty() {
     document.getElementById('numDay').value = parseInt(document.getElementById('numDay').value) - 1;
 }
+
 function incrementQty() {
     document.getElementById('numDay').value = parseInt(document.getElementById('numDay').value) + 1;
 }
+
 function getdate() {
     var tt = document.getElementById('txtDate').value;
     var initial = tt.split(/\//).reverse().join('/');
@@ -138,3 +142,14 @@ function getdate() {
     document.getElementById('follow_Date').value = someFormattedDate;
 }
 /* end cal date by input number */
+
+/* start create element dot */
+function createDot() {
+    for (let index = 1; index < 11; index++) {
+        var para = document.createElement("span");
+        para.className = "dot";
+        para.onclick = function() { currentSlide(index) };
+        document.getElementById("dot").appendChild(para);
+    }
+}
+/* start create element dot */
