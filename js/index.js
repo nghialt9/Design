@@ -1,12 +1,7 @@
 /* start angularjs */
-var slideshow = angular.module('app', []);
-slideshow.component('flappy', {
-        controller: function() {
-            this.$onInit = function() {
-                console.log(this);
-            };
-        },
-        templateUrl: './html/flappy.html'
+angular.module('app', [])
+    .component('flappy', {
+        templateUrl: './html/cong2so.html'
     })
     .controller('appCtrl', function($scope, $interval) {
         //khởi tạo hàm chạy và khai báo biến
@@ -79,17 +74,22 @@ slideshow.component('flappy', {
 /* start sliders */
 var slideIndex = 1;
 //-- use angular --
-// angular.element(document).ready(function () {
-//     showSlides(slideIndex);
-// });
-
-$(document).ready(function() {
+angular.element(document).ready(function() {
     createDot();
     showSlides(slideIndex);
     var x = setInterval(function() {
         showSlides(slideIndex);
         slideIndex += 1;
     }, 3000);
+});
+
+$(document).ready(function() {
+    // createDot();
+    // showSlides(slideIndex);
+    // var x = setInterval(function() {
+    //     showSlides(slideIndex);
+    //     slideIndex += 1;
+    // }, 3000);
 });
 
 function plusSlides(n) {

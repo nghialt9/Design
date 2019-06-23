@@ -2,6 +2,10 @@
 <title>Bào Cát Quê Mình</title>
 <link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./js/index.js"></script>
 
 <body class="body" ng-controller="appCtrl">
     <div class="slideshow-container">
@@ -19,33 +23,16 @@
     <div style="text-align:center" id="dot"></div>
     <div class="container">
         <p class="time">Today is: {{dateNow|date:'MMM dd, yyyy EEEE. a - HH:mm:ss:sss'}}</p>
-        <div class="tabbed">
-            <!-- first panel -->
-            <input name="tabbed" id="tabbed1" type="radio" checked>
-            <section>
-                <h1>
-                    <label for="tabbed1">test 1</label>
-                </h1>
-                <div>
-                    <!-- content -->
-                    <flappy></flappy>
-                </div>
-            </section>
-            <!-- second panel -->
-            <input name="tabbed" id="tabbed2" type="radio">
-            <section>
-                <h1>
-                    <label for="tabbed2">test2</label>
-                </h1>
-                <div>
-                    <!-- content -->
-                    abc def fjewkfnwefke
-                    <br> fwegrwegrwger
-                    <br> sgwegwergrwgrwg
-                </div>
-            </section>
-            <!-- and so on -->
-        </div>
+        <tabs>
+            <pane title="FlappyBird">
+                <flappy></flappy>
+            </pane>
+            <pane title="Cong2So">
+                <h4>World</h4>
+                <em>Mauris elementum elementum enim at suscipit.</em>
+                <p><a href ng-click="i = i + 1">counter: {{i || 0}}</a></p>
+            </pane>
+        </tabs>
         <div class="w3-text-white w3-row-padding">
             <div class="w3-col s12">
                 <h4>Thông Tin Chính</h4>
@@ -92,10 +79,6 @@
             <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="./js/index.js"></script>
 </body>
 
 </html>
