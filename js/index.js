@@ -1,6 +1,22 @@
 /* start angularjs */
 var slideshow = angular.module('app', []);
-slideshow.controller('appCtrl', function($scope, $interval) {
+slideshow.component('flappy', {
+        transclude: true,
+        require: {
+            tabsCtrl: '^myTabs'
+        },
+        bindings: {
+            title: '@'
+        },
+        controller: function() {
+            this.$onInit = function() {
+                this.tabsCtrl.addPane(this);
+                console.log(this);
+            };
+        },
+        templateUrl: './html/flappy.html'
+    })
+    .controller('appCtrl', function($scope, $interval) {
         //khởi tạo hàm chạy và khai báo biến
         var init = function() {
             $scope.slidesShow = [{
@@ -65,22 +81,6 @@ slideshow.controller('appCtrl', function($scope, $interval) {
         };
         $interval(updateClock, 1);
         updateClock();
-    })
-    .component('flappy', {
-        transclude: true,
-        require: {
-            tabsCtrl: '^myTabs'
-        },
-        bindings: {
-            title: '@'
-        },
-        controller: function() {
-            this.$onInit = function() {
-                this.tabsCtrl.addPane(this);
-                console.log(this);
-            };
-        },
-        templateUrl: './html/flappy.html'
     });
 /* end angularjs */
 
