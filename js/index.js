@@ -1,16 +1,8 @@
 /* start angularjs */
 var slideshow = angular.module('app', []);
 slideshow.component('flappy', {
-        transclude: true,
-        require: {
-            tabsCtrl: '^myTabs'
-        },
-        bindings: {
-            title: '@'
-        },
         controller: function() {
             this.$onInit = function() {
-                this.tabsCtrl.addPane(this);
                 console.log(this);
             };
         },
