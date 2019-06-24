@@ -1,17 +1,9 @@
-.body {
-    background-image: url(http://uhd-wallpapers.net/images/rainbow-background_526.jpeg);
-}
-
-.container {
-    background: white;
-    margin: 0 10% 0 10%;
-}
-
-#ui-datepicker-div {
-	background-color: #ee6d23;
-}
-
-.ui-datepicker-title {
-    color: #91441a;
-    font-weight: bold;
+.num-sub {
+    width: 100px;
+    height: 41px;
+    font-size: 35px;
+    line-height: 41px;
+    font-family: Roboto, sans-serif;
+    color: rgb(6, 71, 95);
+    font-weight: 700;
 }

@@ -1,41 +1,6 @@
-<style>
-    .num-sub {
-        width: 126px;
-        height: 41px;
-        font-size: 35px;
-        line-height: 41px;
-        font-family: Roboto, sans-serif;
-        color: rgb(6, 71, 95);
-        font-weight: 700;
-    }
-</style>
-<div class="num-sub" id="numSub"></div>
-<script>
-    //notify : có 4 số thì sửa tên biến bỏ Sub thành loại của nó vd: numMinStu cho student
-    //subscribers
-    var numMinSub = 0;
-    var numMaxSub = 60; //Số to nhất
-    var speedSub = 60; // chỉnh tốc độ chạy 1000 = 1 giây
-    var checkFirstSub = 0;
-    var textNumSub = " 000"; // chỉnh đuôi số hiển thị
-    var myVarSub;
-    //chiều cao của 2 số nằm ở trên
-    var heightSub = parseFloat(document.getElementById("SECTION9").scrollHeight) / 2 + parseFloat(document.getElementById("SECTION271").scrollHeight);
-    //chiều cao của 2 số nằm ở dưới
-    //var heightSub = parseFloat(document.getElementById("SECTION9").scrollHeight) + parseFloat(document.getElementById("SECTION271").scrollHeight);
-    window.onscroll = function () { myFunction() };
-    function myFunction() {
-        if (checkFirstSub === 0) {
-            if (document.body.scrollTop > heightSub || document.documentElement.scrollTop > heightSub) {
-                myVarSub = setInterval(myTimer, speedSub);
-                checkFirstSub = 1;
-            }
-        }
-    }
-    function myTimer() {
-        document.getElementById("numSub").innerHTML = (numMinSub = numMinSub + 1) + textNumSub;
-        if (numMinSub > numMaxSub - 1) {
-            clearInterval(myVarSub);
-        }
-    }
-</script>
+<link rel="stylesheet" href="../css/sochay.css">
+<div style="display: -webkit-box;">
+    <div class="num-sub" id="numSub" style="text-align: right;"></div>
+    <div class="num-sub" id="numSub1"></div>
+</div>
+<script src="../js/sochay.js"></script>

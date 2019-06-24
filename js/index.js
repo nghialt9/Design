@@ -3,6 +3,41 @@ angular.module('app', [])
     .component('flappy', {
         templateUrl: './html/cong2so.html'
     })
+    .component('myTabs', {
+        transclude: true,
+        controller: function MyTabsController() {
+            var panes = this.panes = [];
+            this.select = function(pane) {
+                angular.forEach(panes, function(pane) {
+                    pane.selected = false;
+                });
+                pane.selected = true;
+            };
+            this.addPane = function(pane) {
+                if (panes.length === 0) {
+                    this.select(pane);
+                }
+                panes.push(pane);
+            };
+        },
+        templateUrl: '.html/mytabs.html'
+    })
+    .component('myPane', {
+        transclude: true,
+        require: {
+            tabsCtrl: '^myTabs'
+        },
+        bindings: {
+            title: '@'
+        },
+        controller: function() {
+            this.$onInit = function() {
+                this.tabsCtrl.addPane(this);
+                console.log(this);
+            };
+        },
+        templateUrl: '<div class="tab-pane" ng-show="$ctrl.selected" ng-transclude></div>'
+    })
     .controller('appCtrl', function($scope, $interval) {
         //khởi tạo hàm chạy và khai báo biến
         var init = function() {
@@ -44,7 +79,7 @@ angular.module('app', [])
                 {
                     numbertext: "8 / 10",
                     image: "./assets/anhbia8.jpg",
-                    text: "Anh ấy đang xitj thuốc rầy cho đậu phọng"
+                    text: "Anh ấy đang xịt thuốc rầy cho đậu phọng"
                 },
                 {
                     numbertext: "9 / 10",

@@ -229,7 +229,7 @@ img {
 
 .footer {
     display: inline-block;
-    background-color: #f3f2ee6e;
+    background-color: lightyellow;
     width: 100%;
 }
 
@@ -241,7 +241,7 @@ img {
 .footer-left {
     width: 50%;
     font-size: 13px;
-    text-shadow: 0 0 8px darkgreen;
+    text-shadow: 0 0 8px teal;
 }
 
 .footer-right {
@@ -250,7 +250,7 @@ img {
     right: 0;
     top: -20px;
     font-size: 13px;
-    text-shadow: 0 0 8px darkgreen;
+    text-shadow: 0 0 8px teal;
 }
 
 
