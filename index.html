@@ -6,7 +6,6 @@
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="./js/index.js"></script>
-<script src="./js/cong2so.js"></script>
 
 <body class="body" ng-controller="appCtrl">
     <div class="slideshow-container">
@@ -24,16 +23,29 @@
     <div style="text-align:center" id="dot"></div>
     <div class="container">
         <p class="time">Today is: {{dateNow|date:'MMM dd, yyyy EEEE. a - HH:mm:ss:sss'}}</p>
-        <tabs>
-            <pane title="FlappyBird">
-                <flappy></flappy>
-            </pane>
-            <pane title="Cong2So">
-                <h4>World</h4>
-                <em>Mauris elementum elementum enim at suscipit.</em>
-                <p><a href ng-click="i = i + 1">counter: {{i || 0}}</a></p>
-            </pane>
-        </tabs>
+        <input id="tab1" type="radio" name="tabs" checked>
+        <label for="tab1">Codepen</label>
+
+        <input id="tab2" type="radio" name="tabs">
+        <label for="tab2">Dribbble</label>
+
+        <input id="tab3" type="radio" name="tabs">
+        <label for="tab3">Stack Overflow</label>
+
+        <input id="tab4" type="radio" name="tabs">
+        <label for="tab4">Bitbucket</label>
+        <section id="content1">
+            <slider></slider>
+        </section>
+        <section id="content2">
+            <cong2so></cong2so>
+        </section>
+        <section id="content3">
+            <sheet></sheet>
+        </section>
+        <section id="content4">
+            <sochay></sochay>
+        </section>
         <div class="w3-text-white w3-row-padding">
             <div class="w3-col s12">
                 <h4>Thông Tin Chính</h4>
@@ -81,5 +93,8 @@
         </div>
     </footer>
 </body>
+<script src="./js/slider.js"></script>
+<script src="./js/cong2so.js"></script>
+<script src="./js/sochay.js"></script>
 
 </html>

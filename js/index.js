@@ -1,42 +1,16 @@
 /* start angularjs */
 angular.module('app', [])
-    .component('flappy', {
+    .component('slider', {
+        templateUrl: './html/slider.html'
+    })
+    .component('cong2so', {
         templateUrl: './html/cong2so.html'
     })
-    .component('myTabs', {
-        transclude: true,
-        controller: function MyTabsController() {
-            var panes = this.panes = [];
-            this.select = function(pane) {
-                angular.forEach(panes, function(pane) {
-                    pane.selected = false;
-                });
-                pane.selected = true;
-            };
-            this.addPane = function(pane) {
-                if (panes.length === 0) {
-                    this.select(pane);
-                }
-                panes.push(pane);
-            };
-        },
-        templateUrl: '.html/mytabs.html'
+    .component('sheet', {
+        templateUrl: './html/FormDataToGoogleSheet.html'
     })
-    .component('myPane', {
-        transclude: true,
-        require: {
-            tabsCtrl: '^myTabs'
-        },
-        bindings: {
-            title: '@'
-        },
-        controller: function() {
-            this.$onInit = function() {
-                this.tabsCtrl.addPane(this);
-                console.log(this);
-            };
-        },
-        templateUrl: '<div class="tab-pane" ng-show="$ctrl.selected" ng-transclude></div>'
+    .component('sochay', {
+        templateUrl: './html/sochay.html'
     })
     .controller('appCtrl', function($scope, $interval) {
         //khởi tạo hàm chạy và khai báo biến

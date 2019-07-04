@@ -1,59 +1,59 @@
-﻿<link rel="stylesheet" href="../css/slider.css">
+﻿<link rel="stylesheet" href="./css/slider.css">
+
 <body>
-<div class="form-money">
-	<div class="title">THANH TÍNH KHOẢN VAY</div>
-	<div class="line"></div>
-	<div class="borrow-money">
-		<div class="lbl-money">SỐ TIỀN VAY</div>
-		<div class="num-money" id="money"></div>
-	</div>
-    <div class="root-slider-wrap">
-        <div class="root-slider">
-            <input type="range" min="1000000" value="3000000" max="10000000" step="100000" class="slider" id="moneyRange">
-            <progress id="moneyProgress" value="2000000"></progress>
+    <div class="form-money">
+        <div class="title">THANH TÍNH KHOẢN VAY</div>
+        <div class="line"></div>
+        <div class="borrow-money">
+            <div class="lbl-money">SỐ TIỀN VAY</div>
+            <div class="num-money" id="money"></div>
+        </div>
+        <div class="root-slider-wrap">
+            <div class="root-slider">
+                <input type="range" min="1000000" value="3000000" max="10000000" step="100000" class="slider" id="moneyRange">
+                <progress id="moneyProgress" value="2000000"></progress>
+            </div>
+        </div>
+        <div class="lbl-money-te">
+            <div class="num-money-start">1,000,000</div>
+            <div class="num-money-end" id="num-money-end"></div>
+        </div>
+        <div class="borrow-money">
+            <div class="lbl-money">THỜI HẠN VAY</div>
+            <div class="num-money" id="day"></div>
+        </div>
+        <div class="root-slider-wrap">
+            <div class="root-slider">
+                <input type="range" min="1" max="31" value="7" step="1" class="slider" id="dayRange">
+                <progress id="dayProgress" value="7" max="31"></progress>
+            </div>
+        </div>
+        <div class="lbl-money-te">
+            <div class="num-money-start">1 Ngày</div>
+            <div class="num-money-end">31 Ngày</div>
+        </div>
+        <div class="radio-audience">
+            <div class="group-student">
+                <input type="radio" id="student" name="job" checked="true" onclick="calMonney()">
+                <label for="student" class="txtRadio">Sinh Viên</label>
+                <span class="checkmark"></span>
+            </div>
+            <div class="group-officer">
+                <input type="radio" id="officer" name="job" onclick="calMonney()">
+                <label for="officer" class="txtRadio">Nguời Ði Làm</label>
+                <span class="checkmark"></span>
+            </div>
+        </div>
+        <div class="lbl-money-total">
+            <div class="lbl-total">Tổng tiền thanh toán:</div>
+            <div class="num-money-total" id="totalMoney"></div>
+        </div>
+        <div class="group-latest">
+            <img class="img-security" src="https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/clock-1559736409.png" />
+            <div class="lbl-text">Bảo mật tuyệt đối thông tin của Quý khách</div>
+            <div class="btnImg">
+                <a href="#GROUP446" class="btn-register">ĐĂNG KÝ VAY</a>
+                <img class="img-finger" src="https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/icon_vantay-1559736348.png" />
+            </div>
         </div>
     </div>
-  	<div class="lbl-money-te">
-		<div class="num-money-start">1,000,000</div>
-		<div class="num-money-end" id="num-money-end"></div>
-	</div>
-    <div class="borrow-money">
-		<div class="lbl-money">THỜI HẠN VAY</div>
-		<div class="num-money" id="day"></div>
-	</div>
-	<div class="root-slider-wrap">
-        <div class="root-slider">
-      		<input type="range" min="1" max="31" value="7" step="1" class="slider" id="dayRange">
-            <progress id="dayProgress" value="7" max="31"></progress>
-        </div>
-    </div>
-    <div class="lbl-money-te">
-		<div class="num-money-start">1 Ngày</div>
-		<div class="num-money-end">31 Ngày</div>
-	</div>
-    <div class="radio-audience">
-    	<div class="group-student">
-    		<input type="radio" id="student" name="job" checked="true" onclick="calMonney()">
-    		<label for="student" class="txtRadio">Sinh Viên</label>
-        	<span class="checkmark"></span>
-        </div>
-        <div class="group-officer">
-  			<input type="radio" id="officer" name="job" onclick="calMonney()">
-  			<label for="officer" class="txtRadio">Nguời Ði Làm</label>
-        	<span class="checkmark"></span>
-        </div>
-    </div>
-    <div class="lbl-money-total">
-		<div class="lbl-total">Tổng tiền thanh toán:</div>
-		<div class="num-money-total" id="totalMoney"></div>
-	</div>
-    <div class="group-latest">
-    	<img class="img-security" src="https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/clock-1559736409.png"/>
-		<div class="lbl-text">Bảo mật tuyệt đối thông tin của Quý khách</div>
-		<div class="btnImg">
-          <a href="#GROUP446" class="btn-register">ĐĂNG KÝ VAY</a>
-          <img class="img-finger" src="https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/icon_vantay-1559736348.png" />
-         </div>
-	</div>
-</div>
-<script src="../js/slider.js"></script>
