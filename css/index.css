@@ -3,7 +3,7 @@
 }
 
 .container {
-    background: white;
+    background: #EEEEEE;
     margin: 0 10% 0 10%;
     border-radius: 10px 10px 0 0;
 }
@@ -29,11 +29,6 @@
 
 * {
     box-sizing: border-box
-}
-
-body {
-    font-family: Verdana, sans-serif;
-    margin: 0
 }
 
 .mySlides {
@@ -162,11 +157,8 @@ img {
 }
 
 main {
-    max-width: 800px;
     padding: 40px;
-    border: 1px solid rgba(0, 0, 0, .2);
-    background: #fff;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+    background: #eee;
 }
 
 section {
@@ -175,11 +167,17 @@ section {
     border-top: 1px solid #abc;
 }
 
-input {
+.main-tab {
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.main-radio {
     display: none;
 }
 
-label {
+.main-label {
     display: inline-block;
     margin: 0 0 -1px;
     padding: 15px 25px;
@@ -189,38 +187,38 @@ label {
     border: 1px solid transparent;
 }
 
-label:before {
+.main-label:before {
     font-family: fontawesome;
     font-weight: normal;
     margin-right: 10px;
 }
 
-label[for*='1']:before {
+.main-label[for*='1']:before {
     content: '\f1cb';
 }
 
-label[for*='2']:before {
+.main-label[for*='2']:before {
     content: '\f17d';
 }
 
-label[for*='3']:before {
+.main-label[for*='3']:before {
     content: '\f16c';
 }
 
-label[for*='4']:before {
+.main-label[for*='4']:before {
     content: '\f171';
 }
 
-label:hover {
+.main-label:hover {
     color: #789;
     cursor: pointer;
 }
 
-input:checked+label {
+.main-radio:checked+label {
     color: #0af;
     border: 1px solid #abc;
     border-top: 2px solid #0af;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #eee;
 }
 
 #tab1:checked~#content1,
@@ -234,6 +232,643 @@ input:checked+label {
 /* end tabbed */
 
 
+/* start cong2so */
+
+#contactform {
+    border: 2px solid #059;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#contactform .c2s-row {
+    display: flex;
+    padding: 7px 8px;
+    margin-bottom: 7px;
+}
+
+#contactform .c2s-row:hover {
+    background: #f1f7fa;
+}
+
+#contactform .c2s-lbl {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 15%;
+    padding: 6px 0;
+    color: #464646;
+    vertical-align: top;
+}
+
+#contactform #resultS,
+#resultD {
+    width: 80%;
+    word-wrap: break-word;
+}
+
+#contactform #resultT {
+    width: 100%;
+    text-align: center;
+}
+
+.ui-datepicker-next {
+    margin: 0 0 0 90px;
+}
+
+.ui-datepicker-prev,
+.ui-datepicker-next {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #5BBCE6;
+    padding: 2px 7px;
+    font-size: 12px;
+    border: 1px solid #2d6898;
+    background-image: linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
+    background-image: -moz-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
+    background-image: -webkit-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
+    background-image: -ms-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(73, 132, 180)), color-stop(1, rgb(97, 155, 203)));
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0px 3px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 3px rgba(255, 255, 255, .5);
+    -moz-box-shadow: 0px 3px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 3px rgba(255, 255, 255, .5);
+    box-shadow: 0px 3px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 3px rgba(255, 255, 255, .5);
+}
+
+.ui-datepicker-prev:hover,
+.ui-datepicker-next:hover {
+    cursor: pointer;
+    color: #fbbc05;
+}
+
+.ui-state-default:hover {
+    color: red;
+    font-weight: bold;
+}
+
+#contactform .c2s-txt:focus {
+    outline: none;
+}
+
+
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+
+::-webkit-input-placeholder {
+    color: #aaafbd;
+    font-style: italic;
+}
+
+
+/* WebKit */
+
+:-moz-placeholder {
+    color: #aaafbd;
+    font-style: italic;
+}
+
+
+/* Mozilla Firefox 4 to 18 */
+
+::-moz-placeholder {
+    color: #aaafbd;
+    font-style: italic;
+}
+
+
+/* Mozilla Firefox 19+ */
+
+:-ms-input-placeholder {
+    color: #aaafbd;
+    font-style: italic;
+}
+
+
+/* Internet Explorer 10+ */
+
+#contactform .c2s-txt {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 75%;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: #898989;
+    background-color: #f0f0f0;
+    background-position: 110% center;
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(25, 25, 25, 0.25) inset, -1px 1px #fff;
+    -moz-box-shadow: 0 1px 2px rgba(25, 25, 25, 0.25) inset, -1px 1px #fff;
+    box-shadow: 0 1px 2px rgba(25, 25, 25, 0.25) inset, -1px 1px #fff;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    margin-left: 0%;
+}
+
+#contactform .c2s-txt:focus {
+    width: 80%;
+    color: #545454;
+    background-color: #fff;
+    background-position: 110% center;
+    background-repeat: no-repeat;
+    border-color: #059;
+    -webkit-box-shadow: 0 1px 4px -1px #a8a8a8 inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(70, 100, 200, 0.7);
+    -moz-box-shadow: 0 1px 4px -1px #a8a8a8 inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(70, 100, 200, 0.7);
+    box-shadow: 0 1px 4px -1px #a8a8a8 inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(70, 100, 200, 0.7);
+}
+
+#ui-datepicker-div {
+    background-color: #ee6d23;
+}
+
+.ui-datepicker-title {
+    color: #91441a;
+    font-weight: bold;
+}
+
+
+/* end cong2so */
+
+
+/* start from sheet*/
+
+.sheet {
+    display: block;
+    position: relative;
+    width: 583px !important;
+    margin-left: 20px;
+}
+
+.head-green-background {
+    background-image: linear-gradient(to right, #5fb91c 0%, #5fb91c 51%, #accf5f 100%);
+    border-radius: 15px 15px 0 0;
+    height: 15px;
+}
+
+.background-image {
+    background-color: #F0F0F0;
+}
+
+.group-head {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.group-body {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.group-last {
+    display: flex;
+}
+
+.group-element {
+    display: flex;
+    margin-top: 10px;
+}
+
+.text-element .text-content {
+    font-size: 27px;
+    text-align: left;
+    margin-top: 30px;
+    line-height: 33px;
+}
+
+.group-element .text-content {
+    font-size: 13px;
+    text-align: left;
+    line-height: 19px;
+}
+
+.text-content {
+    font-family: "Open Sans", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
+    width: 100%;
+}
+
+.image-checkbox {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/lading-page_33-1559127191.png);
+}
+
+.input-element {
+    height: 37px;
+    margin: 8px 0;
+    display: flex;
+}
+
+.input-content {
+    border-radius: 4px;
+    width: 100%;
+    font-size: 13px;
+    border: 1px solid #eee;
+    padding: 8px 5px;
+    color: rgba(110, 110, 110, 1);
+}
+
+.num-content {
+    border-radius: 4px;
+    width: 49%;
+    font-size: 13px;
+    border: 1px solid #eee;
+    padding: 8px 5px;
+    color: rgba(110, 110, 110, 1);
+}
+
+.space {
+    width: 2%;
+}
+
+.form-content {
+    margin: 15px 0;
+}
+
+.image-lock {
+    margin-right: 10px;
+    width: 28px;
+    height: 32px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/lading-page_25-1559119036.png);
+}
+
+.text-content-last {
+    font-family: "Roboto", sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(158, 158, 158, 1);
+    font-weight: 400;
+    width: 100%;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 15px;
+    margin-top: 3px;
+}
+
+.btn-register {
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Open Sans';
+    border: 1px solid transparent;
+    padding: 0px 20px;
+    font-size: 19px;
+    line-height: 50px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #5fb91c 0%, #5fb91c 51%, #accf5f 100%);
+}
+
+.img-finger {
+    right: -5px;
+    height: 40px;
+    width: 40px;
+    top: 15px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.btnImg {
+    position: relative;
+    width: 208px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.center-lock {
+    margin-left: 33px;
+    margin-top: 30px;
+}
+
+
+/*end from sheet*/
+
+
+/*start slider*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sli-form-money {
+    background: #06475f;
+    max-width: 432px;
+    min-width: 360px;
+    height: 405px;
+    -webkit-border-radius: 10px;
+}
+
+.sli-title {
+    font-size: 120%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px 0px;
+    font-family: "OpenSans";
+}
+
+.sli-line {
+    border: 1px solid white;
+    width: 100%;
+}
+
+.sli-root-slider-wrap {
+    padding: 0 10%;
+}
+
+.sli-root-slider {
+    text-align: center;
+    height: 21px;
+    position: relative;
+    MARGIN-TOP: 8PX;
+}
+
+.sli-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    background: none;
+    outline: none;
+    transition: opacity .2s;
+}
+
+.sli-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    font-size: 48px;
+    /* This controls the size. */
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 5px solid #5fb91c;
+    position: relative;
+    border-radius: 16px;
+    margin-top: 3px;
+    background: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #accf5f;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    border: none;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    left: 2px;
+    top: 10.5px;
+}
+
+.sli-borrow-money {
+    display: flex;
+    width: 100%;
+    margin-top: 21px;
+    margin-bottom: -2px;
+}
+
+.sli-lbl-money {
+    font-size: 12px;
+    color: white;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.sli-num-money {
+    font-size: 16px;
+    color: white;
+    margin-right: 10%;
+    width: 50%;
+    text-align: right;
+}
+
+.sli-lbl-money-te {
+    display: flex;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.sli-num-money-start {
+    font-size: 9px;
+    color: white;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.sli-num-money-end {
+    font-size: 9px;
+    color: white;
+    margin-right: 10%;
+    width: 50%;
+    text-align: right;
+}
+
+.sli-txtRadio {
+    margin-left: 6px;
+}
+
+.sli-radio-audience {
+    color: white;
+    display: flex;
+}
+
+.sli-group-student {
+    width: 50%;
+    margin-left: 70px;
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sli-group-officer {
+    width: 50%;
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 50px;
+}
+
+
+/* Create a custom checkbox */
+
+.sli-checkmark {
+    pointer-events: none;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.sli-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+/* Show the checkmark when checked */
+
+#student:checked~.sli-checkmark:after {
+    display: block;
+}
+
+#officer:checked~.sli-checkmark:after {
+    display: block;
+}
+
+
+/* Style the checkmark/indicator */
+
+.sli-checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid #5fb91c;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.sli-lbl-money-total {
+    display: flex;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.sli-lbl-total {
+    font-size: 14px;
+    color: white;
+    width: 45%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.sli-num-money-total {
+    font-size: 20px;
+    color: white;
+    margin-right: 10%;
+    margin-top: 5%;
+    width: 50%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.sli-group-latest {
+    display: flex;
+    width: 100%;
+}
+
+.sli-img-security {
+    height: 30px;
+    width: 30px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.sli-lbl-text {
+    font-size: 13px;
+    color: white;
+    margin-left: 4%;
+    margin-right: 9%;
+    text-align: left;
+    margin-top: 4%;
+    width: 89px;
+}
+
+.sli-btn-register {
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 6px 18.5px;
+    font-size: 1.2rem;
+    line-height: 3.5;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-image: linear-gradient(to right, #5fb91c 0%, #5fb91c 51%, #accf5f 100%);
+}
+
+.sli-img-finger {
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    top: 21px;
+    position: absolute;
+    pointer-events: none;
+}
+
+.sli-btnImg {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 3%;
+}
+
+
+/* end slider*/
+
+
+/*start sochay*/
+
+.num-sub {
+    width: 100px;
+    height: 41px;
+    font-size: 35px;
+    line-height: 41px;
+    font-family: Roboto, sans-serif;
+    color: rgb(6, 71, 95);
+    font-weight: 700;
+}
+
+
+/* end sochay*/
+
+
 /* On smaller screens, decrease text size */
 
 @media screen and (max-width: 800px) {
@@ -243,6 +878,52 @@ input:checked+label {
     label:before {
         margin: 0;
         font-size: 18px;
+    }
+}
+
+@media (max-width: 767px) {
+    .sheet {
+        width: 345px !important;
+    }
+    .text-element .text-content {
+        font-size: 20px;
+        line-height: 33px;
+        margin-top: 14px;
+    }
+    .group-element .text-content {
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .image-checkbox {
+        width: 15px;
+        height: 15px;
+    }
+    .image-lock {
+        width: 24px;
+        height: 29px;
+    }
+    .text-content-last {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .btn-register {
+        font-size: 16px;
+    }
+    .button-lock {
+        position: absolute;
+        bottom: 33px;
+        right: 70px;
+    }
+    .center-lock {
+        left: 55px;
+        position: absolute;
+        bottom: 10px;
+    }
+    .group-last {
+        margin-top: 34%;
+    }
+    .group-repo {
+        display: inline;
     }
 }
 

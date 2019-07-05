@@ -1,37 +1,31 @@
-﻿<title>Bào Cát Quê Minh</title>
-<link rel="stylesheet" href="./css/cong2so.css">
-<!--disable right click then return false-->
-
-<body oncontextmenu="return true;">
-    <form id="contactform" name="contact" method="post" action="#">
-        <div class="row">
-            <label>Number 1: </label>
-            <input type="text" id="number1" autocomplete="off" onkeydown="return isNumberKey(event)" oninput="myFunction()" class="txt" tabindex="1" placeholder="Enter first number">
-        </div>
-        <div class="row">
-            <label>Number 2: </label>
-            <input type="text" id="number2" autocomplete="off" size="100" onkeydown="return isNumberKey(event)" oninput="myFunction()" class="txt" tabindex="2" placeholder="Enter second number">
-        </div>
-        <div class="row">
-            <label> Result: </label>
-            <label id="resultS"></label>
-        </div>
-    </form>
-    <form id="contactform" name="contact" method="post" action="#">
-        <div class="row">
-            <label>Date 1: </label>
-            <input type="text" id="date1" class="txt" tabindex="3" onchange="caldate()" readonly="true">
-        </div>
-        <div class="row">
-            <label>Date 2: </label>
-            <input type="text" id="date2" class="txt" tabindex="4" onchange="caldate()" readonly="true">
-        </div>
-        <div class="row">
-            <label> Result: </label>
-            <label id="resultD"></label>
-        </div>
-        <div class="row">
-            <label id="resultT"></label>
-        </div>
-    </form>
-</body>
+﻿<form class="c2s-form" id="contactform" name="contact" method="post" action="#">
+    <div class="c2s-row">
+        <label class="c2s-lbl">Number 1: </label>
+        <input type="text" id="number1" class="c2s-txt" autocomplete="off" onkeydown="return isNumberKey(event)" oninput="myFunction()" class="txt" tabindex="1" placeholder="Enter first number">
+    </div>
+    <div class="c2s-row">
+        <label class="c2s-lbl">Number 2: </label>
+        <input type="text" id="number2" class="c2s-txt" autocomplete="off" size="100" onkeydown="return isNumberKey(event)" oninput="myFunction()" class="txt" tabindex="2" placeholder="Enter second number">
+    </div>
+    <div class="c2s-row">
+        <label class="c2s-lbl"> Result: </label>
+        <label id="resultS"></label>
+    </div>
+</form>
+<form class="c2s-form" id="contactform" name="contact" method="post" action="#">
+    <div class="c2s-row">
+        <label class="c2s-lbl">Date 1: </label>
+        <input type="text" id="date1" class="c2s-txt" tabindex="3" onchange="caldate()" readonly="true">
+    </div>
+    <div class="c2s-row">
+        <label class="c2s-lbl">Date 2: </label>
+        <input type="text" id="date2" class="c2s-txt" tabindex="4" onchange="caldate()" readonly="true">
+    </div>
+    <div class="c2s-row">
+        <label class="c2s-lbl"> Result: </label>
+        <label id="resultD"></label>
+    </div>
+    <div class="c2s-row">
+        <label class="c2s-lbl" id="resultT"></label>
+    </div>
+</form>

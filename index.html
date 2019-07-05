@@ -7,7 +7,7 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="./js/index.js"></script>
 
-<body class="body" ng-controller="appCtrl">
+<body class="body" ng-controller="appCtrl as qbrCtrl">
     <div class="slideshow-container">
         <div class="mySlides fade" ng-repeat="slide in slidesShow">
             <div class="numbertext">{{slide.numbertext}}</div>
@@ -23,29 +23,30 @@
     <div style="text-align:center" id="dot"></div>
     <div class="container">
         <p class="time">Today is: {{dateNow|date:'MMM dd, yyyy EEEE. a - HH:mm:ss:sss'}}</p>
-        <input id="tab1" type="radio" name="tabs" checked>
-        <label for="tab1">Codepen</label>
-
-        <input id="tab2" type="radio" name="tabs">
-        <label for="tab2">Dribbble</label>
-
-        <input id="tab3" type="radio" name="tabs">
-        <label for="tab3">Stack Overflow</label>
-
-        <input id="tab4" type="radio" name="tabs">
-        <label for="tab4">Bitbucket</label>
-        <section id="content1">
-            <slider></slider>
-        </section>
-        <section id="content2">
-            <cong2so></cong2so>
-        </section>
-        <section id="content3">
-            <sheet></sheet>
-        </section>
-        <section id="content4">
-            <sochay></sochay>
-        </section>
+        <main>
+            <div class="main-tab">
+                <input class="main-radio" id="tab1" type="radio" name="tabs" checked>
+                <label class="main-label" for="tab1">Codepen</label>
+                <input class="main-radio" id="tab2" type="radio" name="tabs">
+                <label class="main-label" for="tab2">Dribbble</label>
+                <input class="main-radio" id="tab3" type="radio" name="tabs">
+                <label class="main-label" for="tab3">Stack Overflow</label>
+                <input class="main-radio" id="tab4" type="radio" name="tabs">
+                <label class="main-label" for="tab4">Bitbucket</label>
+                <section id="content1">
+                    <slider></slider>
+                </section>
+                <section id="content2">
+                    <cong2so></cong2so>
+                </section>
+                <section id="content3">
+                    <sheet></sheet>
+                </section>
+                <section id="content4">
+                    <sochay></sochay>
+                </section>
+            </div>
+        </main>
         <div class="w3-text-white w3-row-padding">
             <div class="w3-col s12">
                 <h4>Thông Tin Chính</h4>
@@ -92,9 +93,11 @@
             <i class="fa fa-linkedin w3-hover-opacity w3-large"></i>
         </div>
     </footer>
+    <script src="./js/cong2so.js"></script>
+    <script src="./js/sochay.js"></script>
+    <script>
+        $.getScript('./js/slider.js');
+    </script>
 </body>
-<script src="./js/slider.js"></script>
-<script src="./js/cong2so.js"></script>
-<script src="./js/sochay.js"></script>
 
 </html>
