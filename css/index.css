@@ -194,15 +194,15 @@ section {
 }
 
 .main-label[for*='1']:before {
-    content: '\f1cb';
+    content: '\f1ec';
 }
 
 .main-label[for*='2']:before {
-    content: '\f17d';
+    content: '\f067';
 }
 
 .main-label[for*='3']:before {
-    content: '\f16c';
+    content: '\f234';
 }
 
 .main-label[for*='4']:before {
@@ -909,6 +909,34 @@ progress[value] {
 
 
 /* end footer */
+
+
+/*start ngoai*/
+
+.minus:before {
+    display: block;
+    padding: 10px;
+    content: '\f056';
+    font-family: fontawesome;
+}
+
+.plus:before {
+    display: block;
+    padding: 10px;
+    font-family: fontawesome;
+    content: '\f055';
+}
+
+.ngoai {
+    width: auto;
+}
+
+.center {
+    justify-content: center;
+}
+
+
+/*end ngoai*/
 
 
 /* On smaller screens, decrease text size */
