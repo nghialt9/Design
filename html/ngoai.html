@@ -1,0 +1,19 @@
+<div class="w3-text-white w3-row-padding">
+    <div class="w3-col s12">
+        <h4>Thông Tin Chính</h4>
+        <p>Nguyễn Thị Kiêm</p>
+        <p>Bạn muốn biết ngày gì?</p>
+        <label>Ngày Mất-Chôn của ngoại(Dương) 08/03/2018 - 08/06/2018.</label>
+        <label>Ngày Mất-Chôn của ngoại(Âm) 06/22/2018 - 06/25/2018.
+              <input id="txtDate" autocomplete="off" placeholder="Nhập ngày/tháng/năm" type="text" value=""
+                style="background-color:white;" />
+            </label>
+        <label>Số ngày thêm: </label>
+        <label onclick="decrementQty()" item-right>-</label>
+        <input id="numDay" type="number" min="1" value="49" />
+        <label onclick="incrementQty()" item-right>+</label>
+        <label>Ngày cần tính(ngày/tháng/năm): <input id="follow_Date" placeholder="tự ra khi nhấn vào nút Tính"
+                type="text" readOnly="true" /></label>
+        <button class="w3-button w3-block w3-black" onclick="getdate()">Tính</button>
+    </div>
+</div>

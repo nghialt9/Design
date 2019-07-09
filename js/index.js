@@ -12,6 +12,12 @@ angular.module('app', [])
     .component('sochay', {
         templateUrl: './html/sochay.html'
     })
+    .component('ngoai', {
+        templateUrl: './html/ngoai.html'
+    })
+    .component('trangchu', {
+        templateUrl: './html/trangchu.html'
+    })
     .controller('appCtrl', function($scope, $interval) {
         //khởi tạo hàm chạy và khai báo biến
         var init = function() {

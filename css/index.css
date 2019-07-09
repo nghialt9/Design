@@ -4,7 +4,7 @@
 
 .container {
     background: #EEEEEE;
-    margin: 0 10% 0 10%;
+    margin: 0 10% 1px 10%;
     border-radius: 10px 10px 0 0;
 }
 
@@ -209,6 +209,14 @@ section {
     content: '\f171';
 }
 
+.main-label[for*='5']:before {
+    content: '\f182';
+}
+
+.main-label[for*='6']:before {
+    content: '\f015';
+}
+
 .main-label:hover {
     color: #789;
     cursor: pointer;
@@ -224,7 +232,9 @@ section {
 #tab1:checked~#content1,
 #tab2:checked~#content2,
 #tab3:checked~#content3,
-#tab4:checked~#content4 {
+#tab4:checked~#content4,
+#tab5:checked~#content5,
+#tab6:checked~#content6 {
     display: block;
 }
 
@@ -867,6 +877,38 @@ progress[value] {
 
 
 /* end sochay*/
+
+
+/* start footer */
+
+.footer {
+    display: inline-block;
+    background-color: wheat;
+    width: 100%;
+}
+
+.footer-padding {
+    padding: 0 200px 0 200px;
+    position: relative;
+}
+
+.footer-left {
+    width: 50%;
+    font-size: 13px;
+    text-shadow: 0 0 8px teal;
+}
+
+.footer-right {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    text-shadow: 0 0 8px teal;
+}
+
+
+/* end footer */
 
 
 /* On smaller screens, decrease text size */

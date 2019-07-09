@@ -4,21 +4,21 @@
     <div class="background-image">
         <div class="group-head">
             <div class="text-element">
-                <div class="text-content">ĐĂNG KÝ ĐỂ VAY NGAY</div>
+                <div class="text-content">KHAI BÁO NHÂN KHẨU</div>
             </div>
             <div class="group-element">
                 <div class="image-checkbox">
                 </div>
-                <div class="text-content">0% lãi suất.</div>
+                <div class="text-content">Dễ dàng quản lý.</div>
             </div>
             <div class="group-element">
                 <div class="image-checkbox">
                 </div>
-                <div class="text-content">KHÔNG mất phí thẻ, phí thường niên, phí tất toán trước hạn trong suốt thời gian sử dụng thẻ.</div>
+                <div class="text-content">Không tốn thời gian ghi chép, di chuyển.</div>
             </div>
         </div>
         <div class="group-body">
-            <form class="form-content" name="submit-to-google-sheet" onsubmit="return validateForm()">
+            <form class="form-content" name="submit-to-google-sheet">
                 <div class="input-element">
                     <input class="input-content" type="text" pattern="\D{2,}|[\D]{2,} [\D]{2,}" placeholder="Họ và tên trên CMND/CCCD" name="HoTen" required="required">
                 </div>
@@ -77,11 +77,11 @@
                     <div class="group-element center-lock">
                         <div class="image-lock">
                         </div>
-                        <div class="text-content-last">Bảo mật tuyệt đối<br>thông tin của quý khách
+                        <div class="text-content-last">Bảo mật tuyệt đối<br>thông tin của quý vị
                         </div>
                     </div>
                     <div class="btnImg button-lock">
-                        <button class="btn-register" type="submit">ĐĂNG KÝ VAY</button>
+                        <button class="btn-register" type="submit">GỬI THÔNG TIN</button>
                         <img class="img-finger" src="https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/icon_vantay-1559736348.png">
                     </div>
                 </div>
@@ -102,24 +102,4 @@
             .then(response => console.log('Success!', response))
             .catch(error => console.error('Error!', error.message))
     })
-
-    function validateForm() {
-        var u = form["username"].value;
-        var p = form["password"].value;
-
-        if (u == "") {
-            alert("Please enter your Username");
-            form["username"].focus(); // Focus
-            return false;
-        }
-        if (p == "") {
-            alert("Please enter you Password");
-            form["password"].focus(); // Focus
-            return false;
-        }
-
-        alert("All datas are valid!, send it to the server!")
-
-        return true;
-    }
 </script>
