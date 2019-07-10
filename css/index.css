@@ -8,15 +8,6 @@
     border-radius: 10px 10px 0 0;
 }
 
-#ui-datepicker-div {
-    background-color: #ee6d23;
-}
-
-.ui-datepicker-title {
-    color: #91441a;
-    font-weight: bold;
-}
-
 .time {
     background: wheat;
     color: teal;
@@ -281,46 +272,6 @@ section {
     text-align: center;
 }
 
-.ui-datepicker-next {
-    margin: 0 0 0 90px;
-}
-
-.ui-datepicker-prev,
-.ui-datepicker-next {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    background-color: #5BBCE6;
-    padding: 2px 7px;
-    font-size: 12px;
-    border: 1px solid #2d6898;
-    background-image: linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
-    background-image: -ms-linear-gradient(bottom, rgb(112, 195, 245) 0%, rgb(97, 155, 203) 100%);
-    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(73, 132, 180)), color-stop(1, rgb(97, 155, 203)));
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 0px 3px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 3px rgba(255, 255, 255, .5);
-    -moz-box-shadow: 0px 3px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 3px rgba(255, 255, 255, .5);
-    box-shadow: 0px 3px 0px #2b638f, 0px 3px 15px rgba(0, 0, 0, .4), inset 0px 1px 0px rgba(255, 255, 255, .3), inset 0px 0px 3px rgba(255, 255, 255, .5);
-}
-
-.ui-datepicker-prev:hover,
-.ui-datepicker-next:hover {
-    cursor: pointer;
-    color: #fbbc05;
-}
-
-.ui-state-default:hover {
-    color: red;
-    font-weight: bold;
-}
-
 #contactform .c2s-txt:focus {
     outline: none;
 }
@@ -399,15 +350,6 @@ section {
     -webkit-box-shadow: 0 1px 4px -1px #a8a8a8 inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(70, 100, 200, 0.7);
     -moz-box-shadow: 0 1px 4px -1px #a8a8a8 inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(70, 100, 200, 0.7);
     box-shadow: 0 1px 4px -1px #a8a8a8 inset, 0 1px rgba(255, 255, 255, 0.6), 0 0 11px rgba(70, 100, 200, 0.7);
-}
-
-#ui-datepicker-div {
-    background-color: #ee6d23;
-}
-
-.ui-datepicker-title {
-    color: #91441a;
-    font-weight: bold;
 }
 
 
@@ -658,7 +600,7 @@ progress[value] {
     height: 3px;
     width: 100%;
     position: absolute;
-    left: 2px;
+    left: 0;
     top: 10.5px;
 }
 
@@ -920,6 +862,12 @@ progress[value] {
     font-family: fontawesome;
 }
 
+.minus:hover,
+.plus:hover {
+    color: #0af;
+    cursor: pointer;
+}
+
 .plus:before {
     display: block;
     padding: 10px;
@@ -929,6 +877,7 @@ progress[value] {
 
 .ngoai {
     width: auto;
+    line-height: 0;
 }
 
 .center {

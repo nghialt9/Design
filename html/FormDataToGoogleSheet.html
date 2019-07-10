@@ -19,6 +19,7 @@
         </div>
         <div class="group-body">
             <form class="form-content" name="submit-to-google-sheet">
+                <input type="text" name="Link" required="required" hidden>
                 <div class="input-element">
                     <input class="input-content" type="text" pattern="\D{2,}|[\D]{2,} [\D]{2,}" placeholder="Họ và tên trên CMND/CCCD" name="HoTen" required="required">
                 </div>
@@ -89,17 +90,3 @@
         </div>
     </div>
 </div>
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbypDSTAmbYtigCq11ayd7oK__racFo7tI3bABeLR-fFq4vgtBo/exec'
-    const form = document.forms['submit-to-google-sheet']
-
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, {
-                method: 'POST',
-                body: new FormData(form)
-            })
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-    })
-</script>
