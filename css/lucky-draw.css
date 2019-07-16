@@ -1,0 +1,471 @@
+.container {
+    background-image: url("../assets/background.png");
+    height: 1105px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 1024px;
+    margin: auto;
+}
+
+.content {
+    position: absolute;
+    top: 360px;
+    width: 604px;
+    left: 210px;
+    height: 540px;
+}
+
+.left {
+    position: absolute;
+    width: 210px;
+    left: 0;
+}
+
+.right {
+    width: 390px;
+    position: absolute;
+    right: 0;
+}
+
+.bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.title {
+    font-family: "Roboto Bold";
+    font-weight: 700;
+    color: #BA202E;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.right .title {
+    padding-left: 50px;
+}
+
+.day-start, .day-end, .custommer, .custommer-info {
+    background: white;
+    border-radius: 7px;
+    margin: 5px 0 5px;
+}
+
+.title-day-start, .title-day-end {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    background: #ECECEC;
+    border-radius: 7px 7px 0 0;
+    height: 29px;
+    line-height: 1.6;
+}
+
+.title-day-start-text:before, .title-day-end-text:before {
+    padding: 10px;
+    font-family: fontawesome;
+    content: '\f073';
+}
+
+.title-day-start-text:after, .title-day-end-text:after {
+    padding: 10px;
+    font-family: fontawesome;
+    content: '\f0dc';
+    font-size: 11px;
+}
+
+.content-day-start, .content-day-end {
+    pointer-events: none;
+    border: none;
+    color: red;
+    margin-left: 34px;
+    background: transparent;
+    height: 23px;
+    width: 70px;
+}
+
+.title-custommer, .title-custommer-infor {
+    font-size: 17px;
+    font-weight: 700;
+    background: #ECECEC;
+    border-radius: 10px 10px 0 0;
+    height: 29px;
+    line-height: 1.6;
+}
+
+.custommer, .custommer-info {
+    position: relative;
+    margin: 10px 0 10px 0;
+}
+
+.img-cus, .img-cus-info {
+    padding: 7px;
+    width: 21px;
+    position: absolute;
+}
+
+.title-custommer, .title-custommer-infor {
+    padding: 0 0 0 37px;
+}
+
+.img-cus-info {
+    opacity: 0.7;
+}
+
+.title-custommer-infor {
+    letter-spacing: -1px;
+}
+
+.checkbox {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    opacity: 0;
+}
+
+.txtcheckbox {
+    margin-left: 8px;
+    line-height: 1.5;
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.checkbox-custommer {
+    padding: 10px 0 1px 0;
+}
+
+.group-custommer {
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/* Create a custom checkbox */
+
+.checkmark {
+    pointer-events: none;
+    position: absolute;
+    left: 8px;
+    height: 18px;
+    width: 18px;
+    border: 1px solid #DCDCDC;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+
+#thevay:checked~.checkmark:after, #pheduyet:checked~.checkmark:after, #kichhoat:checked~.checkmark:after, #ruttien:checked~.checkmark:after {
+    display: block;
+}
+
+#thevay:checked~.checkmark, #pheduyet:checked~.checkmark, #kichhoat:checked~.checkmark, #ruttien:checked~.checkmark {
+    background-color: #DC2229;
+    border-color: #DC2229;
+}
+
+#thevay:checked~.txtcheckbox, #pheduyet:checked~.txtcheckbox, #kichhoat:checked~.txtcheckbox, #ruttien:checked~.txtcheckbox {
+    opacity: 1;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+
+#hoten:checked~.checkmark:after, #sdt:checked~.checkmark:after, #tinh:checked~.checkmark:after, #sohopdong:checked~.checkmark:after, #cmnd:checked~.checkmark:after {
+    display: block;
+}
+
+#hoten:checked~.checkmark, #sdt:checked~.checkmark, #tinh:checked~.checkmark, #sohopdong:checked~.checkmark, #cmnd:checked~.checkmark {
+    background-color: #DC2229;
+    border-color: #DC2229;
+}
+
+#hoten:checked~.txtcheckbox, #sdt:checked~.txtcheckbox, #tinh:checked~.txtcheckbox, #sohopdong:checked~.txtcheckbox, #cmnd:checked~.txtcheckbox {
+    opacity: 1;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+/* Style the checkmark/indicator */
+
+.checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.checkbox-custommer-info {
+    position: relative;
+}
+
+.info-right {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.button {
+    background: #ECECEC;
+    border-radius: 7px;
+    display: flex;
+    height: 50px;
+    margin-top: 20px;
+    width: 110px;
+    margin-left: 14px;
+    border: 1.5px solid #FDF0F0;
+}
+
+.button:hover:not(.dropdown) {
+    background: #E42328;
+    border: 1.5px solid #FDF0F0;
+    cursor: pointer;
+}
+
+.btn {
+    margin-left: 0;
+}
+
+.nhap-lieu {
+    background: url("../assets/nhaplieu-default.png");
+    height: 18px;
+    background-size: cover;
+    width: 18px;
+    margin: 16px 0 0 15px;
+}
+
+.so-luong {
+    background: url("../assets/soluong-default.png");
+    height: 20px;
+    background-size: cover;
+    width: 15px;
+    margin: 16px 0 0 15px;
+}
+
+.giai-thuong {
+    background: url("../assets/giaithuong-default.png");
+    height: 21px;
+    background-size: cover;
+    width: 15px;
+    margin: 13px 0 0 15px;
+}
+
+.quay-thuong {
+    background: url("../assets/start-default.png");
+    height: 18px;
+    background-size: cover;
+    width: 18px;
+    margin: 16px 0 0 15px;
+}
+
+.excel {
+    background: url("../assets/excel-default.png");
+    height: 18px;
+    background-size: cover;
+    width: 18px;
+    margin: 16px 0 0 6px;
+}
+
+.title-btn {
+    font-size: 11px;
+    font-weight: 700;
+    color: #636466;
+    margin: auto;
+}
+
+.button:hover .nhap-lieu {
+    background: url("../assets/nhaplieu-hover.png");
+    height: 18px;
+    background-size: cover;
+    width: 18px;
+    margin: 16px 0 0 15px;
+}
+
+.button:hover .so-luong {
+    background: url("../assets/soluong-hover.png");
+    height: 20px;
+    background-size: cover;
+    width: 15px;
+    margin: 16px 0 0 15px;
+}
+
+.button.dropdown:hover {
+    cursor: pointer;
+}
+
+.button:hover .quay-thuong {
+    background: url("../assets/start-hover.png");
+    height: 18px;
+    background-size: cover;
+    width: 18px;
+    margin: 16px 0 0 15px;
+}
+
+.button:hover .excel {
+    background: url("../assets/excel-hover.png");
+    height: 18px;
+    background-size: cover;
+    width: 18px;
+    margin: 16px 0 0 6px;
+}
+
+.button:hover .title-btn:not(.dropbtn) {
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ECECEC;
+    width: 110px;
+    margin: 45px 0 0 -2px;
+    padding-bottom: 6px;
+    border-radius: 0 0 7px 7px;
+}
+
+.dropdown-content a {
+    color: #636466;
+    padding: 3px 0 3px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.table {
+    background: white;
+    border-radius: 10px;
+    margin: 5px 0 5px;
+    height: 426px;
+    margin-left: 5px;
+    overflow:auto;  
+}
+.header {
+    position: absolute;
+    height: 37px;
+    font-size: 10px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.stt{
+    background: #D7D7D7;
+    width: 35px;
+    left: 5px;
+    top: 38px;
+    border-radius: 10px 0 0 0;
+}
+.ten {
+    background: #EBEBEB;
+    width: 95px;
+    left: 40px;
+    top: 38px;
+}
+.sohd{
+    background: #D7D7D7;
+    width: 72px;
+    left: 135px;
+    top: 38px;
+}
+.tinh {
+    background: #EBEBEB;
+    width: 59px;
+    left: 207px;
+    top: 38px;
+}
+.sdt{
+    background: #D7D7D7;
+    width: 70px;
+    right: 54px;
+    top: 38px;
+}
+.giai {
+    background: #EBEBEB;
+    width: 54px;
+    right: 0;
+    top: 38px;
+    border-radius: 0 10px 0 0;
+}
+.body{
+    position: absolute;
+    top: 75px;
+    height: 381px;
+    overflow: auto;
+    overflow-y: scroll;
+    float: left;
+    left: 5px;
+    right: 0;
+}
+.body-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    padding: 11px 0 7px 0;
+}
+.body-content.stt1{
+    width: 34px;
+}
+.body-content.ten1 {
+    width: 94px;
+}
+.body-content.sohd1{
+    width: 71px;
+}
+.body-content.tinh1 {
+    width: 58px;
+}
+.body-content.sdt1{
+    width: 69px;
+}
+.body-content.giai1 {
+    width: 48px;
+}
+#style-1::-webkit-scrollbar {
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #707070;
+}
+
+#style-1::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #D7D7D7;
+}
+table{
+    border-spacing: 0;
+}
+td{
+    padding: 0;
+    border-right: 1px solid #D7D7D7
+}

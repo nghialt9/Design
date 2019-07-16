@@ -1,0 +1,160 @@
+﻿<html ng-app="app">
+<title>Lucky Draw</title>
+<link rel="stylesheet" href="./css/lucky-draw.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./js/luckydraw.js"></script>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="left">
+                <div class="title">NHẬP DANH SÁCH</div>
+                <div class="day-start">
+                    <div class="title-day-start">
+                        <label for="startDay" class="title-day-start-text">Ngày bắt đầu</label>
+                    </div>
+                    <input id="startDay" class="content-day-start" />
+                </div>
+                <div class="day-end">
+                    <div class="title-day-end">
+                        <label for="endDay" class="title-day-end-text">Ngày kết thúc</label>
+                    </div>
+                    <input id="endDay" class="content-day-end" />
+                </div>
+                <div class="custommer">
+                    <img class="img-cus" src="./assets/cus.png">
+                    <div class="title-custommer">Khách hàng</div>
+                    <div class="checkbox-custommer">
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="thevay" name="custommer" onclick="">
+                            <label for="thevay" class="txtcheckbox">Khách hàng mở Thẻ Vay</label>
+                            <span class="checkmark"></span>
+                        </div>
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="pheduyet" name="custommer" onclick="">
+                            <label for="pheduyet" class="txtcheckbox">Khách hàng phê duyệt</label>
+                            <span class="checkmark"></span>
+                        </div>
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="kichhoat" name="custommer" onclick="">
+                            <label for="kichhoat" class="txtcheckbox">Khách hàng kích hoạt</label>
+                            <span class="checkmark"></span>
+                        </div>
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="ruttien" name="custommer" onclick="">
+                            <label for="ruttien" class="txtcheckbox">Khách hàng rút tiền</label>
+                            <span class="checkmark"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="custommer-info">
+                    <img class="img-cus-info" src="./assets/cus-info.png">
+                    <div class="title-custommer-infor">Thông tin khách hàng</div>
+                    <div class="checkbox-custommer-info">
+                        <div class="checkbox-custommer info-left">
+                            <div class="group-custommer">
+                                <input class="checkbox" type="checkbox" id="hoten" name="custommer" onclick="">
+                                <label for="hoten" class="txtcheckbox">Họ và tên</label>
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="group-custommer">
+                                <input class="checkbox" type="checkbox" id="sdt" name="custommer" onclick="">
+                                <label for="sdt" class="txtcheckbox">Số điện thoại</label>
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="group-custommer">
+                                <input class="checkbox" type="checkbox" id="tinh" name="custommer" onclick="">
+                                <label for="tinh" class="txtcheckbox">Tỉnh</label>
+                                <span class="checkmark"></span>
+                            </div>
+                        </div>
+                        <div class="checkbox-custommer info-right">
+                            <div class="group-custommer">
+                                <input class="checkbox" type="checkbox" id="sohopdong" name="custommer" onclick="">
+                                <label for="sohopdong" class="txtcheckbox">Số hợp đồng</label>
+                                <span class="checkmark"></span>
+                            </div>
+                            <div class="group-custommer">
+                                <input class="checkbox" type="checkbox" id="cmnd" name="custommer" onclick="">
+                                <label for="cmnd" class="txtcheckbox">Số CMND</label>
+                                <span class="checkmark"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="title">DANH SÁCH TRÚNG THƯỞNG</div>
+                <div class="table" ng-controller="appCtrl as qbrCtrl">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th><span class="header stt">STT</span></th>
+                                <th><span class="header ten">HỌ & TÊN</span></th>
+                                <th><span class="header sohd">SỐ HỢP ĐỒNG</span></th>
+                                <th><span class="header tinh">TỈNH</span></th>
+                                <th><span class="header sdt">SỐ<br>ĐIỆN THOẠI</span></th>
+                                <th><span class="header giai">GIẢI<br>THƯỞNG</span></th>
+                            </tr>
+                        </thead>
+                        <tbody class="body" id="style-1">
+                            <tr ng-repeat="slide in slidesShow">
+                                <td>
+                                    <div class="body-content stt1">{{slide.stt}}</div>
+                                </td>
+                                <td>
+                                    <div class="body-content ten1">{{slide.ten}}</div>
+                                </td>
+                                <td>
+                                    <div class="body-content sohd1">{{slide.sohd}}</div>
+                                </td>
+                                <td>
+                                    <div class="body-content tinh1">{{slide.tinh}}</div>
+                                </td>
+                                <td>
+                                    <div class="body-content sdt1">{{slide.sdt}}</div>
+                                </td>
+                                <td>
+                                    <div class="body-content giai1">{{slide.giai}}</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="button btn">
+                    <div class="nhap-lieu"></div>
+                    <strong class="title-btn">NHẬP<br />DỮ LIỆU</strong>
+                </div>
+                <div class="button">
+                    <div class="so-luong" src="./assets/soluong-default.png"></div>
+                    <div class="title-btn">SỐ LƯỢNG<br />50.000.000</div>
+                </div>
+                <div class="button dropdown">
+                    <div class="giai-thuong" src="./assets/giaithuong-default.png"></div>
+                    <div class="title-btn dropbtn">GIẢI<br />THƯỞNG</div>
+                    <div class="dropdown-content">
+                        <a href="#">Giải nhất</a>
+                        <a href="#">Giải nhì</a>
+                        <a href="#">Giải khuyến khích</a>
+                    </div>
+                </div>
+                <div class="button">
+                    <div class="quay-thuong" src="./assets/start-default.png"></div>
+                    <div class="title-btn">QUAY<br />THƯỞNG</div>
+                </div>
+                <div class="button">
+                    <div class="excel" src="./assets/excel-default.png"></div>
+                    <div class="title-btn">XUẤT<br />DANH SÁCH</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
