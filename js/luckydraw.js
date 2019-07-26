@@ -1,186 +1,41 @@
-angular.module('app', [])
-    .controller('appCtrl', function($scope, $interval) {
-        //khởi tạo hàm chạy và khai báo biến
-        var init = function() {
-            $scope.slidesShow = [{
-                    stt: "1",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "2",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "3",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "4",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "5",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "6",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "7",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "8",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "9",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "10",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "11",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "12",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "13",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "14",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "15",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "16",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "17",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "18",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-                {
-                    stt: "19",
-                    ten: "Nguyễn Văn A",
-                    sohd: "APPLP330395",
-                    tinh: "Vũng Tàu",
-                    sdt: "0922334455",
-                    giai: "Nhất"
-                },
-            ]
-        }
+//format cho ô text ngày tháng
+angular.element(document).ready(function () {
+    $("#startDays").datepicker({
+        dateFormat: "dd/mm/yy"
+    });
+    $("#endDays").datepicker({
+        dateFormat: "dd/mm/yy"
+    });
+});
+//xuất file excel
+function fnExcelReport() {
+    var tab_text = "<table border='2px'><tr bgcolor='#87AFC6'>";
+    var textRange; var j = 0;
+    tab = document.getElementById('headerTable'); // id of table
 
-        //chạy hàm khởi tạo
-        init();
-    });
-    angular.element(document).ready(function() {
-        $("#startDay").datepicker({
-            dateFormat: "dd/mm/yy"
-        });
-        $("#endDay").datepicker({
-            dateFormat: "dd/mm/yy"
-        });
-    
-        var newdate = new Date();
-        var dd = newdate.getDate();
-        var mm = newdate.getMonth() + 1;
-        var y = newdate.getFullYear();
-        var someFormattedDate = (dd > 9 ? dd : '0' + dd) + '/' + (mm > 9 ? mm : '0' + mm) + '/' + y;
-        document.getElementById('startDay').value = someFormattedDate;
-    
-        var newdate1 = new Date("01/25/2020");
-        var dd1 = newdate1.getDate();
-        var mm1 = newdate1.getMonth() + 1;
-        var y1 = newdate1.getFullYear();
-        var someFormattedDate1 = (dd1 > 9 ? dd1 : '0' + dd1) + '/' + (mm1 > 9 ? mm1 : '0' + mm1) + '/' + y1;
-        document.getElementById('endDay').value = someFormattedDate;
-    
-        caldate();
-    });
+    for (j = 0; j < tab.rows.length; j++) {
+        tab_text = tab_text + tab.rows[j].innerHTML + "</tr>";
+        //tab_text=tab_text+"</tr>";
+    }
+
+    tab_text = tab_text + "</table>";
+    tab_text = tab_text.replace(/<A[^>]*>|<\/A>/g, "");//remove if u want links in your table
+    tab_text = tab_text.replace(/<img[^>]*>/gi, ""); // remove if u want images in your table
+    tab_text = tab_text.replace(/<input[^>]*>|<\/input>/gi, ""); // reomves input params
+
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))      // If Internet Explorer
+    {
+        txtArea1.document.open("txt/html", "replace");
+        txtArea1.document.write(tab_text);
+        txtArea1.document.close();
+        txtArea1.focus();
+        sa = txtArea1.document.execCommand("SaveAs", true, "Say Thanks to Sumit.xls");
+    }
+    else                 //other browser not tested on IE 11
+        sa = window.open('data:application/vnd.ms-excel,' + encodeURIComponent(tab_text));
+
+    return (sa);
+}

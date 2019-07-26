@@ -1,0 +1,191 @@
+<div class="container-lkd">
+    <div class="content" ng-controller="appCtrl as ldCtrl">
+        <div class="left">
+            <div class="title">NHẬP DANH SÁCH</div>
+            <div class="day-start">
+                <div class="title-day-start">
+                    <label for="startDays" class="title-day-start-text">Ngày bắt đầu</label>
+                </div>
+                <input id="startDays" class="content-day-start" ng-model="ldCtrl.requestQuantityModel.from" />
+            </div>
+            <div class="day-end">
+                <div class="title-day-end">
+                    <label for="endDays" class="title-day-end-text">Ngày kết thúc</label>
+                </div>
+                <input id="endDays" class="content-day-end" ng-model="ldCtrl.requestQuantityModel.to" />
+            </div>
+            <div class="custommer">
+                <img class="img-cus" src="./assets/cus.png">
+                <div class="title-custommer">Khách hàng</div>
+                <div class="checkbox-custommer">
+                    <div class="group-custommer">
+                        <input class="checkbox" type="checkbox" id="thevay"
+                            ng-model="ldCtrl.requestQuantityModel.ngay_mo_the">
+                        <label for="thevay" class="txtcheckbox">Khách hàng mở Thẻ Vay</label>
+                        <span class="checkmark-lkr"></span>
+                    </div>
+                    <div class="group-custommer">
+                        <input class="checkbox" type="checkbox" id="pheduyet"
+                            ng-model="ldCtrl.requestQuantityModel.ngay_phe_duyet">
+                        <label for="pheduyet" class="txtcheckbox">Khách hàng phê duyệt</label>
+                        <span class="checkmark-lkr"></span>
+                    </div>
+                    <div class="group-custommer">
+                        <input class="checkbox" type="checkbox" id="kichhoat"
+                            ng-model="ldCtrl.requestQuantityModel.ngay_kich_hoat">
+                        <label for="kichhoat" class="txtcheckbox">Khách hàng kích hoạt</label>
+                        <span class="checkmark-lkr"></span>
+                    </div>
+                    <div class="group-custommer">
+                        <input class="checkbox" type="checkbox" id="ruttien"
+                            ng-model="ldCtrl.requestQuantityModel.ngay_rut_tien">
+                        <label for="ruttien" class="txtcheckbox">Khách hàng rút tiền</label>
+                        <span class="checkmark-lkr"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="custommer-info">
+                <img class="img-cus-info" src="./assets/cus-info.png">
+                <div class="title-custommer-infor">Thông tin khách hàng</div>
+                <div class="checkbox-custommer-info">
+                    <div class="checkbox-custommer info-left">
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="hoten">
+                            <label for="hoten" class="txtcheckbox">Họ và tên</label>
+                            <span class="checkmark-lkr"></span>
+                        </div>
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="sdt">
+                            <label for="sdt" class="txtcheckbox">Số điện thoại</label>
+                            <span class="checkmark-lkr"></span>
+                        </div>
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="tinh">
+                            <label for="tinh" class="txtcheckbox">Tỉnh</label>
+                            <span class="checkmark-lkr"></span>
+                        </div>
+                    </div>
+                    <div class="checkbox-custommer info-right">
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="sohopdong">
+                            <label for="sohopdong" class="txtcheckbox">Số hợp đồng</label>
+                            <span class="checkmark-lkr"></span>
+                        </div>
+                        <div class="group-custommer">
+                            <input class="checkbox" type="checkbox" id="cmnd">
+                            <label for="cmnd" class="txtcheckbox">Số CMND</label>
+                            <span class="checkmark-lkr"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="title">DANH SÁCH TRÚNG THƯỞNG</div>
+            <div class="table">
+                <table id="headerTable">
+                    <thead>
+                        <tr>
+                            <th><span class="header stt">STT</span></th>
+                            <th><span class="header ten">HỌ & TÊN</span></th>
+                            <th><span class="hidden">CMND</span></th>
+                            <th><span class="header sohd">SỐ HỢP ĐỒNG</span></th>
+                            <th><span class="header tinh">TỈNH</span></th>
+                            <th><span class="header sdt">SỐ<br>ĐIỆN THOẠI</span></th>
+                            <th><span class="header giai">GIẢI<br>THƯỞNG</span></th>
+                        </tr>
+                    </thead>
+                    <tbody class="body" id="style-1">
+                        <tr ng-repeat="list in listsShow">
+                            <td>
+                                <div class="body-content stt1">{{list.stt}}</div>
+                            </td>
+                            <td>
+                                <div class="body-content ten1">{{list.cusName}}</div>
+                            </td>
+                            <td class="hidden">
+                                <div>{{list.cmnd}}</div>
+                            </td>
+                            <td>
+                                <div class="body-content sohd1">{{list.app_num}}</div>
+                            </td>
+                            <td>
+                                <div class="body-content tinh1">{{list.khu_vuc}}</div>
+                            </td>
+                            <td>
+                                <div class="body-content sdt1">{{list.phone}}</div>
+                            </td>
+                            <td class="hide-border">
+                                <div class="body-content giai1">{{list.award}}</div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="button btn" ng-click="ldCtrl.getQuantity()">
+                <div class="nhap-lieu"></div>
+                <div class="title-btn">NHẬP<br />DỮ LIỆU</div>
+            </div>
+            <div class="button">
+                <div class="so-luong"></div>
+                <div class="title-btn">SỐ LƯỢNG<br />{{Quantity}}</div>
+            </div>
+            <div class="button dropdown notify">
+                <div class="giai-thuong"></div>
+                <div class="title-btn dropbtn">GIẢI<br />THƯỞNG</div>
+                <div class="dropdown-content">
+                    <div class="md-warn" ng-click="ldCtrl.setAward('Nhất')">Giải nhất</div>
+                    <div class="md-warn" ng-click="ldCtrl.setAward('Nhì')">Giải nhì</div>
+                    <div class="md-warn" ng-click="ldCtrl.setAward('Khuyến Khích')">Giải khuyến khích</div>
+                </div>
+            </div>
+            <div class="button" ng-click="ldCtrl.showDialog()">
+                <div class="quay-thuong"></div>
+                <div class="title-btn">QUAY<br />THƯỞNG</div>
+            </div>
+            <div class="button">
+                <div class="excel"></div>
+                <div class="title-btn" onclick="fnExcelReport();">XUẤT<br />DANH SÁCH</div>
+            </div>
+        </div>
+        <div id="myModal" class="modal" ng-class="{'show': ldCtrl.show}">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close" ng-click="ldCtrl.hideDialog()">&times;</span>
+                    <h2>Giải {{ldCtrl.requestResultsModel.award}}</h2>
+                </div>
+                <div class="modal-body">
+                    <div class="group-so">
+                        <div class="text-so">Số Dự Thưởng: </div><strong
+                            class="num-random">{{ldCtrl.soNgauNhien}}</strong>
+                    </div>
+                    <div class="group-so">
+                        <div class="text-so">Mã Hợp Đồng: </div><strong class="ma-hd">{{ldCtrl.maHd}}</strong>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="button-quay" ng-click="ldCtrl.quaySo()" ng-disabled="ldCtrl.disabled">
+                        <div class="text-btn" ng-class="{'quay-tiep': ldCtrl.quayTiep}">{{ldCtrl.textBtn}}</div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div ng-class="{'lds-spinner': ldCtrl.loading}">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</div>

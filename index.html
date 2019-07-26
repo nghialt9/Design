@@ -1,18 +1,20 @@
 ﻿<html ng-app="app">
 <title>Bào Cát Quê Mình</title>
 <link rel="stylesheet" href="./css/index.css">
+<link rel="stylesheet" href="./css/luckydraw.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="./js/index.js"></script>
+<script src="./js/notify.js"></script>
 
-<body class="body" ng-controller="appCtrl as qbrCtrl">
+<body class="body" ng-controller="appCtrl">
     <div class="slideshow-container">
         <div class="mySlides fade" ng-repeat="slide in slidesShow">
             <div class="numbertext">{{slide.numbertext}}</div>
-            <img ng-src="{{slide.image}}">
+            <img class="img-slide" ng-src="{{slide.image}}">
             <div class="text">{{slide.text}}</div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -36,6 +38,8 @@
                 <label class="main-label" for="tab4">Bitbucket</label>
                 <input class="main-radio" id="tab5" type="radio" name="tabs">
                 <label class="main-label" for="tab5">Ngoại</label>
+                <input class="main-radio" id="tab7" type="radio" name="tabs">
+                <label class="main-label" for="tab7">Quay Số</label>
                 <section id="content1">
                     <slider></slider>
                 </section>
@@ -53,6 +57,9 @@
                 </section>
                 <section id="content6">
                     <trangchu></trangchu>
+                </section>
+                <section id="content7">
+                    <luckydraw></luckydraw>
                 </section>
             </div>
         </main>
@@ -87,6 +94,7 @@
         $.getScript('./js/sochay.js');
         $.getScript('./js/ngoai.js');
         $.getScript('./js/formsheet.js');
+        $.getScript('./js/luckydraw.js');
     </script>
 </body>
 

@@ -26,7 +26,7 @@
     display: none;
 }
 
-img {
+.img-slide {
     vertical-align: middle;
     width: 100%;
     height: 400px;
@@ -208,6 +208,10 @@ section {
     content: '\f015';
 }
 
+.main-label[for*='7']:before {
+    content: '\f06b';
+}
+
 .main-label:hover {
     color: #789;
     cursor: pointer;
@@ -225,7 +229,8 @@ section {
 #tab3:checked~#content3,
 #tab4:checked~#content4,
 #tab5:checked~#content5,
-#tab6:checked~#content6 {
+#tab6:checked~#content6,
+#tab7:checked~#content7 {
     display: block;
 }
 
