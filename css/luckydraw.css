@@ -1,19 +1,19 @@
 .container-lkd {
     background-image: url("../assets/background.png");
-    height: 785px;
+    height: 645px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    width: 1366px;
+    width: 1165px;
     margin: auto;
 }
 
 .content {
     position: absolute;
-    top: 195px;
+    top: 25px;
     width: 715px;
-    left: 325px;
+    left: 200px;
     height: 540px;
 }
 
