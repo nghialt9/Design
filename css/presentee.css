@@ -32,6 +32,7 @@
     font-style: italic;
     text-align: center;
 }
+
 .title-align-mgt {
     text-align: center;
 }
@@ -57,10 +58,10 @@
     color: #535355;
 }
 
-    .thank-align-mgt .control-label-mgt {
-        font-weight: 100 !important;
-        font-size: 19px;
-    }
+.thank-align-mgt .control-label-mgt {
+    font-weight: 100 !important;
+    font-size: 19px;
+}
 
 .btn-back {
     background: #58585A;
@@ -74,66 +75,69 @@
     display: block;
 }
 
+.col-md-2, .col-md-4, .col-md-5, .col-sm-6, .col-md-6, .col-md-7, .col-md-8, .col-md-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 @media screen and (max-width: 420px) {
     .form-mgt {
         width: 90%;
         margin: auto;
     }
-
     .title-mgt {
         letter-spacing: -1px;
         font-size: 13.9px;
     }
-
     .presentee-info-mgt {
         font-size: 13px;
     }
-
     .control-label-mgt {
         font-size: 12px;
     }
-
     .btn-thanks {
         font-size: 12px;
     }
-
     .thank-align-mgt .control-label-mgt {
         font-size: 12px;
     }
-
     strong {
         white-space: nowrap;
     }
 }
+
 @media screen and (min-width: 421px) and (max-width: 991px) {
     .form-mgt {
         width: 85%;
         margin: auto;
     }
-
     .title-mgt {
         letter-spacing: -1px;
         font-size: 15.4px;
     }
-
     .presentee-info-mgt {
         font-size: 14.5px;
     }
-
     .control-label-mgt {
         font-size: 13px;
     }
-
     .btn-thanks {
         font-size: 13px;
     }
-
     .thank-align-mgt .control-label-mgt {
         font-size: 14px;
     }
-
     strong {
         white-space: nowrap;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-6 {
+        width: 50%;
+        float: left;
     }
 }
 
@@ -141,5 +145,29 @@
     .form-mgt {
         width: 80%;
         margin: auto;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .col-md-8 {
+        width: 66.66666667%;
+    }
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-5 {
+        width: 41.66666667%;
+    }
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+    .col-md-2 {
+        width: 16.66666667%;
+    }
+    .col-md-2, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-12 {
+        float: left;
     }
 }
