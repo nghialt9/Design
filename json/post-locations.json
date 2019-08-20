@@ -1,0 +1,6954 @@
+[
+  {
+    "City": "TP HÀ NỘI",
+    "CityId": "5000280",
+    "Code": "HNOI",
+    "ZipCode": "100000",
+    "Districts": [
+      {
+        "District": "HUYỆN BA VÌ",
+        "Code": "BaVi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ba Vì",
+            "PostAddress": "TT Tây Đằng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐAN PHƯỢNG",
+        "Code": "DPhuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đan Phượng",
+            "PostAddress": "TT Phùng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐÔNG ANH",
+        "Code": "DongAnh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đông Anh",
+            "PostAddress": "Tổ 4, TT Đông Anh"
+          },
+          {
+            "PostName": "Bưu cục KCN Thăng Long",
+            "PostAddress": "Kim Chung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GIA LÂM",
+        "Code": "GiaLam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Viên",
+            "PostAddress": "183 Hà Huy Tập, Yên Viên"
+          },
+          {
+            "PostName": "Bưu cục Gia Lâm",
+            "PostAddress": "Đường Nguyễn Đức Thuận"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HOÀI ĐỨC",
+        "Code": "HoaiDuc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hoài Đức",
+            "PostAddress": "TT Trôi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚC THỌ",
+        "Code": "PhucTho",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phúc Thọ",
+            "PostAddress": "Cụm 8 TT Gạch"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUỐC OAI",
+        "Code": "QuocOai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quốc Oai",
+            "PostAddress": "Đường 21 B, TT Quốc Oai"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SÓC SƠN",
+        "Code": "SocSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sóc Sơn",
+            "PostAddress": "31 QL3, TT Sóc Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THẠCH THẤT",
+        "Code": "ThThat",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thạch Thất",
+            "PostAddress": "TT Liên Quan"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH TRÌ",
+        "Code": "ThaTri",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Trì",
+            "PostAddress": "Tổ 11, Khu Ga, TT Văn Điển"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THƯỜNG TÍN",
+        "Code": "ThTin",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thường Tín",
+            "PostAddress": "Khối Thị Trấn, TT Thường Tín"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN BA ĐÌNH",
+        "Code": "BaDinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cống Vị",
+            "PostAddress": "218 Đội Cấn, Liễu Giai"
+          },
+          {
+            "PostName": "Bưu cục Giảng Võ",
+            "PostAddress": "115 B1 Tập thể Thành Công"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN CẦU GIẤY",
+        "Code": "CauGiay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thăng Long",
+            "PostAddress": "5 Phạm Hùng- Mỹ Đình"
+          },
+          {
+            "PostName": "Bưu cục Nghĩa Tân",
+            "PostAddress": "119A15 TT Nghĩa Tân"
+          },
+          {
+            "PostName": "Bưu cục Cầu Giấy",
+            "PostAddress": "165, Đ Cầu Giấy, PQuan Hoa"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN ĐỐNG ĐA",
+        "Code": "DongDa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kim Liên",
+            "PostAddress": "B15 Chợ Kim Liên"
+          },
+          {
+            "PostName": "Bưu cục Đống Đa",
+            "PostAddress": "35, Phố Thái Thịnh, P Thịnh Quang"
+          },
+          {
+            "PostName": "Bưu cục Láng Trung",
+            "PostAddress": "95, Phố Nguyễn Chí Thanh, P Láng Hạ"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN HÀ ĐÔNG",
+        "Code": "HaDong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Hà Đông",
+            "PostAddress": "4, Đ Quang Trung, P Yết Kiêu"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN HAI BÀ TRƯNG",
+        "Code": "HBTrung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Mơ",
+            "PostAddress": "1 phố Minh Khai"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN HOÀN KIẾM",
+        "Code": "HoanKiem",
+        "PostNames": [
+          {
+            "PostName": "Giao dịch Trung tâm",
+            "PostAddress": "75, Phố Đinh Tiên Hoàng, P Tràng Tiền"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN HOÀNG MAI",
+        "Code": "HMai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Định Công",
+            "PostAddress": "ĐT Bắc Linh Đàm- Đại Kim"
+          },
+          {
+            "PostName": "Bưu cục Bắc Linh Đàm",
+            "PostAddress": "Đô thị Định Công P Định Công"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN LONG BIÊN",
+        "Code": "LongBien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đức Giang",
+            "PostAddress": "79 Ngô Gia Tự, Đức Giang"
+          },
+          {
+            "PostName": "Bưu cục Long Biên",
+            "PostAddress": "366 Ngọc Lâm"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN NAM TỪ LIÊM",
+        "Code": "NTLiem",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cầu Diễn 2",
+            "PostAddress": "Đ. Hồ Tùng Mậu, TT Cầu Diễn"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN TÂY HỒ",
+        "Code": "TayHo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Thái",
+            "PostAddress": "552 Thụy Khuê"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN THANH XUÂN",
+        "Code": "ThaXuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Xuân Bắc",
+            "PostAddress": "C10 Thanh Xuân Bắc"
+          },
+          {
+            "PostName": "Bưu cục Thanh Xuân",
+            "PostAddress": "51, Vũ Trọng Phụng, P Thanh Xuân Trung"
+          },
+          {
+            "PostName": "Bưu cục Hai Bà Trưng",
+            "PostAddress": "811, ĐGiải Phóng, P Giáp Bát"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ SƠN TÂY",
+        "Code": "STay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sơn Lộc",
+            "PostAddress": "Số 3 Chùa Thông, P Sơn Lộc"
+          },
+          {
+            "PostName": "Bưu cục Sơn Tây",
+            "PostAddress": "1 Phùng Khắc Khoan, P. Quang Trung"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TP HỒ CHÍ MINH",
+    "CityId": "5000329",
+    "Code": "HCMI",
+    "ZipCode": "700000",
+    "Districts": [
+      {
+        "District": "QUẬN 1",
+        "Code": "Quan1",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quận I",
+            "PostAddress": "67, Đ Lê Lợi, P Bến Nghé"
+          },
+          {
+            "PostName": "Bưu cục Sài Gòn",
+            "PostAddress": "2, Đ Công Xã Paris, P Bến Nghé"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 2",
+        "Code": "Quan2",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Trưng",
+            "PostAddress": "155 Nguyễn Duy Trinh, P Bình Trưng Tây"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 4",
+        "Code": "Quan4",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quận 4",
+            "PostAddress": "104, Đ Nguyễn Tất Thành, P 13"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 5",
+        "Code": "Quan5",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quận 5",
+            "PostAddress": "26, Đ Nguyễn Thi, P 13"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 6",
+        "Code": "Quan6",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quận 6",
+            "PostAddress": "88-90, Đ Tháp Mười, P 2"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 7",
+        "Code": "Quan7",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quận 7",
+            "PostAddress": "1441, Hùynh Tấn Phát, KP 1, Phú Mỹ"
+          },
+          {
+            "PostName": "Bưu cục Phú Mỹ ",
+            "PostAddress": "967 Huỳnh Tấn Phát P Phú Thuận"
+          },
+          {
+            "PostName": "Bưu cục Tân Thuận",
+            "PostAddress": "Ke 42-43 Huỳnh Tấn Phát, P Tân Thuận Tây"
+          },
+          {
+            "PostName": "Bưu cục Tân Phong",
+            "PostAddress": "565 Nguyễn Thị Thập,P Tân Phong"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 8",
+        "Code": "Quan8",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chánh Hưng",
+            "PostAddress": "Chợ Phạm Thế Hiển P4"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 9",
+        "Code": "Quan9",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Nhỏ",
+            "PostAddress": "95 Man Thiện, KP5, P.Hiệp Phú"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 10",
+        "Code": "Quan10",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quận 10",
+            "PostAddress": "157, Đ Lý Thái Tổ, P 9"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN 11",
+        "Code": "Quan11",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quận 11",
+            "PostAddress": "244, Đ Minh Phụng, P 16"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN BÌNH TÂN",
+        "Code": "BinhTan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Túy Loan",
+            "PostAddress": "Túy Loan Đông, Xã Hòa Phong"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN BÌNH THẠNH",
+        "Code": "BThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Thạnh",
+            "PostAddress": "3, Đ Phan Đăng Lưu, P 3"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN GÒ VẤP",
+        "Code": "GoVap",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Gò Vấp",
+            "PostAddress": "555, Đ Lê Quang Định, P 1"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN PHÚ NHUẬN",
+        "Code": "PhuNhuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Nhuận",
+            "PostAddress": "241, Đ Phan Đình Phùng, P 15"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN TÂN BÌNH",
+        "Code": "TanBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Bình",
+            "PostAddress": "288A, Đ Hòang Văn Thụ, P 4"
+          },
+          {
+            "PostName": "Bưu cục Mũi Tàu",
+            "PostAddress": "98 An Dương Vương, An Lạc A"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN THỦ ĐỨC",
+        "Code": "ThuDuc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thủ Đức",
+            "PostAddress": "128A, Kha Vạn Cân, KP 1, P Trường Thọ"
+          },
+          {
+            "PostName": "Bưu cục Linh Trung",
+            "PostAddress": "16, Đ.Số 4, KP4, P.Linh Trung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BÌNH CHÁNH",
+        "Code": "BC",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Chánh",
+            "PostAddress": "E9/37 Nguyễn Hữu Trí, TT Tân Túc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CẦN GIỜ",
+        "Code": "CanGio",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cần giờ",
+            "PostAddress": "Lương Văn Nho TT Cần Thạng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CỦ CHI",
+        "Code": "CuChi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Củ Chi",
+            "PostAddress": "Khu phố 2, TT Củ Chi"
+          },
+          {
+            "PostName": "Bưu cục Tân Trung",
+            "PostAddress": "Ấp 12 Tân Thạnh Đông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÓC MÔN",
+        "Code": "HocMon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hóc Môn",
+            "PostAddress": "57/7, KP5, TT Hóc Môn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NHÀ BÈ",
+        "Code": "NhaBe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thị Trấn Nhà Bè",
+            "PostAddress": "462 Huỳnh Tấn Phát TT Nhà Bè "
+          }
+        ]
+      }
+
+    ]
+  },
+  {
+    "City": "TP ĐÀ NẴNG",
+    "CityId": "5000311",
+    "Code": "DANA",
+    "ZipCode": "550000",
+    "Districts": [
+      {
+        "District": "HUYỆN HÒA VANG",
+        "Code": "HoaVang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Túy Loan",
+            "PostAddress": "Túy Loan Đông, Xã Hòa Phong"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN CẨM LỆ",
+        "Code": "CamLe",
+        "PostNames": [
+          {
+            "PostName": "Bưu điện TT Đà Nẵng 4",
+            "PostAddress": "296 Cách Mạng Tháng 8, P Hoà Thọ Đông"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN HẢI CHÂU",
+        "Code": "HaiChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đà Nẵng 1",
+            "PostAddress": "01, Lê Duẩn, P Hải Châu 1"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN LIÊN CHIỂU",
+        "Code": "LChieu",
+        "PostNames": [
+          {
+            "PostName": "Bưu điện TT Đà Nẵng 2",
+            "PostAddress": "138 Nguyễn Lương Bằng, P Hoà Khánh Bắc"
+          },
+          {
+            "PostName": "Bưu cục Xuân Hòa",
+            "PostAddress": "416 Điện Biên Phủ, P Hoà Khánh Bắc"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN NGŨ HÀNH SƠN",
+        "Code": "NHSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ngũ Hành Sơn",
+            "PostAddress": "376 Ngũ Hành Sơn"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN SƠN TRÀ",
+        "Code": "SonTra",
+        "PostNames": [
+          {
+            "PostName": "Bưu Điện Đà Nẵng 3",
+            "PostAddress": "04 Trần Quang Diệu"
+          },
+          {
+            "PostName": "Bưu cục Ngô Quyền",
+            "PostAddress": "924 Ngô Quyền"
+          },
+          {
+            "PostName": "Bưu cục Thọ Quang",
+            "PostAddress": "01 Ngô Quyền"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN THANH KHÊ",
+        "Code": "ThanhKhe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Khê",
+            "PostAddress": "251 Nguyễn Văn Linh"
+          },
+          {
+            "PostName": "Bưu cục Nguyễn Văn Linh",
+            "PostAddress": "170 Nguyễn Văn Linh"
+          },
+          {
+            "PostName": "Bưu cục Xuân Hòa",
+            "PostAddress": "416 Điện Biên Phủ, P Hoà Khê"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TP HẢI PHÒNG",
+    "CityId": "5000299",
+    "Code": "HAIP",
+    "ZipCode": "180000",
+    "Districts": [
+      {
+        "District": "HUYỆN AN DƯƠNG",
+        "Code": "AnDuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục An Dương",
+            "PostAddress": "10 TT An Dương"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN AN LÃO",
+        "Code": "AnLao1",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục An Lão",
+            "PostAddress": "27 Lê Lợi TT An Lão"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CÁT HẢI",
+        "Code": "CatHai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cát Hải",
+            "PostAddress": "Tổ Dân Phố 12 TT Cát Bà"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIẾN THỤY",
+        "Code": "KienThuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kiến Thụy",
+            "PostAddress": "3 Cẩm Xuân TT Núi Đối"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TIÊN LÃNG",
+        "Code": "TienLang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tiên Lãng",
+            "PostAddress": "Khu 2 TT Tiên Lãng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THUỶ NGUYÊN",
+        "Code": "ThNguyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thuỷ Nguyên",
+            "PostAddress": "05 Đà Nẵng Núi Đèo Thuỷ Nguyên"
+          },
+          {
+            "PostName": "Bưu cục Minh Đức",
+            "PostAddress": "TT Minh Đức"
+          },
+          {
+            "PostName": "Bưu cục Tân Hoa",
+            "PostAddress": "Xã Tân Dương"
+          },
+          {
+            "PostName": "Bưu cục Trịnh Xá",
+            "PostAddress": "Xã Thiên Hương"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH BẢO",
+        "Code": "VinhBao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Bảo",
+            "PostAddress": "129 Đường Đông Thái TT Vĩnh Bảo"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN DƯƠNG KINH",
+        "Code": "DKinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hòa Nghĩa",
+            "PostAddress": "Khu Dân Cư Thuỷ Giang Hoà Nghĩa"
+          },
+          {
+            "PostName": "Bưu cục Chợ Hương",
+            "PostAddress": "Khu Dân Cư Phương Lung Hưng Đạo"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN ĐỒ SƠN",
+        "Code": "DoSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồ Sơn",
+            "PostAddress": "85 Lý Thánh Tông"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN HỒNG BÀNG",
+        "Code": "HongBang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hồng Bàng",
+            "PostAddress": "36 Quang Trung"
+          },
+          {
+            "PostName": "Bưu cục Hải Phòng",
+            "PostAddress": "5, Đ Nguyễn Tri Phương, P Minh Khai"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN KIẾN AN",
+        "Code": "KienAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kiến An",
+            "PostAddress": "2, Đ Phan Đăng Lưu, P Trần Thành Ngọ"
+          },
+          {
+            "PostName": "Bưu cục Quán Trữ",
+            "PostAddress": "16 đường Lê Duẩn Quán Trữ"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN LÊ CHÂN",
+        "Code": "LeChan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lê Chân",
+            "PostAddress": "69 Trần Nguyên Hãn"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN NGÔ QUYỀN",
+        "Code": "NgoQuyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ngô Quyền",
+            "PostAddress": "3 Võ Thị Sáu"
+          },
+          {
+            "PostName": "Bưu cục Nguyễn Bỉnh Khiêm",
+            "PostAddress": "1 Văn Cao"
+          },
+          {
+            "PostName": "Bưu cục Hàng Kênh",
+            "PostAddress": "1 Văn Cao"
+          },
+          {
+            "PostName": "Bưu cục Nguyễn Bỉnh Khiêm ",
+            "PostAddress": "1 Văn Cao"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TP CẦN THƠ",
+    "CityId": "5000338",
+    "Code": "CANTHO",
+    "ZipCode": "900000",
+    "Districts": [
+      {
+        "District": "HUYỆN CỜ ĐỎ",
+        "Code": "CoDo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cờ Đỏ",
+            "PostAddress": "Ấp Thới Hòa A, TT Cờ Đỏ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHONG ĐIỀN",
+        "Code": "PhDien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phong Điền",
+            "PostAddress": "Ấp Thị Tứ TT Phong Điền"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THỚI LAI",
+        "Code": "ThoiLai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thới Lai",
+            "PostAddress": "Ấp Thới Thuận A TT Thới Lai"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH THẠNH",
+        "Code": "VThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Thạnh",
+            "PostAddress": "Ấp Quy Lân 5, Xã Thạnh Quới"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN BÌNH THỦY",
+        "Code": "BiThuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trà Nóc",
+            "PostAddress": "Tổ 8 KV2 Lê Hồng Phong P Trà Nóc"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN CÁI RĂNG",
+        "Code": "CaiRang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cái Răng",
+            "PostAddress": "1 Đinh Tiên Hoàng P Lê Bình"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN NINH KIỀU",
+        "Code": "NinhKieu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cần Thơ",
+            "PostAddress": "2B, Đường Hòa Bình, P An Hội"
+          },
+          {
+            "PostName": "Bưu cục An Hòa",
+            "PostAddress": "98 Mậu Thân P An Hòa"
+          },
+          {
+            "PostName": "Bưu cục Mậu Thân",
+            "PostAddress": "01, Đ.3/2, P Xuân Khánh"
+          },
+          {
+            "PostName": "Bưu cục Hưng Lợi",
+            "PostAddress": "190 Đ.30/4 P Hưng Lợi"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN Ô MÔN",
+        "Code": "OMon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ô Môn",
+            "PostAddress": "1/1 Trần Hưng Đạo P Châu Văn Liêm"
+          }
+        ]
+      },
+      {
+        "District": "QUẬN THỐT NỐT",
+        "Code": "ThotNot",
+        "PostNames": [
+          {
+            "PostName": "Bưu Cục Thốt Nốt",
+            "PostAddress": "24, Đường Lê Thị Tạo, P Thốt Nốt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH AN GIANG",
+    "CityId": "5000336",
+    "Code": "ANGA",
+    "ZipCode": "880000",
+    "Districts": [
+      {
+        "District": "HUYỆN AN PHÚ",
+        "Code": "AnPhu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục An Phú",
+            "PostAddress": "14 Thoại Ngọc Hầu, TT An Phú"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU PHÚ",
+        "Code": "ChauPhu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Phú",
+            "PostAddress": "327 Quốc Lộ 91, Vĩnh Lộc, TT Cái Dầu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChauT",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "Quốc Lộ 91, TT An Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHỢ MỚI",
+        "Code": "ChoMoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Mới",
+            "PostAddress": "05 Lê Lợi"
+          },
+          {
+            "PostName": "Bưu cục Mỹ Luông",
+            "PostAddress": "Ấp Thị 1, TT Mỹ Luông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ TÂN",
+        "Code": "PhuTan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Tân",
+            "PostAddress": "Ấp Trung Hòa, xã Tân Trung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TỊNH BIÊN",
+        "Code": "TinhBien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tịnh Biên",
+            "PostAddress": "Tổ 7, Khóm Trà Sư, TT Nhà Bàng"
+          },
+          {
+            "PostName": "Bưu cục Chi Lăng",
+            "PostAddress": "Tổ 1, TT Chi Lăng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THOẠI SƠN",
+        "Code": "ThoaiSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thoại Sơn",
+            "PostAddress": "352 Nguyễn Huệ, Ấp Bắc Sơn, TT Thoại Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRI TÔN",
+        "Code": "TriTon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tri Tôn",
+            "PostAddress": "140 Trần Hưng Đạo, TT Tri Tôn"
+          }
+        ]
+      },
+      {
+        "District": "TP CHÂU ĐỐC",
+        "Code": "ChauDoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Đốc",
+            "PostAddress": "73 Đường Lê Lợi, P Châu Phú B"
+          },
+          {
+            "PostName": "Bưu cục Núi Sam",
+            "PostAddress": "Vĩnh Đông 1 Núi Sam"
+          }
+        ]
+      },
+      {
+        "District": "TP LONG XUYÊN",
+        "Code": "LXuyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Long Xuyên",
+            "PostAddress": "106 Trần Hưng Đạo, P Mỹ Bình"
+          },
+          {
+            "PostName": "Bưu cục Mỹ Long",
+            "PostAddress": "11-13 Ngô Gia Tự, P Mỹ Long"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ TÂN CHÂU",
+        "Code": "TanChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Châu",
+            "PostAddress": "46 Thoại Ngọc Hầu, P Long Thạnh, TX Tân Châu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BÀ RỊA - VŨNG TÀU",
+    "CityId": "5000328",
+    "Code": "BRVT",
+    "ZipCode": "790000",
+    "Districts": [
+      {
+        "District": "HUYỆN CHÂU ĐỨC",
+        "Code": "ChauDuc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Đức",
+            "PostAddress": "Ấp Kim Giao, TT Ngãi Giao"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẤT ĐỎ",
+        "Code": "DatDo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đất Đỏ",
+            "PostAddress": "KP Thanh Long"
+          },
+          {
+            "PostName": "Bưu cục Phước Hải",
+            "PostAddress": "Hải Trung, Phước Hải"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LONG ĐIỀN",
+        "Code": "LongDien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Long Điền",
+            "PostAddress": "268 Võ Thị Sáu"
+          },
+          {
+            "PostName": "Bưu cục Phước Tỉnh",
+            "PostAddress": "Tân phước, Phước Tỉnh"
+          },
+          {
+            "PostName": "Bưu cục Long Hải",
+            "PostAddress": "Ấp Hải Sơn, Long Hải"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN THÀNH",
+        "Code": "TThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Thành",
+            "PostAddress": "Thôn Vạn Hạnh, TT Phú Mỹ"
+          },
+          {
+            "PostName": "Bưu cục Mỹ Xuân",
+            "PostAddress": "Quốc Lộ 51 Chợ Mỹ Xuân"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN XUYÊN MỘC",
+        "Code": "XuyenMoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Xuyên Mộc",
+            "PostAddress": "Khu phố Thanh Sơn, TT Phước Bửu"
+          }
+        ]
+      },
+      {
+        "District": "TP BÀ RỊA",
+        "Code": "BaRia",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thị Xã Bà Rịa",
+            "PostAddress": "100, Đường 27/4, P.Phước Hiệp"
+          }
+        ]
+      },
+      {
+        "District": "TP VŨNG TÀU",
+        "Code": "VungTau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vũng Tàu",
+            "PostAddress": "408, Đ.Lê Hồng Phong, P.Thắng Tam"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BẠC LIÊU",
+    "CityId": "5000341",
+    "Code": "BLIEU",
+    "ZipCode": "260000",
+    "Districts": [
+      {
+        "District": "HUYỆN ĐÔNG HẢI",
+        "Code": "DongHai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đông Hải",
+            "PostAddress": "Khu Vực 4, TT Gành Hào"
+          },
+          {
+            "PostName": "Bưu cục Kinh Tư",
+            "PostAddress": "Ấp Diêm Điền- Điền Hải"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HOÀ BÌNH",
+        "Code": "HoaBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hòa Bình",
+            "PostAddress": "TT Hòa Bình"
+          },
+          {
+            "PostName": "Bưu cục Cầu Số 2",
+            "PostAddress": "Xã Vĩnh Mỹ B"
+          },
+          {
+            "PostName": "Bưu cục Cái Cùng",
+            "PostAddress": "Xã Vĩnh Thịnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HỒNG DÂN",
+        "Code": "HongDan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hồng Dân",
+            "PostAddress": "TT Ngan Dừa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH LỢI",
+        "Code": "VinhLoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Lợi",
+            "PostAddress": "Ấp Xẻo chích TT Châu Hưng"
+          }
+        ]
+      },
+      {
+        "District": "TP BẠC LIÊU",
+        "Code": "BacLieu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bạc Liêu",
+            "PostAddress": "20 Trần Phú, P 3"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ GIÁ RAI",
+        "Code": "GiaRai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Giá Rai",
+            "PostAddress": "Ấp 1 TT Giá Rai"
+          },
+          {
+            "PostName": "Bưu cục Hộ Phòng",
+            "PostAddress": "Ấp 1 TT Hộ Phòng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BẮC GIANG",
+    "CityId": "5000294",
+    "Code": "BGIA",
+    "ZipCode": "230000",
+    "Districts": [
+      {
+        "District": "HUYỆN HIỆP HÒA",
+        "Code": "HiepHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hiệp Hòa",
+            "PostAddress": "TT Thắng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LẠNG GIANG",
+        "Code": "LGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lạng Giang",
+            "PostAddress": "TT Vôi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LỤC NAM",
+        "Code": "LucNam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lục Nam",
+            "PostAddress": "TT Đồi Ngô"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LỤC NGẠN",
+        "Code": "LucNgan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lục Ngạn",
+            "PostAddress": "TT Chũ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SƠN ĐỘNG",
+        "Code": "SonDong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sơn Động",
+            "PostAddress": "Xã An Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN YÊN",
+        "Code": "TanYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Yên",
+            "PostAddress": "TT Cao Thượng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VIỆT YÊN",
+        "Code": "VietYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Việt Yên",
+            "PostAddress": "TT Bích Động"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN DŨNG",
+        "Code": "YenDung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Dũng",
+            "PostAddress": "TT Neo"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN THẾ",
+        "Code": "YenThe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Thế",
+            "PostAddress": "TT Cầu Gồ"
+          }
+        ]
+      },
+      {
+        "District": "TP BẮC GIANG",
+        "Code": "BacGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu Cục Bắc Giang",
+            "PostAddress": "Hùng Vương, P Hoàng Văn Thụ"
+          },
+          {
+            "PostName": "Bưu cục Nguyễn Văn Cừ",
+            "PostAddress": "Nguyễn Văn Cừ, P Trần Phú"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BẮC KẠN",
+    "CityId": "5000283",
+    "Code": "BKAN",
+    "ZipCode": "960000",
+    "Districts": [
+      {
+        "District": "HUYỆN BA BỂ",
+        "Code": "BaBe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ba Bể ",
+            "PostAddress": "Tiểu khu 6, TT Chợ Rã"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BẠCH THÔNG",
+        "Code": "BThong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bạch Thông",
+            "PostAddress": "Phố Ngã ba, TT Phủ Thông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHỢ ĐỒN",
+        "Code": "ChoDon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Đồn ",
+            "PostAddress": "Tổ 11b, TT Bằng Lũng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHỢ MỚI",
+        "Code": "ChMoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Mới",
+            "PostAddress": "Tổ 7, TT Chợ Mới"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NA RÌ",
+        "Code": "NaRi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Na Rì",
+            "PostAddress": "Thôn Phố Mới, TT Yến Lạc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGÂN SƠN",
+        "Code": "NganSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ngân Sơn",
+            "PostAddress": "Tiểu khu Phố, xã Vân Tùng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PÁC NẶM",
+        "Code": "PacNam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Pác Nặm  ",
+            "PostAddress": "Thôn Nà Coóc, xã Bộc Bố"
+          }
+        ]
+      },
+      {
+        "District": "TP BẮC KẠN",
+        "Code": "BacKan",
+        "PostNames": [
+          {
+            "PostName": "Bưu Cục Bắc Kạn",
+            "PostAddress": "Tổ 7b, P Đức Xuân"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BẮC NINH",
+    "CityId": "5000297",
+    "Code": "BANI",
+    "ZipCode": "220000",
+    "Districts": [
+      {
+        "District": "HUYỆN GIA BÌNH",
+        "Code": "GiaBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Gia Bình",
+            "PostAddress": "TT Đông Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LƯƠNG TÀI",
+        "Code": "LuongTai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lương Tài",
+            "PostAddress": "TT Thứa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUẾ VÕ",
+        "Code": "QueVo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quế Võ",
+            "PostAddress": "TT Phố Mới"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TIÊN DU",
+        "Code": "TienDu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tiên Du",
+            "PostAddress": "TT Lim"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THUẬN THÀNH",
+        "Code": "ThThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thuận Thành",
+            "PostAddress": "Khu đất mới TT Hồ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN PHONG",
+        "Code": "YenPhong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục KCN Yên Phong 1",
+            "PostAddress": "Ngô Xá Long Châu"
+          }
+        ]
+      },
+      {
+        "District": "TP BẮC NINH",
+        "Code": "BacNinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bắc Ninh",
+            "PostAddress": "Ngô Gia Tự, P Tiền An"
+          },
+          {
+            "PostName": "Bưu cục Lý Thái Tổ",
+            "PostAddress": "16 Lý Thái Tổ"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ TỪ SƠN",
+        "Code": "TuSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Từ Sơn",
+            "PostAddress": "Khu Đất mới, TX Từ Sơn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BẾN TRE",
+    "CityId": "5000332",
+    "Code": "BTRE",
+    "ZipCode": "930000",
+    "Districts": [
+      {
+        "District": "HUYỆN BA TRI",
+        "Code": "BaTri",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ba Tri",
+            "PostAddress": "Ấp Khu Phố 1, TT Ba Tri"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BÌNH ĐẠI",
+        "Code": "BinhDai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Đại",
+            "PostAddress": "Ấp Khu Phố 1, TT Bình Đại"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChaThan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cụcn Châu Thành",
+            "PostAddress": "Khu phố 2, TT Châu Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHỢ LÁCH",
+        "Code": "ChoLach",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Lách",
+            "PostAddress": "Ấp Khu Phố 1, TT Chợ Lách"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GIỒNG TRÔM",
+        "Code": "GiTrom",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Giồng Trôm",
+            "PostAddress": "Khu phố 1, TT Giồng Trôm"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỎ CÀY BẮC",
+        "Code": "MCBac",
+        "PostNames": [
+          {
+            "PostName": "Bưu Cục Ba Vát",
+            "PostAddress": "Ấp Phước Khánh, xã Phước Mỹ Trung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỎ CÀY NAM",
+        "Code": "MCNam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mỏ Cày",
+            "PostAddress": "Quốc Lộ 60 TT Mỏ Cày Nam"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THẠNH PHÚ",
+        "Code": "ThanhPhu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thạnh Phú",
+            "PostAddress": "Ấp Thạnh Trị Hạ, TT Thạnh Phú"
+          }
+        ]
+      },
+      {
+        "District": "TP BẾN TRE",
+        "Code": "BenTre",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bến Tre",
+            "PostAddress": "3/1, Đồng Khởi, P 3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BÌNH DƯƠNG",
+    "CityId": "5000326",
+    "Code": "BIDU",
+    "ZipCode": "590000",
+    "Districts": [
+      {
+        "District": "HUYỆN DẦU TIẾNG",
+        "Code": "DauTieng",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Dầu Tiếng",
+            "PostAddress": "Khu phố 3, TT Dầu Tiếng"
+          },
+          {
+            "PostName": "Bưu cục Minh Hòa",
+            "PostAddress": "Ấp Hòa Cường Xã Minh Hòa"
+          },
+          {
+            "PostName": "Bưu cục Thanh Tuyền",
+            "PostAddress": "Ấp Chợ Xã Thanh Tuyền"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ GIÁO",
+        "Code": "PhuGiao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Giáo",
+            "PostAddress": "Khu phố Iii, TT Phước Vĩnh"
+          },
+          {
+            "PostName": "Bưu cục Phước Hòa",
+            "PostAddress": "Ấp 1A Phước Hòa"
+          }
+        ]
+      },
+      {
+        "District": "TP THỦ DẦU MỘT",
+        "Code": "TDMot",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thủ Dầu Một",
+            "PostAddress": "324, Tổ 3, Khu 1, P Phú Hòa"
+          },
+          {
+            "PostName": "Bưu cục Phú Mỹ",
+            "PostAddress": "5 Tạo Lực  P. Hòa Phú"
+          },
+          {
+            "PostName": "Bưu cục Phú Cường",
+            "PostAddress": "10  Bộ Lĩnh, P. Phú Cường"
+          },
+          {
+            "PostName": "Bưu cục Tương Bình Hiệp",
+            "PostAddress": "Lê Chí Dân Tương Bình Hiệp"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ BẾN CÁT",
+        "Code": "BenCat",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sở Sao",
+            "PostAddress": "Ấp 1 Tân Định"
+          },
+          {
+            "PostName": "Bưu cục Bến Cát",
+            "PostAddress": "Khu phố 2, P Mỹ Phước"
+          },
+          {
+            "PostName": "Bưu cục KCN Mỹ Phước",
+            "PostAddress": "KCN Mỹ Phước 1"
+          },
+          {
+            "PostName": "Bưu cục KCN Mỹ Phước 3",
+            "PostAddress": "KCN Mỹ Phước 3"
+          },
+          {
+            "PostName": "Bưu cục Phú An",
+            "PostAddress": "Ấp An Thành, An Tây"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ DĨ AN",
+        "Code": "DiAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Dĩ An",
+            "PostAddress": "Khu phố Nhị Đồng 1, P Dĩ An"
+          },
+          {
+            "PostName": "Bưu cục  Bình An",
+            "PostAddress": "P Bình An"
+          },
+          {
+            "PostName": "Bưu cục Bình Minh",
+            "PostAddress": "Nguyễn An Ninh - P. Dĩ An"
+          },
+          {
+            "PostName": "Bưu cục Sóng Thần",
+            "PostAddress": "Đại lộ Độc Lập - KCN Sóng Thần 1"
+          },
+          {
+            "PostName": "Bưu cục Tân Đông Hiệp",
+            "PostAddress": "KP. Chiêu Liêu - P. Tân Đông Hiệp"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ TÂN UYÊN",
+        "Code": "TanUyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Uyên",
+            "PostAddress": "Khu phố 5, P Uyên Hưng"
+          },
+          {
+            "PostName": "Bưu cục Khánh Bình",
+            "PostAddress": "KCN Nam Tân Uyên"
+          },
+          {
+            "PostName": "Bưu cục Tân Phước Khánh",
+            "PostAddress": "KP Khánh Hòa, P Tân Phước Khánh"
+          },
+          {
+            "PostName": "Bưu cục Tân Ba",
+            "PostAddress": "KP Tân Ba, P Thái Hòa"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ THUẬN AN",
+        "Code": "ThuanAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Chuẩn",
+            "PostAddress": "Bình Phú, P Bình Chuẩn"
+          },
+          {
+            "PostName": "Bưu cục Thuận An",
+            "PostAddress": "Khu phố Chợ, P Lái Thiêu"
+          },
+          {
+            "PostName": "Bưu cục Đồng An",
+            "PostAddress": "KCN Đồng An"
+          },
+          {
+            "PostName": "Bưu cục Vsip",
+            "PostAddress": "KCN Vsip"
+          },
+          {
+            "PostName": "Bưu cục An Phú",
+            "PostAddress": "P An Phú"
+          },
+          {
+            "PostName": "Bưu cục Thuận Giao",
+            "PostAddress": "P Thuận Giao"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BÌNH ĐỊNH",
+    "CityId": "5000314",
+    "Code": "BDIN",
+    "ZipCode": "820000",
+    "Districts": [
+
+      {
+        "District": "TP QUY NHƠN",
+        "Code": "QuyNhon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quy Nhơn",
+            "PostAddress": "02, Trần Thị Kỷ, P Lý Thường Kiệt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BÌNH PHƯỚC",
+    "CityId": "5000324",
+    "Code": "BPHUOC",
+    "ZipCode": "830000",
+    "Districts": [
+      {
+        "District": "HUYỆN BÙ ĐĂNG",
+        "Code": "BuDang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bù Đăng",
+            "PostAddress": "130, Ấp Hòa Đồng, TT Đức Phong"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BÙ ĐỐP",
+        "Code": "BuDop",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bù Đốp",
+            "PostAddress": "Khu phố Thanh Bình, TT Thanh Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHƠN THÀNH",
+        "Code": "ChonTha",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chơn Thành 2",
+            "PostAddress": "Khu phố 5 TT Chơn Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LỘC NINH",
+        "Code": "LocNinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lộc Ninh",
+            "PostAddress": "Ấp 1a, TT Lộc Ninh"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ BÌNH LONG",
+        "Code": "BinhLong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Long",
+            "PostAddress": "131, Khu phố Phú Trung, P An Lộc"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ PHƯỚC LONG",
+        "Code": "PLong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phước Long",
+            "PostAddress": "10, Lê Quý Đôn, PThác Mơ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HỚN QUẢN",
+        "Code": "HonQuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Khai",
+            "PostAddress": "Ấp 5 xã Tân Khai"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ ĐỒNG XOÀI",
+        "Code": "DongXoai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồng Xoài",
+            "PostAddress": "416, Quốc Lộ 14, P Tân Phú"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH BÌNH THUẬN",
+    "CityId": "5000318",
+    "Code": "BTHUA",
+    "ZipCode": "800000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẮC BÌNH",
+        "Code": "BacBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bắc Bình",
+            "PostAddress": "96 Nguyễn Tất Thành TT Chợ Lầu"
+          },
+          {
+            "PostName": "Bưu cục Lương Sơn",
+            "PostAddress": "Khu phố Lương Tây TT Lương Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÀM TÂN",
+        "Code": "HamTan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hàm Tân",
+            "PostAddress": "Khu phố 2, TT Tân Nghĩa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÀM THUẬN NAM",
+        "Code": "HTNam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hàm Thuận Nam",
+            "PostAddress": "Thôn Nam Thành, TT Thuận Nam"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ QUÝ",
+        "Code": "PhuQuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Quý",
+            "PostAddress": "Quý Thạnh, Xã Ngũ Phụng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÁNH LINH",
+        "Code": "TanhLinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tánh Linh",
+            "PostAddress": "451 Trần Hưng Đạo, TT Lạc Tánh"
+          }
+        ]
+      },
+      {
+        "District": "TP PHAN THIẾT",
+        "Code": "PThiet",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phan Thiết 1",
+            "PostAddress": "19, Nguyễn Tất Thành, P Bình Hưng"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ LA GI",
+        "Code": "LaGi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục La Gi",
+            "PostAddress": "Khu phố 2, P Tân An"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH CÀ MAU",
+    "CityId": "5000342",
+    "Code": "CMAU",
+    "ZipCode": "970000",
+    "Districts": [
+      {
+        "District": "HUYỆN CÁI NƯỚC",
+        "Code": "CaiNuoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cái Nước",
+            "PostAddress": "Khóm 3, TT Cái Nước"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẦM DƠI",
+        "Code": "DamDoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đầm Dơi",
+            "PostAddress": "Khóm 4, TT Đầm Dơi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NĂM CĂN",
+        "Code": "NamCan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Năm Căn- Ngọc Hiển",
+            "PostAddress": "Khóm 1, TT Năm Căn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ TÂN",
+        "Code": "PhTan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Tân",
+            "PostAddress": "Khóm 1, TT Cái Đôi Vàm"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THỚI BÌNH",
+        "Code": "ThoiBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thới Bình",
+            "PostAddress": "Khóm 1, TT Thới Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRẦN VĂN THỜI",
+        "Code": "TVThoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trần Văn Thời",
+            "PostAddress": "Khóm 9, TT Trần Văn Thời"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN U MINH",
+        "Code": "UMinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục U Minh",
+            "PostAddress": "Khóm 3 TT U Minh"
+          }
+        ]
+      },
+      {
+        "District": "TP CÀ MAU",
+        "Code": "CaMau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cà Mau",
+            "PostAddress": "3, Lưu Tấn Tài, P 5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH CAO BẰNG",
+    "CityId": "5000282",
+    "Code": "CAOB",
+    "ZipCode": "270000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẢO LẠC",
+        "Code": "BaoLac",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bảo Lạc",
+            "PostAddress": "TT Bảo Lạc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BẢO LÂM",
+        "Code": "BaoLam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bảo Lâm",
+            "PostAddress": "TT Bảo Lâm"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HẠ LANG",
+        "Code": "HaLang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hạ Lang",
+            "PostAddress": "TT Hạ Lang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÀ QUẢNG",
+        "Code": "HaQuang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hà Quảng",
+            "PostAddress": "TT Xuân Hòa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÒA AN",
+        "Code": "HoaAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hòa An",
+            "PostAddress": "TT Nước hai"
+          },
+          {
+            "PostName": "Bưu cục Cao Bình",
+            "PostAddress": "Xã Hưng Đạo"
+          },
+          {
+            "PostName": "Bưu cục Nà Rị",
+            "PostAddress": "Xã Nam Tuấn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGUYÊN BÌNH",
+        "Code": "NgBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nguyên Bình",
+            "PostAddress": "TT Nguyên Bình"
+          },
+          {
+            "PostName": "Bưu cục Tĩnh Túc",
+            "PostAddress": "TT Tĩnh Túc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHỤC HÒA",
+        "Code": "PhucHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phục Hòa",
+            "PostAddress": "TT Hòa Thuận"
+          },
+          {
+            "PostName": "Bưu cục Tà Lùng",
+            "PostAddress": "TT Tà Lùng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUẢNG UYÊN",
+        "Code": "QuUyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quảng Uyên",
+            "PostAddress": "TT Quảng Uyên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THẠCH AN",
+        "Code": "ThachAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thạch An",
+            "PostAddress": "TT Đông Khê"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THÔNG NÔNG",
+        "Code": "ThNong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thông Nông",
+            "PostAddress": "TT Thông Nông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRÀ LĨNH",
+        "Code": "TraLinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trà Lĩnh",
+            "PostAddress": "TT Trà Lĩnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRÙNG KHÁNH",
+        "Code": "TrKhanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trùng Khánh",
+            "PostAddress": "TT Trùng Khánh"
+          }
+        ]
+      },
+      {
+        "District": "TP CAO BẰNG",
+        "Code": "CaoBang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Cao Bằng",
+            "PostAddress": "Khu phố Hoàng Văn Thụ, P Hợp Giang"
+          },
+          {
+            "PostName": "Bưu cục Tân Giang",
+            "PostAddress": "P Tân Giang"
+          },
+          {
+            "PostName": "Bưu cục Đề Thám",
+            "PostAddress": "P Đề Thám"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH ĐẮK LẮK",
+    "CityId": "5000321",
+    "Code": "DLAK",
+    "ZipCode": "630000",
+    "Districts": [
+      {
+        "District": "HUYỆN BUÔN ĐÔN",
+        "Code": "BuonDon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Buôn Đôn",
+            "PostAddress": "Thôn 15 xã Tân Hòa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CƯ KUIN",
+        "Code": "CuKuin",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cưkuin",
+            "PostAddress": "Quốc lộ 27 xã Hòa Hiệp"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CƯ M'GAR",
+        "Code": "CMGar",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cư M’gar",
+            "PostAddress": "Khối 3, TT Quảng Phú"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN EA H'LEO",
+        "Code": "EaHleo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ea Hleo",
+            "PostAddress": "Khối 7, TT Ea Drăng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN EA KAR",
+        "Code": "EaKar",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ea Kar",
+            "PostAddress": "Khối 3b, TT Ea Kar"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN EA SÚP",
+        "Code": "EaSup",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ea Súp",
+            "PostAddress": "Tổ Thành Công, TT Ea Súp"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KRÔNG ANA",
+        "Code": "KrongAna",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Krông Ana",
+            "PostAddress": "Khối Ii, TT Buôn Trấp"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KRÔNG BÔNG",
+        "Code": "KrBong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Krông Bông",
+            "PostAddress": "Tổ Dân Phố 3 TT Krông Kma"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KRÔNG BÚK",
+        "Code": "KrongBuk",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Krông Buk",
+            "PostAddress": "156, Hùng vương, P An Lạc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KRÔNG NĂNG",
+        "Code": "KrNang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Krông Năng",
+            "PostAddress": "Tổ 2, TT Krông Năng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KRÔNG PẮK",
+        "Code": "KrongPak",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Krông Pắk",
+            "PostAddress": "205 Giải Phóng Khối 6 TT Phước An"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LẮK",
+        "Code": "Lak",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lak",
+            "PostAddress": "199 Nguyễn Tất Thành, TT Liên Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN M'ĐRĂK",
+        "Code": "MDrak",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mdrak",
+            "PostAddress": "51 Nguyễn Tất Thành ,TT Mdrak"
+          }
+        ]
+      },
+      {
+        "District": "TP BUÔN MA THUỘT",
+        "Code": "BMThuot",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Buôn Ma Thuột",
+            "PostAddress": "01, Nơ Trang Long, P Tân Tiến"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH ĐẮK NÔNG",
+    "CityId": "5000322",
+    "Code": "DNONG",
+    "ZipCode": "640000",
+    "Districts": [
+      {
+        "District": "HUYỆN CƯ JÚT",
+        "Code": "CuJut",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cư Jút",
+            "PostAddress": "Khối 6, TT Ea T'Ling"
+          },
+          {
+            "PostName": "Bưu cục Nam Dong",
+            "PostAddress": "Thôn Trung Tâm Xã NamDong"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẮK GLONG",
+        "Code": "DGlong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đăk Glong",
+            "PostAddress": "Thôn 4 Xã Quảng Khê"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẮK MIL",
+        "Code": "DakMil",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ðắk Mil",
+            "PostAddress": "Tổ Dân phố 1, TT Đắk Mil"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẮK R'LẤP",
+        "Code": "DakRlap",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đắk Rlấp",
+            "PostAddress": "Khối 2, TT Kiến Đức"
+          },
+          {
+            "PostName": "Bưu cục Nhân Cơ",
+            "PostAddress": "Thôn 3, Xã Nhân Cơ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐĂK SONG",
+        "Code": "DakSong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ðak Song",
+            "PostAddress": "Tổ 2, TT Đức An"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KRÔNG NÔ",
+        "Code": "KrongNo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Krông Nô",
+            "PostAddress": "Khối Trung Tâm, TT Đắk Mâm"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TUY ĐỨC",
+        "Code": null,
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tuy Đức",
+            "PostAddress": "Thôn 3, Xã Đắk Búk So"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ GIA NGHĨA",
+        "Code": null,
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Ðăk Nông",
+            "PostAddress": "Trần Hưng Đạo, P Nghĩa Thành"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH ĐIỆN BIÊN",
+    "CityId": "5000286",
+    "Code": "DBIEN",
+    "ZipCode": "380000",
+    "Districts": [
+      {
+        "District": "HUYỆN ĐIỆN BIÊN",
+        "Code": "DienBien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Điện Biên",
+            "PostAddress": "P Nam Thanh"
+          },
+          {
+            "PostName": "Bưu cục Bản Phủ",
+            "PostAddress": "Đội 24 xã Noong Hẹt"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐIỆN BIÊN ĐÔNG",
+        "Code": "DBDong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Điện Biên Đông",
+            "PostAddress": "TT Điện Biên Đông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MƯỜNG ẢNG",
+        "Code": "MAng",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mường Ảng",
+            "PostAddress": "TT Mường Ảng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MƯỜNG CHÀ",
+        "Code": "MuongCha",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mường Chà",
+            "PostAddress": "TT Mường Chà"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MƯỜNG NHÉ",
+        "Code": "MuongNhe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mường Nhé",
+            "PostAddress": "Bản Mường Nhé, Xã Mường Nhé"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TỦA CHÙA",
+        "Code": "TChua",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tủa Chùa",
+            "PostAddress": "TT Tủa Chùa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TUẦN GIÁO",
+        "Code": "TuanGiao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tuần Giáo",
+            "PostAddress": "Khu phố Tân Giang, TT Tuần Giáo"
+          }
+        ]
+      },
+      {
+        "District": "TP ĐIỆN BIÊN PHỦ",
+        "Code": "DBPhu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Điện Biên Phủ",
+            "PostAddress": "Đường 7-5, P Mường Thanh"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ MƯỜNG LAY",
+        "Code": "MLay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mường Lay",
+            "PostAddress": "TX Mường Lay"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH ĐỒNG NAI",
+    "CityId": "5000327",
+    "Code": "DONA",
+    "ZipCode": "810000",
+    "Districts": [
+      {
+        "District": "HUYỆN ĐỊNH QUÁN",
+        "Code": "DinhQuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Định Quán",
+            "PostAddress": "Ấp Hiệp Tâm 2, TT Định Quán"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LONG THÀNH",
+        "Code": "LThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Long Thành",
+            "PostAddress": "Khu Phước Hải, TT Long Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NHƠN TRẠCH",
+        "Code": "NhTrach",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nhơn Trạch",
+            "PostAddress": "Ấp Xóm Hố, Xã Phú Hội"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN PHÚ",
+        "Code": "TanPh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Phú",
+            "PostAddress": "Khu 10, TT Tân Phú"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THỐNG NHẤT",
+        "Code": "ThNhat",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thống Nhất",
+            "PostAddress": "Ấp Trần Cao Vân, Xã Bàu Hàm 2"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRẢNG BOM",
+        "Code": "TrangBom",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trảng Bom",
+            "PostAddress": "Khu phố 3, TT Trảng Bom"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH CỬU",
+        "Code": "VinhCuu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Cửu",
+            "PostAddress": "Khu phố 5, TT Vĩnh An"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN XUÂN LỘC",
+        "Code": "XuanLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Xuân Lộc",
+            "PostAddress": "Ấp Tân Tiến, Xã Xuân Hiệp"
+          }
+        ]
+      },
+      {
+        "District": "TP BIÊN HÒA",
+        "Code": "BienHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Biên Hòa",
+            "PostAddress": "33, Nguyễn Ái Quốc, P Quang Vinh"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ LONG KHÁNH",
+        "Code": "LKhanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TX Long Khánh",
+            "PostAddress": "Hùng Vương, P Xuân An"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH ĐỒNG THÁP",
+    "CityId": "5000335",
+    "Code": "DOTHA",
+    "ZipCode": "870000",
+    "Districts": [
+      {
+        "District": "HUYỆN CAO LÃNH",
+        "Code": "CaoLanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cao Lãnh",
+            "PostAddress": "Khóm Mỹ Thuận TT Mỹ Thọ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChauThan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "QL 80, TT Cái Tàu Hạ"
+          },
+          {
+            "PostName": "Bưu cục Nha Mân",
+            "PostAddress": "QL 80, Xã Tân Nhuận Đông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HỒNG NGỰ",
+        "Code": "HongNgu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hồng Ngự",
+            "PostAddress": "Đ.Trương Định, P An Thạnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LAI VUNG",
+        "Code": "LaiVung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lai Vung",
+            "PostAddress": "QL 80, TT Lai Vung Lai"
+          },
+          {
+            "PostName": "Bưu cục Tân Thành",
+            "PostAddress": "QL 54, Tân Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LẤP VÒ",
+        "Code": "LapVo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lấp Vò",
+            "PostAddress": "QL 80, TT Lấp Vò"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TAM NÔNG",
+        "Code": "TamNong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tam Nông",
+            "PostAddress": "Khóm 2 TT Tràm Chim"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN HỒNG",
+        "Code": "TanHong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Hồng",
+            "PostAddress": "14 Trần Hưng Đạo TT Sa Rài"
+          },
+          {
+            "PostName": "Bưu cục Giồng Găng",
+            "PostAddress": "Ấp Tân Bảnh Tân Phước"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH BÌNH",
+        "Code": "ThanBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Bình",
+            "PostAddress": "QL 30, Khóm Tân Đông B, TT Thanh Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THÁP MƯỜI",
+        "Code": "ThapMuoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tháp Mười",
+            "PostAddress": "36/4A, Đường Số 1 (khóm 1), TT Mỹ An"
+          }
+        ]
+      },
+      {
+        "District": "TP CAO LÃNH",
+        "Code": "CaoLanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồng Tháp",
+            "PostAddress": "85, Đường Nguyễn Huệ, P 2"
+          },
+          {
+            "PostName": "Bưu cục Phường 11",
+            "PostAddress": "16-17 QuỐc lộ 30 Phường 11"
+          },
+          {
+            "PostName": "Bưu cục Phường 6",
+            "PostAddress": "1020 Phạm Hữu Lầu  Phường 6"
+          }
+        ]
+      },
+      {
+        "District": "TP SA ĐÉC",
+        "Code": "SaDec",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sa Đéc",
+            "PostAddress": "90, Đường Hùng Vương, P 2"
+          },
+          {
+            "PostName": "Bưu cục Nàng  Hai",
+            "PostAddress": "P An Hòa"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ HỒNG NGỰ",
+        "Code": "HongNgu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hồng Ngự",
+            "PostAddress": "Đường Trương Định, P An Thạnh"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH GIA LAI",
+    "CityId": "5000320",
+    "Code": "GILAI",
+    "ZipCode": "600000",
+    "Districts": [
+      {
+        "District": "HUYỆN CHƯ PĂH",
+        "Code": "ChuPah",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chư Păh",
+            "PostAddress": "24 Trần Phú, TT Phú Hòa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHƯ PRÔNG",
+        "Code": "ChuProng",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chư Prông",
+            "PostAddress": "103 Hùng Vương TT Chư Prông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHƯ PƯH",
+        "Code": "ChuPuh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chư Pah",
+            "PostAddress": "24 Trần Phú TT Phú Hòa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHƯ SÊ",
+        "Code": "ChuSe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chư Sê",
+            "PostAddress": "723 Hùng Vương TT Chư Sê"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẮK ĐOA",
+        "Code": "DakDoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đak Đoa",
+            "PostAddress": "168 Nguyễn Huệ TT Đak Đoa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỨC CƠ",
+        "Code": "DucCo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đức Cơ",
+            "PostAddress": "212 Quang Trung TT Chư Ty"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN IA GRAI",
+        "Code": "IaGrai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Iagrai",
+            "PostAddress": "275 Hùng Vương TT Ia Kha"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KBANG",
+        "Code": "KBang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kbang",
+            "PostAddress": "40 Trần Hưng Đạo TT Kbang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KRÔNG PA",
+        "Code": "KrongPa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Krông Pa",
+            "PostAddress": "08 Trần Hưng Đạo TT Phú Túc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MANG YANG",
+        "Code": "MangYang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mang Yang",
+            "PostAddress": "TT Kon Tầng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ THIỆN",
+        "Code": "PhuThien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Thiện",
+            "PostAddress": "TT Phú Thiện"
+          }
+        ]
+      },
+      {
+        "District": "TP PLEIKU",
+        "Code": "Pleiku",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Pleiku",
+            "PostAddress": "69, Hùng Vương, P Tây Sơn"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ AN KHÊ",
+        "Code": "AnKhe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục An Khê",
+            "PostAddress": "583 Quang Trung"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ AYUN PA",
+        "Code": "AyunPa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ayunpa",
+            "PostAddress": "197 Lê Hồng Phong"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH HÀ GIANG",
+    "CityId": "5000281",
+    "Code": "HAGIA",
+    "ZipCode": "310000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẮC MÊ",
+        "Code": "BacMe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bắc Mê",
+            "PostAddress": "TT Yên Phú"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BẮC QUANG",
+        "Code": "BGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bắc Quang",
+            "PostAddress": "TT Việt Quang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỒNG VĂN",
+        "Code": "DongVan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồng Văn",
+            "PostAddress": "TT Đồng Văn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HOÀNG SU PHÌ",
+        "Code": "HSuPhi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hoàng Su Phì",
+            "PostAddress": "TT Vinh Quang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MÈO VẠC",
+        "Code": "MeoVac",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mèo Vạc",
+            "PostAddress": "TT Mèo Vạc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUẢN BẠ",
+        "Code": "QuanBa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quản Bạ",
+            "PostAddress": "TT Tam Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUANG BÌNH",
+        "Code": "QBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quang Bình",
+            "PostAddress": "TT Yên Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VỊ XUYÊN",
+        "Code": "ViXuyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vị Xuyên",
+            "PostAddress": "TT Vị Xuyên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN XÍN MẦN",
+        "Code": "XinMan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Xín Mần",
+            "PostAddress": "TT Cốc Pài"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN MINH",
+        "Code": "YenMinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Minh",
+            "PostAddress": "TT Yên Minh"
+          }
+        ]
+      },
+      {
+        "District": "TP HÀ GIANG",
+        "Code": "HaGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Hà Giang",
+            "PostAddress": "Đ.Nguyễn Trãi, P Nguyễn Trãi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH HÀ NAM",
+    "CityId": "5000302",
+    "Code": "HANAM",
+    "ZipCode": "400000",
+    "Districts": [
+      {
+        "District": "HUYỆN BÌNH LỤC",
+        "Code": "BinhLuc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Lục",
+            "PostAddress": "Tiểu khu Bình Thắng TT Bình Mỹ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN DUY TIÊN",
+        "Code": "DuyTien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Duy Tiên",
+            "PostAddress": "Phố Thịnh Hoà TT Hoà Mạc"
+          },
+          {
+            "PostName": "Bưu cục Đồng Văn",
+            "PostAddress": "Phố Nguyễn Văn Trỗi TT Đồng Văn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIM BẢNG",
+        "Code": "KimBang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kim Bảng",
+            "PostAddress": "Tổ dân phố 5 TT Quế"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LÝ NHÂN",
+        "Code": "LyNhan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lý Nhân",
+            "PostAddress": "Khu phố 1 TT Vĩnh Trụ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH LIÊM",
+        "Code": "ThLiem",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Liêm",
+            "PostAddress": "Khu Cầu Gừng Xã Thanh Tuyền"
+          }
+        ]
+      },
+      {
+        "District": "TP PHỦ LÝ",
+        "Code": "PhuLy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Phủ Lý",
+            "PostAddress": "114, Đường Trần Phú, P Quang Trung"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH HÀ TĨNH",
+    "CityId": "5000307",
+    "Code": "HATINH",
+    "ZipCode": "480000",
+    "Districts": [
+      {
+        "District": "HUYỆN CẨM XUYÊN",
+        "Code": "CamXuyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cẩm Xuyên",
+            "PostAddress": "Tổ 13, TT Cẩm Xuyên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỨC THỌ",
+        "Code": "DucTho",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đức Thọ",
+            "PostAddress": "Khối 4 TT Đức Thọ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HƯƠNG KHÊ",
+        "Code": "HuongKhe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hương Khê",
+            "PostAddress": "Khối 8 TT Hương Khê"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HƯƠNG SƠN",
+        "Code": "HuongSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hương Sơn",
+            "PostAddress": "Khối 3 TT Phố Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KỲ ANH",
+        "Code": null,
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Kỳ Anh",
+            "PostAddress": "KP 1 TT Kỳ Anh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGHI XUÂN",
+        "Code": "NghiXuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nghi Xuân",
+            "PostAddress": "Khối 2 TT Nghi Xuân"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THẠCH HÀ",
+        "Code": "ThachHa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thạch Hà",
+            "PostAddress": "Khối 10, TT Thạch Hà"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VŨ QUANG",
+        "Code": "VuQuang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vũ Quang",
+            "PostAddress": "Khối 1 TT Vũ Quang"
+          }
+        ]
+      },
+      {
+        "District": "TP HÀ TĨNH",
+        "Code": "HaTinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Hà Tĩnh",
+            "PostAddress": "06, Đ Trần Phú, P Trần Phú"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ HỒNG LĨNH",
+        "Code": "HongLinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TX Hồng Lĩnh",
+            "PostAddress": "05 Nguyễn Ái Quốc"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ KỲ ANH",
+        "Code": null,
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kỳ Anh",
+            "PostAddress": "KP 1 TX Kỳ Anh"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH HẢI DƯƠNG",
+    "CityId": "5000298",
+    "Code": "HAID",
+    "ZipCode": "170000",
+    "Districts": [
+      {
+        "District": "HUYỆN BÌNH GIANG",
+        "Code": "BiGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Giang",
+            "PostAddress": "Đường Thống nhất TT Kẻ Sặt"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CẨM GIÀNG",
+        "Code": "CamGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cẩm Giàng",
+            "PostAddress": "TT Lai Cách"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GIA LỘC",
+        "Code": "GiaLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Gia Lộc",
+            "PostAddress": "Thông Phương Điếm TT Gia Lộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIM THÀNH",
+        "Code": "KimThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kim Thành",
+            "PostAddress": "Phố Ga TT Phú Thái"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KINH MÔN",
+        "Code": "KinhMon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kinh Môn",
+            "PostAddress": "Phố Kinh Hạ TT Kinh Mông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NAM SÁCH",
+        "Code": "NamSach",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nam Sách",
+            "PostAddress": "Phố Mới TT Nam Sách"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NINH GIANG",
+        "Code": "NiGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ninh Giang",
+            "PostAddress": "Khu 6 TT Ninh Giang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TỨ KỲ",
+        "Code": "TuKy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tứ Kỳ",
+            "PostAddress": "Thôn An Đông TT Tứ Kỳ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH HÀ",
+        "Code": "ThanhHa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Hà",
+            "PostAddress": "Khu 7 TT Thanh Hà"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH MIỆN",
+        "Code": "ThMien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Miện",
+            "PostAddress": "Khu 1 TT Thanh Miện"
+          }
+        ]
+      },
+      {
+        "District": "TP HẢI DƯƠNG",
+        "Code": "HaiDuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hải Dương",
+            "PostAddress": "Đường Đại Lộ Hồ Chí Minh, P Nguyễn Trãi"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ CHÍ LINH",
+        "Code": "ChiLinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chí Linh",
+            "PostAddress": "Phố Nguyễn trãi 2 P Sao đỏ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH HẬU GIANG",
+    "CityId": "5000339",
+    "Code": "HGIANG",
+    "ZipCode": "910000",
+    "Districts": [
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChaTha",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "E42 Đường số 9  TT Ngã Sáu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH A",
+        "Code": "ChaTha",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành A",
+            "PostAddress": "TT Một Ngàn"
+          },
+          {
+            "PostName": "Bưu cục Cái Tắc",
+            "PostAddress": "TT Cái Tắc"
+          },
+          {
+            "PostName": "Bưu cục Thạnh Xuân",
+            "PostAddress": "TT Rạch Gòi"
+          },
+          {
+            "PostName": "Bưu cục Tân Hòa",
+            "PostAddress": "TT Bảy Ngàn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHỤNG HIỆP",
+        "Code": "PhHiep",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phụng Hiệp",
+            "PostAddress": "Ấp Mỹ Quới TT Cây Dương"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VỊ THỦY",
+        "Code": "ViThuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vị Thủy",
+            "PostAddress": "Ấp 1 TT Nàng Mau"
+          }
+        ]
+      },
+      {
+        "District": "TP VỊ THANH",
+        "Code": "ViThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Vị Thanh",
+            "PostAddress": "6A, Đ Trần Hưng Đạo A, Phường 1"
+          },
+          {
+            "PostName": "Bưu cục Phường 7",
+            "PostAddress": "13 Nguyễn Trung Trực P7"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ LONG MỸ",
+        "Code": "LongMy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Long Mỹ",
+            "PostAddress": "Ấp 2 TX Long Mỹ"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ NGÃ BẢY",
+        "Code": "NgaBay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thị xã Ngã Bảy",
+            "PostAddress": "2/1, Khu vực 1, Phường Ngã Bảy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH HOÀ BÌNH",
+    "CityId": "5000290",
+    "Code": "HOAB",
+    "ZipCode": "350000",
+    "Districts": [
+      {
+        "District": "HUYỆN KỲ SƠN",
+        "Code": "KySon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kỳ Sơn",
+            "PostAddress": "TT Kỳ Sơn"
+          }
+        ]
+      },
+      {
+        "District": "TP HOÀ BÌNH",
+        "Code": "HoBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Hòa Bình",
+            "PostAddress": "Tổ 31, P Phương Lâm"
+          },
+          {
+            "PostName": "Bưu cục Phương Lâm",
+            "PostAddress": "Phường Phương Lâm"
+          },
+          {
+            "PostName": "Bưu cục Tân Thịnh",
+            "PostAddress": "Phường Tân Thịnh"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH HƯNG YÊN",
+    "CityId": "5000300",
+    "Code": "HYEN",
+    "ZipCode": "160000",
+    "Districts": [
+      {
+        "District": "HUYỆN ÂN THI",
+        "Code": "AnThi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ân Thi",
+            "PostAddress": "TT Ân Thi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIM ĐỘNG",
+        "Code": "KimDong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kim Động",
+            "PostAddress": "TT Lương Bằng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KHOÁI CHÂU",
+        "Code": "KChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Khoái Châu",
+            "PostAddress": "TT Khoái Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỸ HÀO",
+        "Code": "MyHao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mỹ Hào",
+            "PostAddress": "TT Bần Yên Nhân"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÙ CỪ",
+        "Code": "PhuCu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phù Cừ",
+            "PostAddress": "TT Trần Cao"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TIÊN LỮ",
+        "Code": "TienLu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tiên Lữ",
+            "PostAddress": "TT Vương Tiên Lữ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĂN GIANG",
+        "Code": "VanGiang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Văn Giang",
+            "PostAddress": "TT Văn Giang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĂN LÂM",
+        "Code": "VanLam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Văn Lâm",
+            "PostAddress": "TT Như Quỳnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN MỸ",
+        "Code": "YenMy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Mỹ",
+            "PostAddress": "Xã Tân Lập Yên Mỹ"
+          }
+        ]
+      },
+      {
+        "District": "TP HƯNG YÊN",
+        "Code": "HungYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu điện Hưng Yên",
+            "PostAddress": "4, Đ Chùa Chuông, P Hiến Nam"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH KIÊN GIANG",
+    "CityId": "5000337",
+    "Code": "KGIANG",
+    "ZipCode": "920000",
+    "Districts": [
+      {
+        "District": "HUYỆN AN BIÊN",
+        "Code": "AnBien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục An Biên",
+            "PostAddress": "Khu vực 2, TT Thứ 3"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN AN MINH",
+        "Code": "AnMinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục An Minh",
+            "PostAddress": "Khu Vực 2, TT Thứ Mười Một"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChTha",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "Khu Phố Minh Phú, TT Minh Lương"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GÒ QUAO",
+        "Code": "GoQuao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Huyện",
+            "PostAddress": "Ấp Phước Hưng 1, TT Gò Quao"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GIỒNG RIỀNG",
+        "Code": "GRieng",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Huyện",
+            "PostAddress": "Khu Nội Ô TT Giồng Riềng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÒN ĐẤT",
+        "Code": "HonDat",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Sơn",
+            "PostAddress": "1206 ấp Thuận Tiến, Bình Sơn"
+          },
+          {
+            "PostName": "Bưu cục Sóc Xoài",
+            "PostAddress": "588 Khu phố Thị Tứ, TT Sóc Sơn"
+          },
+          {
+            "PostName": "Bưu cục Hòn Đất",
+            "PostAddress": "Ấp Chòm Sao, TT Hòn Đất"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIÊN HẢI",
+        "Code": "KienHai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trung tâm Huyện",
+            "PostAddress": "Ấp 1, Hòn Tre"
+          },
+          {
+            "PostName": "Bưu cục Nam Du",
+            "PostAddress": "Ấp Bãi Trệt, An Sơn"
+          },
+          {
+            "PostName": "Bưu cục Hòn Ngang",
+            "PostAddress": "Ấp An Phú, Nam Du"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIÊN LƯƠNG",
+        "Code": "KLuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kiên Lương",
+            "PostAddress": "Ấp Ngã Ba, TT Kiên Lương"
+          },
+          {
+            "PostName": "Bưu cục Ba Hòn",
+            "PostAddress": "Khu Phố Ba Hòn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ QUỐC",
+        "Code": "PhuQuoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Quốc",
+            "PostAddress": "10, Đ 30/4, TT Dương Đông"
+          },
+          {
+            "PostName": "Bưu cục An Thới",
+            "PostAddress": "Nguyễn Văn Cừ, Khu phố 8, TT An Thới"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN HIỆP",
+        "Code": "TanHiep",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Huyện",
+            "PostAddress": "Khóm B, TT Tân Hiệp"
+          },
+          {
+            "PostName": "Bưu cục Kinh Tám",
+            "PostAddress": "Tổ 6 Đông Phước, Thạnh Đông A"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH THUẬN",
+        "Code": "VThuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Thuận",
+            "PostAddress": "Ấp Vĩnh Phước 2 TT Vĩnh Thuận"
+          }
+        ]
+      },
+      {
+        "District": "TP RẠCH GIÁ",
+        "Code": "RachGia",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Rạch Giá",
+            "PostAddress": "01, Đường Mạc Cửu, P Vĩnh Thanh"
+          },
+          {
+            "PostName": "Bưu cục An Hòa",
+            "PostAddress": "575 Nguyễn Trung Trực, P An Hòa"
+          },
+          {
+            "PostName": "Bưu cục Rạch Sỏi",
+            "PostAddress": "30 Cách Mạng Tháng 8, P Vĩnh Lợi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÀ TIÊN",
+        "Code": "HaTien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hà Tiên",
+            "PostAddress": "03, Đường Tô Châu, Phường Đông Hồ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH KON TUM",
+    "CityId": "5000319",
+    "Code": "KTUM",
+    "ZipCode": "580000",
+    "Districts": [
+      {
+        "District": "HUYỆN ĐẮK GLEI",
+        "Code": "DakGlei",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đakglei",
+            "PostAddress": "455 Hùng Vương, TT Đakglei"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẮK HÀ",
+        "Code": "DakHa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đắk Hà",
+            "PostAddress": "212, Đường Hùng Vương, TT Đắk Hà"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐĂK TÔ",
+        "Code": "DakTo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đắk Tô",
+            "PostAddress": "07, Đường Hùng Vương, TT Đắk Tô"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KON RẪY",
+        "Code": "KonRay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kon Rẫy",
+            "PostAddress": "Thôn 2, TT Đăk Rơ Ve"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGỌC HỒI",
+        "Code": "NgocHoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ngọc Hồi",
+            "PostAddress": "35, Đường Hùng vương, TT Plei Kần"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SA THẦY",
+        "Code": "SaThay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sa Thầy",
+            "PostAddress": "326 Trần Hưng Đạo, TT Sa Thầy"
+          }
+        ]
+      },
+      {
+        "District": "TP KON TUM",
+        "Code": "KonTum",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kon Tum",
+            "PostAddress": "205, Đ Lê Hồng Phong, P Quyết Thắng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH KHÁNH HÒA",
+    "CityId": "5000316",
+    "Code": "KHHOA",
+    "ZipCode": "650000",
+    "Districts": [
+      {
+        "District": "HUYỆN DIÊN KHÁNH",
+        "Code": "DKhanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Diên Khánh",
+            "PostAddress": "91, Đ Lý Tự Trọng, TT Diên Khánh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VẠN NINH",
+        "Code": "VanNinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vạn Ninh",
+            "PostAddress": "Khóm 4, TT Vạn Giã"
+          }
+        ]
+      },
+      {
+        "District": "TP CAM RANH",
+        "Code": "CamRanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cam Ranh",
+            "PostAddress": "01, Đ Nguyễn Trọng Kỷ, P Cam Lợi"
+          },
+          {
+            "PostName": "Bưu cục Mỹ Ca",
+            "PostAddress": "Khóm Mỹ Ca, P Cam Nghĩa"
+          },
+          {
+            "PostName": "Bưu cục Trường Sa",
+            "PostAddress": "Cụm Quân Cảng Cam Ranh, Xã Song Tử Tây, Trường Sa"
+          }
+        ]
+      },
+      {
+        "District": "TP NHA TRANG",
+        "Code": "NhaTrang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nha Trang",
+            "PostAddress": "1, Đường Pasteur, P Xương Huân"
+          },
+          {
+            "PostName": "Bưu cục Đồng Đế",
+            "PostAddress": "Đường 2/4, Phường Vĩnh Hải"
+          },
+          {
+            "PostName": "Bưu cục Vạn Thạnh",
+            "PostAddress": "12 Đường Trần Quý Cáp"
+          },
+          {
+            "PostName": "Bưu cục Lê Hồng Phong",
+            "PostAddress": "51 Lê Hồng Phong"
+          },
+          {
+            "PostName": "Bưu cục Lê Thánh Tôn",
+            "PostAddress": "50 Lê Thánh Tôn"
+          },
+          {
+            "PostName": "Bưu cục Tân Lập",
+            "PostAddress": "83 Ngô Gia Tự"
+          },
+          {
+            "PostName": "Bưu cục Bình Tân",
+            "PostAddress": "02 Kho cảng Bình Tân"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ NINH HÒA",
+        "Code": "NinhHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ninh Hòa",
+            "PostAddress": "450, Đ Trần Quý Cáp, TT Ninh Hoà"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH LAI CHÂU",
+    "CityId": "5000287",
+    "Code": "LCHAU",
+    "ZipCode": "390000",
+    "Districts": [
+      {
+        "District": "HUYỆN MƯỜNG TÈ",
+        "Code": "MuongTe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mường Tè",
+            "PostAddress": "Khu phố 8, TT Mường Tè"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHONG THỔ",
+        "Code": "PhongTho",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phong Thổ",
+            "PostAddress": "TT Phong Thổ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SÌN HỒ",
+        "Code": "SinHo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sìn Hồ",
+            "PostAddress": "TT Sìn Hồ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THAN UYÊN",
+        "Code": "ThUyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Than Uyên",
+            "PostAddress": "TT Than Uyên"
+          }
+        ]
+      },
+      {
+        "District": "TP LAI CHÂU",
+        "Code": "LaiChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TX Lai Châu",
+            "PostAddress": "Đường Đại lộ Lê Lợi, P Tân Phong"
+          },
+          {
+            "PostName": "Bưu cục Đoàn Kết",
+            "PostAddress": "P Đoàn Kết"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH LẠNG SƠN",
+    "CityId": "5000292",
+    "Code": "LASON",
+    "ZipCode": "240000",
+    "Districts": [
+      {
+        "District": "HUYỆN CAO LỘC",
+        "Code": "CaoLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cao Lộc",
+            "PostAddress": "TT Cao Lộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHI LĂNG",
+        "Code": "ChiLang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồng Mỏ",
+            "PostAddress": "Khu chính TT Đồng Mỏ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HỮU LŨNG",
+        "Code": "HuuLung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hữu Lũng",
+            "PostAddress": "01 Đ Chi Lăng, TT Hữu Lũng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LỘC BÌNH",
+        "Code": "LocBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lộc Bình",
+            "PostAddress": "Khu Hòa Bình, TT Lộc Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VÃN LÃNG",
+        "Code": "VanLang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Văn Lãng",
+            "PostAddress": "62, khu 3, TT Na Sầm"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỒNG ĐĂNG",
+        "Code": "DongDang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồng Đăng",
+            "PostAddress": "Khu Dây Thép, TT Đồng Đăng"
+          }
+        ]
+      },
+      {
+        "District": "TP LẠNG SƠN",
+        "Code": "LaSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Lạng Sơn",
+            "PostAddress": "49, Đ Lê Lợi, P Vĩnh Trại"
+          },
+          {
+            "PostName": "Bưu cục Cửa Đông",
+            "PostAddress": "12 Hùng Vương, P. Chi Lăng"
+          },
+          {
+            "PostName": "Bưu cục Kỳ Lừa",
+            "PostAddress": "6 Lê Lai, P. Hoàng Văn Thụ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH LÀO CAI",
+    "CityId": "5000285",
+    "Code": "LACAI",
+    "ZipCode": "330000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẢO THẮNG",
+        "Code": "BaoThang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bảo Thắng",
+            "PostAddress": "072 Đ 19/5, TT Phố Lu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BẢO YÊN",
+        "Code": null,
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bảo Yên",
+            "PostAddress": "Khu 5 B, TT Phố Ràng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BÁT XÁT",
+        "Code": "BatXat",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bát Xát",
+            "PostAddress": "101 Đ Hùng Vương"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN BẮC HÀ",
+        "Code": "BacHa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bắc Hà",
+            "PostAddress": "096 Đ Ngọc Uyển"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MƯỜNG KHƯƠNG",
+        "Code": "MKhuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mường Khương",
+            "PostAddress": "282 Đ Giải phóng 11-11"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SA PA",
+        "Code": "SaPa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sa Pa",
+            "PostAddress": "06 Thạnh Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĂN BÀN",
+        "Code": "VanBan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Văn Bàn",
+            "PostAddress": "Tổ 7, TT Khánh Yên"
+          }
+        ]
+      },
+      {
+        "District": "TP LÀO CAI",
+        "Code": "LaoCai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Lào Cai",
+            "PostAddress": "196, Đ Hoàng Liên, P Cốc Lếu"
+          },
+          {
+            "PostName": "Bưu cục Pom Hán",
+            "PostAddress": "Tổ 14 Pom Hán"
+          },
+          {
+            "PostName": "Bưu cục Hoàng Liên",
+            "PostAddress": "327 Khánh Yên, Phố Mới"
+          },
+          {
+            "PostName": "Bưu cục Cửa Khẩu",
+            "PostAddress": "013 Nguyễn Huệ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH LÂM ĐỒNG",
+    "CityId": "5000323",
+    "Code": "LADO",
+    "ZipCode": "670000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẢO LÂM",
+        "Code": "BLam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bảo Lâm",
+            "PostAddress": "Khu Khu 1-2 Lôc Thãng, TT Lộc Thắng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CÁT TIÊN",
+        "Code": "CatTien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cát Tiên",
+            "PostAddress": "Khu 8, TT Đồng Nai"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN DI LINH",
+        "Code": "DiLinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Di Linh",
+            "PostAddress": "535, Đ Hùng Vương, TT Di Linh"
+          },
+          {
+            "PostName": "Bưu cục Hòa Ninh",
+            "PostAddress": "Thôn 2, Hòa Ninh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẠ HUOAI",
+        "Code": "DaHuoai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đạ Huoai",
+            "PostAddress": "Khu 3, TT Madagui"
+          },
+          {
+            "PostName": "Bưu cục Đam Ri",
+            "PostAddress": "Khu 2, TT Madagui"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẠ TẺH",
+        "Code": "Dateh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đạ Tẻh",
+            "PostAddress": "131 Đ 3/2, TT Đạ Tẻh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐAM RÔNG",
+        "Code": "DamRong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đam Rông",
+            "PostAddress": "Thôn 1, Rô Men"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐƠN DƯƠNG",
+        "Code": "DonDuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đơn Dương",
+            "PostAddress": "106, Đ 2/4, TT Thạnh Mỹ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỨC TRỌNG",
+        "Code": "DucTrong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đức Trọng",
+            "PostAddress": "689, Đ Quốc Lộ 20, TT Liên Nghĩa"
+          },
+          {
+            "PostName": "Bưu cục Finom",
+            "PostAddress": "Quảng Hiệp, Hiệp Thạnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LẠC DƯƠNG",
+        "Code": "LacDuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lạc Dương",
+            "PostAddress": "Khu phố Langbiang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LÂM HÀ",
+        "Code": "LamHa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lâm Hà",
+            "PostAddress": "Khu Đồng Tâm, TT Đinh Văn"
+          },
+          {
+            "PostName": "Bưu cục Tân Hà",
+            "PostAddress": "Liên Trung, Tân Hà"
+          },
+          {
+            "PostName": "Bưu cục Nam Ban",
+            "PostAddress": "Trưng Vương, TT Nam Ban"
+          }
+        ]
+      },
+      {
+        "District": "TP BẢO LỘC",
+        "Code": "BaoLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bảo Lộc",
+            "PostAddress": "Phường 1"
+          },
+          {
+            "PostName": "Bưu cục Nguyễn Công Trứ",
+            "PostAddress": "Nguyễn Công Trứ"
+          },
+          {
+            "PostName": "Bưu cục Lộc Tiến ",
+            "PostAddress": "Khu phố 5, Lộc Tiến"
+          }
+        ]
+      },
+      {
+        "District": "TP ĐÀ LẠT",
+        "Code": "Dalat",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đà Lạt",
+            "PostAddress": "2, Đường Lê Đại Hành, Phường 1"
+          },
+          {
+            "PostName": "Bưu cục Trần Phú ",
+            "PostAddress": "14 Trần Phú, P3"
+          },
+          {
+            "PostName": "Bưu cục Phan Chu Trinh",
+            "PostAddress": "A18 Phan Chu Trinh, P9"
+          },
+          {
+            "PostName": "Bưu cục Bùi Thị Xuân",
+            "PostAddress": "75B Phù Đổng Thiên Vương, P8t"
+          },
+          {
+            "PostName": "Bưu cục Cầu Đất",
+            "PostAddress": "Trường Xuân 2, Xuân Trường"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH LONG AN",
+    "CityId": "5000330",
+    "Code": "LGAN",
+    "ZipCode": "850000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẾN LỨC",
+        "Code": "BenLuc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bến Lức",
+            "PostAddress": "Ấp Vàm, TT Bến Lức"
+          },
+          {
+            "PostName": "Bưu cục 3 Gò Đen",
+            "PostAddress": "QL1A Ấp Chợ Xã Phước Lợi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CẦN ĐƯỚC",
+        "Code": "CanDuoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cần Đước",
+            "PostAddress": "Khu 1A, TT Cần Đước"
+          },
+          {
+            "PostName": "Bưu cục 3 Rạch Kiến",
+            "PostAddress": "Ấp 5, Xã Long Hòa, TT Cần Đước"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CẦN GIUỘC",
+        "Code": "CanGiuoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cần Giuộc",
+            "PostAddress": "12, Đ Quốc Lộ 50, TT Cần Giuộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "47, Đ 827, Khóm 3, TT Tầm Vu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỨC HÒA",
+        "Code": "DucHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục3 Đức Hòa",
+            "PostAddress": "Tỉnh Lộ 824, Khu Vực 3, TT Đức Hòa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỨC HUỆ",
+        "Code": "DucHue",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đức Huệ",
+            "PostAddress": "3, Khu Vực 1, TT Đông Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỘC HÓA",
+        "Code": "MocHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mộc Hóa",
+            "PostAddress": "14, Đường 30/4, TT Mộc Hoá"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN HƯNG",
+        "Code": "TanHung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Hưng",
+            "PostAddress": "02 Trần Hưng Đạo, KP. Gò Thuyền"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN THẠNH",
+        "Code": "TanThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Thạnh ",
+            "PostAddress": "Khu Phố 1, TT Tân Thạnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN TRỤ",
+        "Code": "TanTru",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Trụ",
+            "PostAddress": "Ấp Tân Bình, TT Tân Trụ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THẠNH HÓA",
+        "Code": "ThanhHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thạnh Hóa",
+            "PostAddress": "Khóm 3, TT Thạnh Hóa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THỦ THỪA",
+        "Code": "ThuThua",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thủ Thừa",
+            "PostAddress": "42 Trưng Trắc, TT Thủ Thừa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH HƯNG",
+        "Code": "VinhHung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Hưng",
+            "PostAddress": "46, CMT8, TT Vĩnh Hưng"
+          }
+        ]
+      },
+      {
+        "District": "TP TÂN AN",
+        "Code": "TanAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân An",
+            "PostAddress": "1, Đường Quốc Lộ 1, Phường 2"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ HẬU NGHĨA",
+        "Code": "HauNghia",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hậu Nghĩa",
+            "PostAddress": "Khu B, TT Hậu Nghĩa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH NAM ĐỊNH",
+    "CityId": "5000303",
+    "Code": "NAMD",
+    "ZipCode": "420000",
+    "Districts": [
+      {
+        "District": "HUYỆN GIAO THỦY",
+        "Code": "GiaoThuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Giao Thủy",
+            "PostAddress": "Khu 3, TT Ngô Đồng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HẢI HẬU",
+        "Code": "HaiHau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hải Hậu",
+            "PostAddress": "Yên Định"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỸ LỘC",
+        "Code": "MyLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mỹ Lộc",
+            "PostAddress": "Quốc lộ 21A, TT Mỹ Lộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NAM TRỰC",
+        "Code": "NamTruc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nam Trực",
+            "PostAddress": "TT Nam Giang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGHĨA HƯNG",
+        "Code": "NHung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nghĩa Hưng",
+            "PostAddress": "43 K1 Liễu Đề"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRỰC NINH",
+        "Code": "TrucNinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trực Ninh",
+            "PostAddress": "TT Cổ Lễ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VỤ BẢN",
+        "Code": "VuBan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vụ Bản",
+            "PostAddress": "80A Đường Non Côi TT Gôi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN XUÂN TRƯỜNG",
+        "Code": "XTruong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Xuân Trường",
+            "PostAddress": "TT Xuân Trường"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN Ý YÊN",
+        "Code": "YYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ý Yên",
+            "PostAddress": "KCN TTn Lâm"
+          }
+        ]
+      },
+      {
+        "District": "TP NAM ĐỊNH",
+        "Code": "NamDinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Nam Định",
+            "PostAddress": "4, ĐHà Huy Tập, P Ngô Quyền"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH NINH BÌNH",
+    "CityId": "5000304",
+    "Code": "NIBINH",
+    "ZipCode": "430000",
+    "Districts": [
+      {
+        "District": "HUYỆN GIA VIỄN",
+        "Code": "GiaVien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Gia Viễn",
+            "PostAddress": "Phố Me, TT Me"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HOA LƯ",
+        "Code": "HoaLu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hoa Lư",
+            "PostAddress": "Phố Cầu Huyện, TT Thiên Tôn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN KHÁNH",
+        "Code": "YenKhanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Khánh",
+            "PostAddress": "Khu phố 1, TT Yên Ninh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN MÔ",
+        "Code": "YenMo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Mô",
+            "PostAddress": "Trung Yên, TT Yên Thịnh"
+          }
+        ]
+      },
+      {
+        "District": "TP NINH BÌNH",
+        "Code": "NinhBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Ninh Bình",
+            "PostAddress": "1, Đ Trần Hưng Đạo, P Phúc Thành"
+          }
+        ]
+      },
+      {
+        "District": "TX TAM ĐIỆP",
+        "Code": "TamDiep",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tam Điệp",
+            "PostAddress": "Tổ 9 P Trung Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIM SƠN",
+        "Code": "KimSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kim Sơn",
+            "PostAddress": "Phố Trì Chính, TT Phát Diệm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH NINH THUẬN",
+    "CityId": "5000317",
+    "Code": "NITHUAN",
+    "ZipCode": "660000",
+    "Districts": [
+      {
+        "District": "HUYỆN NINH HẢI",
+        "Code": "NinhHai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ninh Hải",
+            "PostAddress": "KP Khánh Sơn, TT Khánh Hải"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NINH PHƯỚC",
+        "Code": "NPhuoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ninh Phước",
+            "PostAddress": "KP 5, TT Phước Dân"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NINH SƠN",
+        "Code": "NinhSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ninh Sơn",
+            "PostAddress": "KP 3, TT Tân Sơn"
+          }
+        ]
+      },
+      {
+        "District": "TP PHAN RANG - THÁP CHÀM",
+        "Code": "PRTC",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Phan Rang",
+            "PostAddress": "217, Đ Thống Nhất, P Thanh Sơn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH NGHỆ AN",
+    "CityId": "5000306",
+    "Code": "NGAN",
+    "ZipCode": "460000",
+    "Districts": [
+      {
+        "District": "HUYỆN ANH SƠN",
+        "Code": "AnhSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Anh Sơn",
+            "PostAddress": "Khối 5, TT Anh Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CON CUÔNG",
+        "Code": "ConCuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Con Cuông",
+            "PostAddress": "Khối 5, TT Con Cuông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN DIỄN CHÂU",
+        "Code": "DienChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Diễn Châu",
+            "PostAddress": "Khối 4, TT Diễn Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐÔ LƯƠNG",
+        "Code": "DoLuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đô Lương",
+            "PostAddress": "Khối 6, TT Đô Lương"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HƯNG NGUYÊN",
+        "Code": "HNguyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hưng Nguyên",
+            "PostAddress": "Khối 15, TT Hưng Nguyên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KỲ SƠN",
+        "Code": "KSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kỳ Sơn",
+            "PostAddress": "K4, TT Mường Xén"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NAM ĐÀN",
+        "Code": "NamDan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nam Đàn",
+            "PostAddress": "Khối Phan Bội Châu, TT Nam Đàn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGHI LỘC",
+        "Code": "NghiLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nghi Lộc",
+            "PostAddress": "Khối 4, TT Quán Hành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGHĨA ĐÀN",
+        "Code": "NghiaDan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục 1-5",
+            "PostAddress": "Khối Tân Hiếu, TT Nghĩa Đàn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUẾ PHONG",
+        "Code": "QuePhong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quế Phong",
+            "PostAddress": "Khối 8, Kim Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUỲ HỢP",
+        "Code": "QuyHop",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quỳ Hợp",
+            "PostAddress": "Khối Đông Hồ TT"
+          },
+          {
+            "PostName": "Bưu cục Quán Dinh",
+            "PostAddress": "Xóm Dinh Xã Nghĩa Xuân TT"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUỲNH LƯU",
+        "Code": "QuynhLuu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quỳnh Lưu",
+            "PostAddress": "Khối 1, TT Cầu Giát"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN KỲ",
+        "Code": "TanKy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Kỳ",
+            "PostAddress": "Khối 7, TT Tân Kỳ"
+          },
+          {
+            "PostName": "Bưu cục Tân An",
+            "PostAddress": "Tân An, Tân Kỳ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TƯƠNG DƯƠNG",
+        "Code": "TDuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tương Dương",
+            "PostAddress": "Khối Hòa Bắc TT"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN THÀNH",
+        "Code": "YenThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Thành",
+            "PostAddress": "Khối 2, TT Yên Thành"
+          },
+          {
+            "PostName": "Bưu cục Bảo Nham",
+            "PostAddress": "Xóm Trại, Xã Bảo Thành"
+          },
+          {
+            "PostName": "Bưu cục Hậu Thành",
+            "PostAddress": "Xóm Chợ Mõ, Xã Hậu Thành"
+          }
+        ]
+      },
+      {
+        "District": "TP VINH",
+        "Code": "Vinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Vinh",
+            "PostAddress": "02, Đ NTMK, P Hưng Bình"
+          },
+          {
+            "PostName": "Bưu cục Phượng Hoàng",
+            "PostAddress": "181 Nguyễn Du"
+          },
+          {
+            "PostName": "Bưu cục Đông Vĩnh",
+            "PostAddress": "52 Nguyễn Trường Tộ"
+          },
+          {
+            "PostName": "Bưu cục Bưu cục 3/2",
+            "PostAddress": "Đại lộ Lê Nin"
+          },
+          {
+            "PostName": "Bưu cục Chợ ga",
+            "PostAddress": "2 Phan Bội Châu"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ CỬA LÒ",
+        "Code": "CuaLo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cửa Lò",
+            "PostAddress": "01, Xóm 3, P Nghi Hương"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ THÁI HÒA",
+        "Code": "ThaiHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thái Hòa Nghĩa Đàn",
+            "PostAddress": "Khối Tân Tiến, P Hòa Hiếu"
+          },
+          {
+            "PostName": "Bưu cục Chợ Mới",
+            "PostAddress": "Xóm 8, Nghĩa Thuận"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH PHÚ THỌ",
+    "CityId": "5000295",
+    "Code": "PTHO",
+    "ZipCode": "290000",
+    "Districts": [
+      {
+        "District": "HUYỆN CẨM KHÊ",
+        "Code": "CamKhe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cẩm Khê",
+            "PostAddress": "Khu 9 TT Sông Thao"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐOAN HÙNG",
+        "Code": "DoanHung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đoan Hùng",
+            "PostAddress": "TT Đoan Hùng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HẠ HÒA",
+        "Code": "HaHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hạ Hòa",
+            "PostAddress": "Khu 8, TT Hạ Hòa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LÂM THAO",
+        "Code": "LamThao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lâm Thao",
+            "PostAddress": "TT Lâm Thao"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÙ NINH",
+        "Code": "PhNinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phù Ninh",
+            "PostAddress": "Khu Núi Trang, TT Phong Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TAM NÔNG",
+        "Code": "TNong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tam Nông",
+            "PostAddress": "Khu 7, TT Hưng Hóa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH BA",
+        "Code": "ThanhBa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Ba",
+            "PostAddress": "Khu 6, TT Thanh Ba"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH SƠN",
+        "Code": "ThSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Sơn",
+            "PostAddress": "Phố Hoàng Sơn, TT Thanh Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THANH THỦY",
+        "Code": "ThThuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Thủy",
+            "PostAddress": "TT Thanh Thủy"
+          }
+        ]
+      },
+      {
+        "District": "TP VIỆT TRÌ",
+        "Code": "VietTri",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Việt Trì",
+            "PostAddress": "Đ Đại Lộ Hùng Vương, P Tiên Cát"
+          },
+          {
+            "PostName": "Bưu cục Tiên Cát",
+            "PostAddress": "1172 Hùng Vương, P Tiên Cát"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ PHÚ THỌ",
+        "Code": "PhuTho",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Thọ",
+            "PostAddress": "85 phố Nguyễn Du, P. Phong Châu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH PHÚ YÊN",
+    "CityId": "5000315",
+    "Code": "PYEN",
+    "ZipCode": "620000",
+    "Districts": [
+      {
+        "District": "HUYỆN ĐÔNG HÒA",
+        "Code": "DongHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hòa Vinh",
+            "PostAddress": "TT Hòa Vinh"
+          },
+          {
+            "PostName": "Bưu cục Phú Hiệp",
+            "PostAddress": "Phú Hiệp, TT Hòa Hiệp Trung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SÔNG HINH",
+        "Code": "SongHinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sông Hinh",
+            "PostAddress": "Khu phố 6, TT Hai Riêng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂY HÒA",
+        "Code": "TayHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Thứ",
+            "PostAddress": "Phú Thứ, TT Phú Thứ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TUY AN",
+        "Code": "TuyAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tuy An",
+            "PostAddress": "40 Lê Thành Phương, TT Chí Thạnh"
+          }
+        ]
+      },
+      {
+        "District": "TP TUY HÒA",
+        "Code": "TuyHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Tuy Hòa",
+            "PostAddress": "206A, Đường Trần Hưng Đạo, Phường 4"
+          },
+          {
+            "PostName": "Bưu cục Phú Lâm",
+            "PostAddress": "271 Nguyễn Văn Linh, Phú Lâm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH QUẢNG BÌNH",
+    "CityId": "5000308",
+    "Code": "QBINH",
+    "ZipCode": "510000",
+    "Districts": [
+      {
+        "District": "TP ĐỒNG HỚI",
+        "Code": "DongHoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồng Hới",
+            "PostAddress": "01, Đ Trần Hưng Đạo, P Đồng Phú"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH QUẢNG NAM",
+    "CityId": "5000312",
+    "Code": "QNAM",
+    "ZipCode": "560000",
+    "Districts": [
+      {
+        "District": "HUYỆN DUY XUYÊN",
+        "Code": "DuyXuyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Duy Xuyên",
+            "PostAddress": "Long Xuyên, TT Nam Phước"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐẠI LỘC",
+        "Code": "DaiLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Đại Lộc",
+            "PostAddress": "Khu 2 TT Ái Nghĩa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NÚI THÀNH",
+        "Code": "NuiThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Núi Thành",
+            "PostAddress": "Khối 3 TT Núi Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHƯỚC SƠN",
+        "Code": "PhuocSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phước Sơn",
+            "PostAddress": "Khối 4, TT Khâm Đức"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUẾ SƠN",
+        "Code": "QueSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Quế Sơn",
+            "PostAddress": "232 Hùng Vương, TT Đông Phú"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THĂNG BÌNH",
+        "Code": "ThBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Thăng Bình",
+            "PostAddress": "Tổ 7, Hà Lam"
+          }
+        ]
+      },
+      {
+        "District": "TP HỘI AN",
+        "Code": "HoiAn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hội An",
+            "PostAddress": " 06, Đ Trần Hưng Đạo, P Minh An"
+          }
+        ]
+      },
+      {
+        "District": "TP TAM KỲ",
+        "Code": "TamKy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Tam Kỳ",
+            "PostAddress": "18, Đ Trần Cao Vân, P An Xuân"
+          },
+          {
+            "PostName": "Bưu cục An Xuân",
+            "PostAddress": "02 Phan Bội Châu"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ ĐIỆN BÀN",
+        "Code": "DienBan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TX Điện Bàn",
+            "PostAddress": "189 Trần Nhân Tông, P Vĩnh Điện"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH QUẢNG NINH",
+    "CityId": "5000293",
+    "Code": "QNINH",
+    "ZipCode": "200000",
+    "Districts": [
+      {
+        "District": "TP CẨM PHẢ",
+        "Code": "CamPha",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cẩm Phả",
+            "PostAddress": "375, Đ.Trần Phú, P.Cẩm Thành"
+          }
+        ]
+      },
+      {
+        "District": "TP HẠ LONG",
+        "Code": "HaLong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hòn Gai",
+            "PostAddress": "539, Đ. Lê Thánh Tông, P. Bạch Đằng"
+          }
+        ]
+      },
+      {
+        "District": "TP MÓNG CÁI",
+        "Code": "MongCai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Móng Cái",
+            "PostAddress": "1, Đ.Hùng Vương, P. Hoà Lạc"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ QUẢNG YÊN",
+        "Code": "QuangYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quảng Yên",
+            "PostAddress": "36 Ngô Quyền TX Quảng Yên"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH QUẢNG NGÃI",
+    "CityId": "5000313",
+    "Code": "QNGAI",
+    "ZipCode": "570000",
+    "Districts": [
+      {
+        "District": "HUYỆN BÌNH SƠN",
+        "Code": "BinhSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Sơn",
+            "PostAddress": "Khu vực 2, TT.Châu Ổ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỨC PHỔ",
+        "Code": "DucPho",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đức Phổ",
+            "PostAddress": "Khối 5, TT. Đức Phổ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỘ ĐỨC",
+        "Code": "MoDuc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mộ Đức",
+            "PostAddress": "Khối 1, TT. Mộ Đức"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SƠN TỊNH",
+        "Code": "SonTinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sơn Tịnh",
+            "PostAddress": "Thị Trấn Sơn Tịnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TƯ NGHĨA",
+        "Code": "TuNghia",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tư Nghĩa",
+            "PostAddress": " Khối 3,La Hà "
+          }
+        ]
+      },
+      {
+        "District": "TP QUẢNG NGÃI",
+        "Code": "QuNgai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Quảng Ngãi",
+            "PostAddress": "80, Đ. Phan Đình Phùng, P. Nguyễn Nghiêm"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH QUẢNG TRỊ",
+    "CityId": "5000309",
+    "Code": "QTRI",
+    "ZipCode": "520000",
+    "Districts": [
+      {
+        "District": "HUYỆN VĨNH LINH",
+        "Code": "VinhLinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Linh",
+            "PostAddress": "Đường Lê Duẩn, TT Hồ Xá"
+          }
+        ]
+      },
+      {
+        "District": "TP ĐÔNG HÀ",
+        "Code": "DongHa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đông Hà",
+            "PostAddress": "22, Đ.Trần Hưng Đạo, P.1"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ QUẢNG TRỊ",
+        "Code": "QuangTri",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TT Quảng Trị",
+            "PostAddress": "244 Trần Hưng Đạo, Thị xã Quảng Trị"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH SÓC TRĂNG",
+    "CityId": "5000340",
+    "Code": "SOCTR",
+    "ZipCode": "950000",
+    "Districts": [
+      {
+        "District": "HUYỆN CÙ LAO DUNG",
+        "Code": "CLDung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cù Lao Dung",
+            "PostAddress": "A Ấp Phước Hòa B, TT Cù Lao Dung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KẾ SÁCH",
+        "Code": "KeSach",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kế Sách",
+            "PostAddress": "93 Đường 30/4"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LONG PHÚ",
+        "Code": "LongPhu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Long Phú",
+            "PostAddress": "Ấp 3, TT. Long Phú"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỸ TÚ",
+        "Code": "MyTu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mỹ Tú",
+            "PostAddress": "Ấp Cầu Đồn TT Huỳnh Hữu Nghĩa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỸ XUYÊN",
+        "Code": "MyXuyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mỹ Xuyên",
+            "PostAddress": "05 Lê Lợi Ấp Châu Thành, TT Mỹ Xuyên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THẠNH TRỊ",
+        "Code": "ThanhTri",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thạnh Trị",
+            "PostAddress": "Ấp 2 Quốc Lộ 1A TT Phú Lộc"
+          }
+        ]
+      },
+      {
+        "District": "TP SÓC TRĂNG",
+        "Code": "SocTrang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sóc Trăng",
+            "PostAddress": "01, Đ Trần Hưng Đạo, P. 3"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ NGÃ NĂM",
+        "Code": "NgaNam",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ngã Năm",
+            "PostAddress": "Ấp 1 TT Ngã Năm"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ VĨNH CHÂU",
+        "Code": "VinhChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Xã Vĩnh Châu",
+            "PostAddress": "Khu II, P 2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH SƠN LA",
+    "CityId": "5000288",
+    "Code": "SONLA",
+    "ZipCode": "360000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẮC YÊN",
+        "Code": "BacYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bắc Yên",
+            "PostAddress": "Tiểu khu 1, TT Bắc Yên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MAI SƠN",
+        "Code": "MaiSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mai Sơn",
+            "PostAddress": "Tiểu khu 6, TT Hát Lót"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MỘC CHÂU",
+        "Code": "MocChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mộc Châu",
+            "PostAddress": "Tiểu khu 4, TT Mộc Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MƯỜNG LA",
+        "Code": "MuongLa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mường La",
+            "PostAddress": "Bản Hua Ít, TT Ít Ong"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÙ YÊN",
+        "Code": "PhuYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phù Yên",
+            "PostAddress": "Khối 5, TT Phù Yên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUỲNH NHAI",
+        "Code": "QuNhai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quỳnh Nhai",
+            "PostAddress": "Xóm 2 Xã Mường Giàng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SÔNG MÃ",
+        "Code": "SongMa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sông Mã",
+            "PostAddress": "Tổ 8, TT Sông Mã"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SỐP CỘP",
+        "Code": "SopCop",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sốp Cộp",
+            "PostAddress": "Khu phố Đ. thư Btá Huyện lỵ, Xã Sốp Cộp"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THUẬN CHÂU",
+        "Code": "ThChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thuận Châu",
+            "PostAddress": "Tiểu khu 14 TT Thuận Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN CHÂU",
+        "Code": "YenChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Châu",
+            "PostAddress": "Tiểu khu 2, TT Yên Châu"
+          }
+        ]
+      },
+      {
+        "District": "TP SƠN LA",
+        "Code": "SonLa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Sơn La",
+            "PostAddress": "172, Tổ 5, Phường Tô Hiệu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH TÂY NINH",
+    "CityId": "5000325",
+    "Code": "TAYN",
+    "ZipCode": "840000",
+    "Districts": [
+      {
+        "District": "HUYỆN BẾN CẦU",
+        "Code": "BenCau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bến Cầu",
+            "PostAddress": "TT Bến Cầu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "CThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "TT Châu Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN DƯƠNG MINH CHÂU",
+        "Code": "DMChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Dương Minh Châu",
+            "PostAddress": "TT Dương Minh Châu "
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GÒ DẦU",
+        "Code": "GoDau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Gò Dầu",
+            "PostAddress": "Ô 2/48, Ấp Thanh Hà"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÒA THÀNH",
+        "Code": "HoaThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hòa Thành",
+            "PostAddress": "Khu phố 4, TT Hoà Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN BIÊN",
+        "Code": "TanBien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Biên",
+            "PostAddress": "PKhu phố 2, TT Tân Biên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN CHÂU",
+        "Code": "TChau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Châu",
+            "PostAddress": "Khu phố 1, TT Tân Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRẢNG BÀNG",
+        "Code": "TraBang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trảng Bàng",
+            "PostAddress": "146, Đường Quốc Lộ 22"
+          }
+        ]
+      },
+      {
+        "District": "TP TÂY NINH",
+        "Code": "TNinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tây Ninh",
+            "PostAddress": "285, Đ.Cách Mạng Tháng 8, P.3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH TIỀN GIANG",
+    "CityId": "5000331",
+    "Code": "TIGIANG",
+    "ZipCode": "860000",
+    "Districts": [
+      {
+        "District": "HUYỆN CÁI BÈ",
+        "Code": "CaiBe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cái Bè",
+            "PostAddress": "Khu 1A, TT Cái Bè"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChaThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "Ấp Cá, TT Tân Hiệp"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHỢ GẠO",
+        "Code": "ChoGao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Gạo",
+            "PostAddress": "Ô1, khu 2, TT Chợ Gạo"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GÒ CÔNG ĐÔNG",
+        "Code": "GCDong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Gò Công Đông",
+            "PostAddress": "Khu phố Hòa Thơm, TT Tân Hòa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN GÒ CÔNG TÂY",
+        "Code": "GCTay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Gò Công Tây",
+            "PostAddress": "Thiện Chí, TT Vĩnh Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TÂN PHƯỚC",
+        "Code": "TanPhuoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tân Phước",
+            "PostAddress": "Khu 1, TT Mỹ Phước"
+          }
+        ]
+      },
+      {
+        "District": "TP MỸ THO",
+        "Code": "MyTho",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mỹ Tho",
+            "PostAddress": "59, Đường 30/4, Phường 1"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ CAI LẬY",
+        "Code": "CaiLay",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cai Lậy",
+            "PostAddress": "62, Đường Quốc Lộ 1A, TT Cai Lậy"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ GÒ CÔNG",
+        "Code": "GoCong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thị Xã Gò Công",
+            "PostAddress": "4, Đường Hai Bà Trưng, Phường 2"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH TUYÊN QUANG",
+    "CityId": "5000284",
+    "Code": "TUQUANG",
+    "ZipCode": "300000",
+    "Districts": [
+      {
+        "District": "HUYỆN CHIÊM HÓA",
+        "Code": "ChiemHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chiêm Hoá",
+            "PostAddress": "TT Vĩnh Lộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÀM YÊN",
+        "Code": "HamYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hàm Yên",
+            "PostAddress": "TT Tân Yên"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NA HANG",
+        "Code": "NaHang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Na Hang",
+            "PostAddress": "TT Na Hang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN SƠN DƯƠNG",
+        "Code": "SonDuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sơn Dương",
+            "PostAddress": "TT Sơn Dương"
+          }
+        ]
+      },
+      {
+        "District": "TP TUYÊN QUANG",
+        "Code": "TQuang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Sơn",
+            "PostAddress": "Phường Hưng Thành"
+          },
+          {
+            "PostName": "Bưu cục Minh Xuân",
+            "PostAddress": "Phường Minh Xuân"
+          },
+          {
+            "PostName": "Bưu cục TP Tuyên Quang",
+            "PostAddress": "Tổ 24, Phường Phan Thiết"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH THÁI BÌNH",
+    "CityId": "5000301",
+    "Code": "THBINH",
+    "ZipCode": "410000",
+    "Districts": [
+      {
+        "District": "HUYỆN ĐÔNG HƯNG",
+        "Code": "DongHung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đông Hưng",
+            "PostAddress": "Tổ 8, TT. Đông Hưng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HƯNG HÀ",
+        "Code": "HungHa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hưng Hà",
+            "PostAddress": "Thị trấn Hưng Hà"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN KIẾN XƯƠNG",
+        "Code": "KXuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Kiến Xương",
+            "PostAddress": "80 Cộng Hoà, TT Thanh Nê"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUỲNH PHỤ",
+        "Code": "QuPhu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quỳnh Phụ",
+            "PostAddress": "Khu 1, TT Quỳnh Côi"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TIỀN HẢI",
+        "Code": "TienHai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tiền Hải",
+            "PostAddress": "TT Tiền Hải"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THÁI THỤY",
+        "Code": "ThaiThuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thái Thụy",
+            "PostAddress": "Khu 6, TT Diêm Điền"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VŨ THƯ",
+        "Code": "VuThu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vũ Thư",
+            "PostAddress": "Thị trấn Vũ Thư"
+          }
+        ]
+      },
+      {
+        "District": "TP THÁI BÌNH",
+        "Code": "ThaiBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thái Bình",
+            "PostAddress": "Phố Lý Bôn, Phường Đề Thám"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH THÁI NGUYÊN",
+    "CityId": "5000291",
+    "Code": "THNGUYEN",
+    "ZipCode": "250000",
+    "Districts": [
+      {
+        "District": "HUYỆN ĐẠI TỪ",
+        "Code": "DaiTu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đại Từ",
+            "PostAddress": "TTT Đại Từ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỊNH HÓA",
+        "Code": "Định Hóa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Định Hoá",
+            "PostAddress": "TT Chợ Chu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐỒNG HỶ",
+        "Code": "DongHy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đồng Hỷ",
+            "PostAddress": "TT Chùa Hang Huyện"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ BÌNH",
+        "Code": "PhuBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Bình",
+            "PostAddress": "TT Hương Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ LƯƠNG",
+        "Code": "PLuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Lương",
+            "PostAddress": "TT Đu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VÕ NHAI",
+        "Code": "VoNhai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Võ Nhai",
+            "PostAddress": "TT Đình Cả"
+          }
+        ]
+      },
+      {
+        "District": "TP SÔNG CÔNG",
+        "Code": "SongCong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sông Công",
+            "PostAddress": "P Cải Đan"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ PHỔ YÊN",
+        "Code": "PhoYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phổ Yên",
+            "PostAddress": "P Ba Hàng"
+          }
+        ]
+      },
+      {
+        "District": "TP THÁI NGUYÊN",
+        "Code": "ThaiNgn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thái Nguyên",
+            "PostAddress": "10, CMT8, P.Phan Đình Phùng"
+          },
+          {
+            "PostName": "Bưu cục Đồng Quang",
+            "PostAddress": "P= Hoàng Văn Thụ"
+          },
+          {
+            "PostName": "Bưu cục Mỏ Bạch",
+            "PostAddress": "Đ= Bắc Kạn, P. Hoàng Văn Thụ"
+          },
+          {
+            "PostName": "Bưu cục Quan Triều",
+            "PostAddress": "P= Quan Triều"
+          },
+          {
+            "PostName": "Bưu cục Thịnh Đán",
+            "PostAddress": "Tổ 22, P. Thịnh Đán"
+          },
+          {
+            "PostName": "Bưu cục Phú Xá",
+            "PostAddress": "P Phú Xá"
+          },
+          {
+            "PostName": "Bưu cục Lưu Xá",
+            "PostAddress": "Tổ 20 P Hương Sơn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH THANH HÓA",
+    "CityId": "5000305",
+    "Code": "THOA",
+    "ZipCode": "440000",
+    "Districts": [
+      {
+        "District": "HUYỆN CẨM THỦY",
+        "Code": "CamThuy",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cẩm Thủy",
+            "PostAddress": "Tổ 2, TT Cẩm Thủy"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN ĐÔNG SƠN",
+        "Code": "DongSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Đông Sơn",
+            "PostAddress": "Khối 4, TT Rừng Thông"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HÀ TRUNG",
+        "Code": "HaTrung",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hà Trung",
+            "PostAddress": "Tiểu khu 6, Hà Trung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HẬU LỘC",
+        "Code": "HauLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Hậu Lộc",
+            "PostAddress": "Khu 1, TT Hậu Lộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN HOẰNG HÓA",
+        "Code": "HoangHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nhĩa Trang ",
+            "PostAddress": "Thôn Ga, Hoằng Trung"
+          },
+          {
+            "PostName": "Bưu cục Hoằng Hóa",
+            "PostAddress": "Tiểu Khu Vinh Sơn, TT Bút Sơn"
+          },
+          {
+            "PostName": "Bưu cục Chợ Vực",
+            "PostAddress": "Thôn 6, Hoằng Ngọc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LANG CHÁNH",
+        "Code": "LChanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lang Chánh",
+            "PostAddress": "Phố 3, TT Lang Chánh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NÔNG CỐNG",
+        "Code": "NongCong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nông Cống",
+            "PostAddress": "TT Nông cống"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGA SƠN",
+        "Code": "NgaSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nga Sơn",
+            "PostAddress": "Thị Trấn Nga Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NGỌC LẶC",
+        "Code": "NgocLac",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Ngọc Lặc",
+            "PostAddress": "Phố Lê Lai"
+          },
+          {
+            "PostName": "Bưu cục Phố Xi",
+            "PostAddress": "Ba Xi, Kiên Thọ"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NHƯ THANH",
+        "Code": "NhuThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Như Thanh",
+            "PostAddress": "Khu phố 1, TT Bến Sung"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NHƯ XUÂN",
+        "Code": "NhuXuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Như Xuân",
+            "PostAddress": "Khu phố 2, TT Yên Cát"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUAN HÓA",
+        "Code": "QuanHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quan Hoá",
+            "PostAddress": "Khu 1, TT Quan Hoá"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUAN SƠN",
+        "Code": "QuanSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quan Sơn",
+            "PostAddress": "Khu 5, TT Quan Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUẢNG XƯƠNG",
+        "Code": "QuXuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Chợ Môi",
+            "PostAddress": "Phố Môi, Xã Quảng Tâm"
+          },
+          {
+            "PostName": "Bưu cục Quảng Xương",
+            "PostAddress": "Khu phố Tân Phong, TT Quảng Xương"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TĨNH GIA",
+        "Code": "TinhGia",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trung Tâm",
+            "PostAddress": "TK 6, TT Tĩnh Gia"
+          },
+          {
+            "PostName": "Bưu cục Nghi Sơn",
+            "PostAddress": "Xã Hải Thượng, Tĩnh Gia"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THẠCH THÀNH",
+        "Code": "ThaThanh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thạch Thành",
+            "PostAddress": "Khu 6, TT Kim Tân"
+          },
+          {
+            "PostName": "Bưu cục Vân Du",
+            "PostAddress": "TT Vân Du"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THIỆU HÓA",
+        "Code": "ThieuHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thiệu Hóa",
+            "PostAddress": "138 Quốc lộ 45, Tiểu khu 4, TT Vạn Hà"
+          },
+          {
+            "PostName": "Bưu cục Ba Chè",
+            "PostAddress": "Trà Thượng, Thiệu Đô, Thiệu Hóa"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THỌ XUÂN",
+        "Code": "ThoXuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thọ Xuân",
+            "PostAddress": "Khu 8, TT Thọ Xuân"
+          },
+          {
+            "PostName": "Bưu cục Mục Sơn",
+            "PostAddress": "Khu 2, TT Lam Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN THƯỜNG XUÂN",
+        "Code": "ThXuan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thường Xuân",
+            "PostAddress": "02 Cầm Bá Thước, Thường Xuân"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRIỆU SƠN",
+        "Code": "TrieuSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Triệu Sơn",
+            "PostAddress": "294 Phố Giắt, TT Triệu Sơn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH LỘC",
+        "Code": "VinhLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Lộc",
+            "PostAddress": "Khu 3, TT Vĩnh Lộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN ĐỊNH",
+        "Code": "YenDinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trung Tâm",
+            "PostAddress": "Khu 2, TT Quán Lào"
+          },
+          {
+            "PostName": "Bưu cục Kiểu",
+            "PostAddress": "Phố Kiểu, Yên Trường"
+          }
+        ]
+      },
+      {
+        "District": "TP SẦM SƠN",
+        "Code": "SamSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Sầm Sơn",
+            "PostAddress": "Đường Nguyễn Du, P. Trường Sơn"
+          },
+          {
+            "PostName": "Bưu cục Quảng Tiến",
+            "PostAddress": "KP Trung Thịnh, Quảng Tiến"
+          }
+        ]
+      },
+      {
+        "District": "TP THANH HÓA",
+        "Code": "ThHoa",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Thanh Hóa",
+            "PostAddress": "33, Phố Trần Phú, P.Điện Biên"
+          },
+          {
+            "PostName": "Bưu cục Cầu Tào",
+            "PostAddress": "22 TK Phượng Đình 1 P. Tào Xuyên"
+          },
+          {
+            "PostName": "Bưu cục Lai Thành",
+            "PostAddress": "384 Lê Lai, P Đông Sơn"
+          },
+          {
+            "PostName": "Bưu cục Đông Vệ",
+            "PostAddress": "179 Hải Thượng Lãn Ông"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ BỈM SƠN",
+        "Code": "BimSon",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bỉm Sơn",
+            "PostAddress": "47, Đ. Nguyễn Huệ, P. Ngọc Trạo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH THỪA THIÊN HUẾ",
+    "CityId": "5000310",
+    "Code": "TTHUE",
+    "ZipCode": "530000",
+    "Districts": [
+      {
+        "District": "HUYỆN A LƯỚI",
+        "Code": "ALuoi",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục A Lưới",
+            "PostAddress": "184 Đ Hồ Chí Minh TT A Lưới"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN NAM ĐÔNG",
+        "Code": "NamDong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nam Đông",
+            "PostAddress": "Khu Vực 2 TT Khe Tre"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHONG ĐIỀN",
+        "Code": "PhoDien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phong Điền",
+            "PostAddress": "Thôn Trạch Thượng 1, TT. Phong Điền"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ LỘC",
+        "Code": "PhuLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Lộc",
+            "PostAddress": "118 Lý Thánh Tông, TT Phú Lộc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN PHÚ VANG",
+        "Code": "PhuVang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Vang",
+            "PostAddress": "Tổ Dân Phố Hòa Đa Tây TT Phú Đa"
+          },
+          {
+            "PostName": "Bưu cục Trung Đông",
+            "PostAddress": "Thôn Trung Đông, Xã Phú Thượng"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN QUẢNG ĐIỀN",
+        "Code": "QDien",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Quảng Điền",
+            "PostAddress": "Thôn Khuôn Phò Nam TT Sịa"
+          }
+        ]
+      },
+      {
+        "District": "TP HUẾ",
+        "Code": "Hue",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Huế",
+            "PostAddress": "8, Đ.Hoàng Hoa Thám, P.Vĩnh Ninh"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ PHÚ LỘC",
+        "Code": "PhuLoc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phú Lộc",
+            "PostAddress": "118 Lý Thánh Tông TT Phú Lộc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH TRÀ VINH",
+    "CityId": "5000333",
+    "Code": "TRAV",
+    "ZipCode": "940000",
+    "Districts": [
+      {
+        "District": "HUYỆN CÀNG LONG",
+        "Code": "CaLong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Càng Long",
+            "PostAddress": "Khóm 4 TT Càng Long"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CẦU KÈ",
+        "Code": "CauKe",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cầu Kè",
+            "PostAddress": "Khóm 5 TT Cầu Kè"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CẦU NGANG",
+        "Code": "CauNGang",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Cầu Ngang",
+            "PostAddress": "Khóm Minh Thuận B, TT Cầu Ngang"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN CHÂU THÀNH",
+        "Code": "ChauTh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Châu Thành",
+            "PostAddress": "Khóm 2 TT Châu Thành"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TIỂU CẦN",
+        "Code": "TieuCan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tiểu Cần",
+            "PostAddress": "Khóm 1 TT Tiểu Cần"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRÀ CÚ",
+        "Code": "TraCu",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trà Cú",
+            "PostAddress": "Khóm 4 TT Trà Cú"
+          }
+        ]
+      },
+      {
+        "District": "TP TRÀ VINH",
+        "Code": "TraVinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục TP Trà Vinh",
+            "PostAddress": "70A, Đường Hùng Vương, P.4"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ DUYÊN HẢI",
+        "Code": "DuyenHai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Duyên Hải",
+            "PostAddress": "Khu Tổ 3, TX Duyên Hải"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH VĨNH LONG",
+    "CityId": "5000334",
+    "Code": "VLONG",
+    "ZipCode": "890000",
+    "Districts": [
+      {
+        "District": "HUYỆN BÌNH TÂN",
+        "Code": "BiTan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Tân",
+            "PostAddress": "Tổ 15,Ấp Tân Thuận, Xã Tân Quới"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LONG HỒ",
+        "Code": "LongHo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Long Hồ",
+            "PostAddress": "Khóm 1, TT Long Hồ"
+          },
+          {
+            "PostName": "Bưu cục KCN Hòa Phú",
+            "PostAddress": "30/9 ấp Phước Hòa xã Hòa Phú"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MANG THÍT",
+        "Code": "MangThit",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mang Thít",
+            "PostAddress": "Khóm 1, TT Cái Nhum"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TAM BÌNH",
+        "Code": "TamBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tam Bình",
+            "PostAddress": "Khóm 3, TT Tam Bình"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRÀ ÔN",
+        "Code": "TraOn",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trà Ôn",
+            "PostAddress": "10A Lê Văn Duyệt, khu 1, TT Trà Ôn"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VŨNG LIÊM",
+        "Code": "VungLiem",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vũng Liêm",
+            "PostAddress": "Khóm 1, TT Vũng Liêm"
+          }
+        ]
+      },
+      {
+        "District": "TP VĨNH LONG",
+        "Code": "VinhLong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Long",
+            "PostAddress": "12C, Đ Hoàng Thái Hiếu"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ BÌNH MINH",
+        "Code": "BinhMinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Minh",
+            "PostAddress": "127/15, Khóm 1, P Cái Vồn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH VĨNH PHÚC",
+    "CityId": "5000296",
+    "Code": "VPHUC",
+    "ZipCode": "280000",
+    "Districts": [
+      {
+        "District": "HUYỆN BÌNH XUYÊN",
+        "Code": "BiXuyen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Bình Xuyên",
+            "PostAddress": "TT Hương Canh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN LẬP THẠCH",
+        "Code": "LThach",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lập Thạch",
+            "PostAddress": "TT Lập Thạch"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TAM ĐẢO",
+        "Code": "TamDao",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Tam Đảo",
+            "PostAddress": "Xã Hợp Châu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĨNH TƯỜNG",
+        "Code": "VTuong",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Tường",
+            "PostAddress": "Xã Vũ Di"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN LẠC",
+        "Code": "YenLac",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Lạc",
+            "PostAddress": "TT khu 3 Đoài TT Yên Lạc"
+          }
+        ]
+      },
+      {
+        "District": "TP VĨNH PHÚC",
+        "Code": "VinhPhuc",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Vĩnh Phúc",
+            "PostAddress": "2, Đ.Ngô Quyền, P.Ngô Quyền "
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ PHÚC YÊN",
+        "Code": "PhucYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Phúc Yên",
+            "PostAddress": "Xã Tiền Châu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "City": "TỈNH YÊN BÁI",
+    "CityId": "5000289",
+    "Code": "YENB",
+    "ZipCode": "320000",
+    "Districts": [
+      {
+        "District": "HUYỆN LỤC YÊN",
+        "Code": "LucYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Lục Yên",
+            "PostAddress": "324 Nguyễn Tất Thành TT Yên Thế"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN MÙ CĂNG CHẢI",
+        "Code": "MCChai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Mù Cang Chải",
+            "PostAddress": "Đường Nội Thị, TT Mù Cang Chải"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRẠM TẤU",
+        "Code": "TramTau",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trạm Tấu",
+            "PostAddress": "Đường Nội Thị, TT Trạm Tấu"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN TRẤN YÊN",
+        "Code": "TranYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Trấn Yên",
+            "PostAddress": "Khu Phố 3, TT Cổ Phúc"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĂN CHẤN",
+        "Code": "VanChan",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Văn Chấn",
+            "PostAddress": "Khu Thị Trấn, Xã Sơn Thịnh"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN VĂN YÊN",
+        "Code": "VanYen",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Văn Yên",
+            "PostAddress": "Tổ 1 Khu Phố 3, TT Mậu A"
+          }
+        ]
+      },
+      {
+        "District": "HUYỆN YÊN BÌNH",
+        "Code": "YenBinh",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Bình",
+            "PostAddress": "Tổ 8,TT Yên Bình"
+          }
+        ]
+      },
+      {
+        "District": "TP YÊN BÁI",
+        "Code": "YenBai",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Yên Bái Ga",
+            "PostAddress": "25, Đ.Trần Hưng Đạo, P.Hồng Hà"
+          },
+          {
+            "PostName": "Bưu cục Yên Bái Km5",
+            "PostAddress": "27 Đinh Tiên Hoàng, P.Đồng Tâm "
+          },
+          {
+            "PostName": "Bưu cục Yên Hòa",
+            "PostAddress": "127 Đại Lộ Nguyễn Thái Học"
+          }
+        ]
+      },
+      {
+        "District": "THỊ XÃ NGHĨA LỘ",
+        "Code": "NghiaLo",
+        "PostNames": [
+          {
+            "PostName": "Bưu cục Nghĩa Lộ",
+            "PostAddress": "Tổ 18 Phường Trung Tâm"
+          }
+        ]
+      }
+    ]
+  }
+]

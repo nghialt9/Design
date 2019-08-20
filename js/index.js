@@ -21,6 +21,9 @@ angular.module('app', [])
     .component('luckydraw', {
         templateUrl: './html/luckydraw.html'
     })
+    .component('presentee', {
+        templateUrl: './html/presentee.html'
+    })
     .controller('appCtrl', function ($scope, $interval, $http) {
         var vm = this;
         //khởi tạo hàm chạy và khai báo biến
@@ -106,7 +109,7 @@ angular.module('app', [])
         $scope.strQuantity = '';
         $scope.strQuantity = $scope.Quantity.toString();
         initSoNgauNhien();
-        //lấy quả Quantity từ API
+        //lấy kết quả Quantity từ API
         // vm.getQuantity = function () {
         //     $scope.listsShow = null;
         //     vm.loading = true;
@@ -265,6 +268,112 @@ angular.module('app', [])
                 });
             }
         };
+
+        // presentee
+        $scope.locations = {};
+
+        //vm.isLoggedIn = $rootScope.authenticationService.isLoggedIn;
+        vm.show = true;
+        //vm.phone = $rootScope.authenticationService.phone;
+        vm.form = {
+            Presentee: {
+                FullName: null,
+                IdentityCardNumber: null,
+                PhoneNumber: null,
+                ReferralCode: null
+            },
+            PostLocation: {
+                PostName: null,
+                PostAddress: "",
+                District: null,
+                Province: null,
+                PresenteeReferralCode: null
+            }
+        };
+
+        // if (!vm.isLoggedIn) {
+        //     window.location = '/dang-nhap';
+        // }
+
+        $http.get('json/post-locations.json').then(function (response) {
+            angular.forEach(response.data, function (location) {
+                $scope.locations[location.City] = {
+                    Districts: {}
+                }
+                angular.forEach(location.Districts, function (district) {
+                    $scope.locations[location.City].Districts[district.District] = {
+                        PostNames: {}
+                    }
+                    angular.forEach(district.PostNames, function (postName) {
+                        $scope.locations[location.City].Districts[district.District].PostNames[postName.PostName] = {
+                            PostName: postName.PostName,
+                            PostAddress: postName.PostAddress
+                        }
+                    })
+                })
+            })
+        })
+
+        // $http.get(window._env.services.Service + '/api/presentee/get-app-num/' + vm.phone).then(function (response) {
+        //     vm.form.Presentee.ReferralCode = response.data;
+        //     vm.form.PostLocation.PresenteeReferralCode = response.data;
+
+        //     $http.get(window._env.services.Service + '/api/presentee/get-post-location/' + response.data).then(function (response) {
+        //         vm.form.PostLocation.PostName = response.data.PostName;
+        //         vm.form.PostLocation.PostAddress = response.data.PostAddress;
+        //         vm.form.PostLocation.District = response.data.District;
+        //         vm.form.PostLocation.Province = response.data.Province;
+        //     })
+        // })
+
+        vm.submitPresenteeInfo = submitPresenteeInfo;
+        vm.continues = continues;
+        vm.setAddr = setAddr;
+
+        function setAddr(addr) {
+            vm.form.PostLocation.PostAddress = addr;
+        }
+
+        function continues(form) {
+            vm.show = true;
+            vm.form.Presentee.FullName = "";
+            vm.form.Presentee.IdentityCardNumber = "";
+            vm.form.Presentee.PhoneNumber = "";
+
+            form.FullName.$setUntouched();
+            form.CustomerID.$setUntouched();
+            form.MobilePhone.$setUntouched();
+
+        }
+
+        function submitPresenteeInfo(form) {
+            if (!isFormValid(form)) {
+                return;
+            }
+
+            // $http.post(window._env.services.Service + '/api/presentee', vm.form).then(function (response) {
+            //     vm.show = false;
+            // }, function (responseError) {
+            //     if (responseError.status === 400 && responseError.data && responseError.data.Message) {
+            //         alert(responseError.data.Message);
+            //     } else {
+            //         alert('Máy chủ đang bận. Xin vui lòng thử lại sau.')
+            //     }
+            // })
+        }
+
+        function isFormValid(form) {
+            if (form.$invalid) {
+
+                angular.forEach(form.$error, function (field) {
+                    angular.forEach(field, function (errorField) {
+                        errorField.$setTouched();
+                    })
+                });
+                return false;
+            }
+            return true;
+        }
         //chạy hàm khởi tạo
         init();
 
