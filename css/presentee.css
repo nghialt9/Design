@@ -82,6 +82,13 @@
     padding-left: 15px;
 }
 
+#presenteeInfoForm label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 @media screen and (max-width: 420px) {
     .form-mgt {
         width: 90%;
