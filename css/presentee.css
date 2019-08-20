@@ -82,6 +82,22 @@
     padding-left: 15px;
 }
 
+#presenteeInfoForm label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-horizontal .form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
 @media screen and (max-width: 420px) {
     .form-mgt {
         width: 90%;
