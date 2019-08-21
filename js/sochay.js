@@ -48,3 +48,40 @@ function RunMilisecondsSub() {
     }
     document.getElementById("numSub1").innerHTML = "," + milisecondsSub;
 }
+
+// nâng cao cho tag details
+    // const itemsDetails = document.querySelectorAll("details"); // lấy tất cả tag details
+    // function toggleAccordion() {
+    //     itemsDetails.forEach(item => {
+    //         if (item.open) {
+    //             item.open = false; //nếu có details đang open = true thì gán ngược lại
+    //         }
+    //     });
+    // }
+    // itemsDetails.forEach(item => item.addEventListener('click', toggleAccordion, false)); // nghe sự kiện của tag details
+
+// nâng cao cho tag details
+    // <div class="accordion v3">
+    //     <div class="accordion-item">
+    //         <a>Làm thế nào để đăng ký mở thẻ?</a>
+    //         <div class="content">
+    //             <ol>
+    //                 <li>Để đăng ký vay và nhận xét duyệt nhanh nhất trong ngày, bạn vui lòng điền đầy đủ thông
+    //                             tin cá nhân ở FORM ĐĂNG KÝ này. <b style="font-weight:bold"> Trong vòng 24h-48h </b> Chuyên
+    //             viên tư vấn Vietcredit sẽ liên hệ và hỗ trợ anh chị.
+    //                 </li>
+    //             </ol>
+    //         </div>
+    //     </div>
+    // </div>
+    // const items2 = document.querySelectorAll(".v3 a"); //lấy tất cả thẻ a
+    // function toggleAccordion() {
+    //     items2.forEach(item => {
+    //         if (item.nextElementSibling.classList.contains('active')) {
+    //             item.nextElementSibling.classList.remove('active'); // nếu có class active trong thẻ kế tiếp sau a (thẻ div) thì remove
+    //         }
+    //     });
+    //     //this.classList.toggle('active');
+    //     this.nextElementSibling.classList.toggle('active'); // gán class active cho thẻ kế tiếp sau a (thẻ div) đã click
+    // }
+    // items2.forEach(item => item.addEventListener('click', toggleAccordion)); // nghe sự kiện của tag a
