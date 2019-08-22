@@ -38,3 +38,4 @@ $res = array(
 	);
 header('Access-Control-Allow-Origin: *');
 echo json_encode($res);
+?>
