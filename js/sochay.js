@@ -85,3 +85,18 @@ function RunMilisecondsSub() {
     //     this.nextElementSibling.classList.toggle('active'); // gán class active cho thẻ kế tiếp sau a (thẻ div) đã click
     // }
     // items2.forEach(item => item.addEventListener('click', toggleAccordion)); // nghe sự kiện của tag a
+
+// Acc stringee
+    // var fromNumber = '842873030061'; //NghiaLT
+    // var access_token = 'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS3JCSnVPZ1psNENTcVMzTGREYVdlRmZrMEE0dUZ6NlBwLTE1NjYyNjg3NTkiLCJpc3MiOiJTS3JCSnVPZ1psNENTcVMzTGREYVdlRmZrMEE0dUZ6NlBwIiwiZXhwIjoxNTY4ODYwNzU5LCJ1c2VySWQiOiJOZ2hpYUxUIn0.YuFNklkg56tS47vxdS8tQZcQ3AyD8pq5ePElYE4o09M';
+    // var fromNumber = '842499966677'; //PhuocKV
+	// var access_token = 'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS2FHOWxiOTIyQVBtZHBoRG5ORkJTcGh1UTFZM2RMZk0tMTU2NjI5NzM5NSIsImlzcyI6IlNLYUc5bGI5MjJBUG1kcGhEbk5GQlNwaHVRMVkzZExmTSIsImV4cCI6MTU2ODg4OTM5NSwidXNlcklkIjoiUGh1b2NLViJ9.FsDIxDLpspapU62twrncOqEgRcIQ3ebPxT5F9SxXUjk';
+	//var fromNumber = '842477714999'; //NghiaLT99 - nghialt99@gmail.com
+	//var access_token = 'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS3owNGxCTkxSa05yQ0QzS2RDcXZQbm9PdEprdHVWWGVGLTE1NjYzOTc2NTQiLCJpc3MiOiJTS3owNGxCTkxSa05yQ0QzS2RDcXZQbm9PdEprdHVWWGVGIiwiZXhwIjoxNTY4OTg5NjU0LCJ1c2VySWQiOiJOZ2hpYUxUOTkifQ.nym-VdP70N2WAKUYXp5PNCn0kJ_bIXtsmXizZZKfc9k';
+	// var fromNumber = '842477713666'; //NghiaLT10 - nghiagiaugiangho@gmail.com
+	// var access_token = 'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS1RKNnRSS2d1YWdwaWFJZkxTallodnRxcmo4NnJWWXRKLTE1NjYzOTk4NzgiLCJpc3MiOiJTS1RKNnRSS2d1YWdwaWFJZkxTallodnRxcmo4NnJWWXRKIiwiZXhwIjoxNTY4OTkxODc4LCJ1c2VySWQiOiJOZ2hpYUxUMTAifQ.RCK0YfX6W-S_m367mYzjyVEbcEOeaY1CWv0yA63mlek';
+	// var fromNumber = '842477788808'; //NghiaLT9 - nghiagiaugiangho1990@gmail.com
+	// var access_token = 'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTS1Z0bnhhVEg1Zmlmek5wakJ4Y3M3Z2VrZlRVSmpzU2luLTE1NjY0MDAzODciLCJpc3MiOiJTS1Z0bnhhVEg1Zmlmek5wakJ4Y3M3Z2VrZlRVSmpzU2luIiwiZXhwIjoxNTY4OTkyMzg3LCJ1c2VySWQiOiJOZ2hpYUxUOSJ9.VIFt-mHiQojz7bieRyBHX89ssGshC3LjwoZGD6q9X0A';
+	// var fromNumber = '842877706999'; // NghiaLT90 - lamtrongnghia1990@gmail.com
+	// var access_token = 'eyJjdHkiOiJzdHJpbmdlZS1hcGk7dj0xIiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJqdGkiOiJTSzFlejZSdEZERlk5OEJaM01DR2U3R2xBR2tWSTltU0NGLTE1NjY0MDA5NzYiLCJpc3MiOiJTSzFlejZSdEZERlk5OEJaM01DR2U3R2xBR2tWSTltU0NGIiwiZXhwIjoxNTY4OTkyOTc2LCJ1c2VySWQiOiJOZ2hpYUxUOTAifQ.kH3SPVS1oOEfV8eKI0Du4IOP-G1PvMvLEqHUu-iP36g';
+			
