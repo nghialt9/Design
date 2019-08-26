@@ -48,13 +48,13 @@ function MouseDown(e)
     if (over)
     {
         if (isMozilla) {
-            objDiv = document.getElementById("myModal");
+            objDiv = document.getElementsByClassName("modal-content");
             X = e.layerX;
             Y = e.layerY;
             return false;
         }
         else {
-            objDiv = document.getElementById("myModal");
+            objDiv = document.getElementsByClassName("modal-content");
             objDiv = objDiv.style;
             X = event.offsetX;
             Y = event.offsetY;
