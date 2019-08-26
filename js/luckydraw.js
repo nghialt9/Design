@@ -48,7 +48,7 @@ function MouseDown(e)
     if (over)
     {
         if (isMozilla) {
-            objDiv = document.getElementBy("contentModal");
+            objDiv = document.getElementById("contentModal");
             X = e.layerX;
             Y = e.layerY;
             return false;
