@@ -39,3 +39,80 @@ function fnExcelReport() {
 
     return (sa);
 }
+
+var objDiv = null;
+function MouseDown(e) 
+{
+    if (over)
+    {
+        if (isMozilla) {
+            objDiv = document.getElementById(DivID);
+            X = e.layerX;
+            Y = e.layerY;
+            return false;
+        }
+        else {
+            objDiv = document.getElementById(DivID);
+            objDiv = objDiv.style;
+            X = event.offsetX;
+            Y = event.offsetY;
+        }
+    }
+}
+
+
+//
+//
+//
+function MouseMove(e) 
+{
+    if (objDiv) {
+        if (isMozilla) {
+            objDiv.style.top = (e.pageY-Y) + 'px';
+            objDiv.style.left = (e.pageX-X) + 'px';
+            return false;
+        }
+        else 
+        {
+            objDiv.pixelLeft = event.clientX-X + document.body.scrollLeft;
+            objDiv.pixelTop = event.clientY-Y + document.body.scrollTop;
+            return false;
+        }
+    }
+}
+
+//
+//
+//
+function MouseUp() 
+{
+    objDiv = null;
+}
+
+
+//
+//
+//
+function init()
+{
+    // check browser
+    isMozilla = (document.all) ? 0 : 1;
+
+
+    if (isMozilla) 
+    {
+        document.captureEvents(Event.MOUSEDOWN | Event.MOUSEMOVE | Event.MOUSEUP);
+    }
+
+    document.onmousedown = MouseDown;
+    document.onmousemove = MouseMove;
+    document.onmouseup = MouseUp;
+
+    // add the div
+    // used to dim the page
+	buildDimmerDiv();
+
+}
+
+// call init
+init();
