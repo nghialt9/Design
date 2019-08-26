@@ -112,8 +112,8 @@ function init()
 
     // add the div
     // used to dim the page
-	document.getElementById("contentModal").style.left = screen.width/4 + 'px';
-    document.getElementById("contentModal").style.top = screen.height/4 + 'px';
+	document.getElementById("contentModal").style.left = screen.width/3 + 'px';
+    document.getElementById("contentModal").style.top = screen.height/3 + 'px';
 
 }
 
