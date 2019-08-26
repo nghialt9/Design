@@ -503,7 +503,7 @@ td:not(.hide-border) {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 300px; /* Location of the box */
+    /* padding-top: 300px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -518,7 +518,7 @@ td:not(.hide-border) {
 .modal-content {
     position: relative;
     background-color: #fefefe;
-    margin: auto;
+    /*margin: auto; */
     padding: 0;
     border: 1px solid #888;
     width: 455px;
