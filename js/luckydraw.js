@@ -40,7 +40,9 @@ function fnExcelReport() {
     return (sa);
 }
 
+var isMozilla;
 var objDiv = null;
+var over = false;
 function MouseDown(e) 
 {
     if (over)
