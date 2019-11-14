@@ -237,6 +237,15 @@ section {
 
 /* end tabbed */
 
+#contactform .c2s-lbl-full {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    padding: 6px 0;
+    color: #464646;
+    vertical-align: top;
+}
 
 /* start cong2so */
 
