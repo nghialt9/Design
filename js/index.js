@@ -337,7 +337,6 @@ function createDot() {
 /* start check barcode */
 function check() {
     var str1 = String(document.getElementById('maVach').value);
-    if(str1.length != 13) return;
     var str = new RegExp(/\D/);
 
     //check number
@@ -347,7 +346,11 @@ function check() {
     }
 
     //declare variable
-    var even = 0, odd = 0, sumEven = 0, sumOdd = 0, sum = 0, multiples = 0, result = '';
+    var even = 0, odd = 0, sumEven = 0, sumOdd = 0, sum = 0, multiples = 0;
+    if(str1.length != 13){
+        document.getElementById('resultC').innerHTML = 'Đang nhập liệu...';
+        return;
+    }
     var str2 = str1.substr(0, str1.length - 1);
     var latsnum = Number(str1.substr(str1.length - 1));
 
@@ -371,9 +374,13 @@ function check() {
       multiples = sum + numodd;
     }
 
-    if(multiples - sum === latsnum) result = 'hàng thật';
-    else result = 'hàng giả';
-
-    document.getElementById('resultC').innerHTML = result;
+    if(multiples - sum === latsnum){
+        document.getElementById('resultC').innerHTML = 'Hàng thật.';
+        document.getElementById('resultC').style = 'color: green;'
+    }
+    else{
+        document.getElementById('resultC').innerHTML = 'Hàng giả.';
+        document.getElementById('resultC').style = 'color: red;'
+    } 
 }
 /* end check barcode */

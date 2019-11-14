@@ -1,13 +1,14 @@
-<div>
-    Kiểm Tra Hàng Thật Bằng Mã Vạch
-</div>
 <form class="c2s-form" id="contactform" name="contact" method="post" action="#">
     <div class="c2s-row">
+        <label class="c2s-lbl">Kiểm Tra Hàng Thật Bằng Mã Vạch</label>
+    </div>
+    <div class="c2s-row">
         <label class="c2s-lbl">Hãy nhập mã vạch: </label>
-        <input type="text" id="maVach" class="c2s-txt" autocomplete="off" onkeydown="return isNumberKey(event)" oninput="check()" class="txt" tabindex="1" placeholder="Enter first number" maxlength="13">
+        <input type="text" id="maVach" class="c2s-txt" autocomplete="off" onkeydown="return isNumberKey(event)"
+            oninput="check()" class="txt" tabindex="1" placeholder="Enter first number" maxlength="13">
     </div>
     <div class="c2s-row">
         <label class="c2s-lbl"> Result: </label>
-        <label id="resultC"></label>
+        <label class="c2s-lbl" id="resultC"></label>
     </div>
 </form>
