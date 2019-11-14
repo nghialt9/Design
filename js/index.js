@@ -333,3 +333,47 @@ function createDot() {
     }
 }
 /* start create element dot */
+
+/* start check barcode */
+function check() {
+    var str1 = String(document.getElementById('maVach').value);
+    if(str1.length != 13) return;
+    var str = new RegExp(/\D/);
+
+    //check number
+    if (str.test(str1)) {
+        str1 = str1.replace(/\D/g, "");
+        document.getElementById('maVach').value = str1;
+    }
+
+    //declare variable
+    var even = 0, odd = 0, sumEven = 0, sumOdd = 0, sum = 0, multiples = 0, result = '';
+    var str2 = str1.substr(0, str1.length - 1);
+    var latsnum = Number(str1.substr(str1.length - 1));
+
+    for (var i = 0; i < str2.length; i++) {
+      if((i+1)%2 === 0){
+        even += Number(str2.slice(str2.length - i - 1, str2.length - i));
+      }
+      else{
+        odd += Number(str2.slice(str2.length - i - 1, str2.length - i));
+      }
+    }
+
+    odd = 3 * odd;
+    sum = odd + even;
+    var strTemp = sum.toString()
+    var numtemp = Number(strTemp.substr(strTemp.length - 1));
+
+    if(numtemp === 0) multiples = sum;
+    else{
+      var numodd = 10 - numtemp;
+      multiples = sum + numodd;
+    }
+
+    if(multiples - sum === latsnum) result = 'hàng thật';
+    else result = 'hàng giả';
+
+    document.getElementById('resultC').innerHTML = result;
+}
+/* end check barcode */
