@@ -354,7 +354,7 @@ function check() {
     var even = 0, odd = 0, sumEven = 0, sumOdd = 0, sum = 0, multiples = 0;
     if(str1.length != 13){
         document.getElementById('resultC').innerHTML = 'Đang nhập liệu...';
-        document.getElementById('resultC').style = 'color: red;'
+        document.getElementById('resultC').style = 'color: #464646;'
         return;
     }
     var str2 = str1.substr(0, str1.length - 1);
@@ -382,7 +382,7 @@ function check() {
 
     if(multiples - sum === latsnum){
         document.getElementById('resultC').innerHTML = 'Hàng thật.';
-        document.getElementById('resultC').style = 'color: #464646;'
+        document.getElementById('resultC').style = 'color: green;'
     }
     else{
         document.getElementById('resultC').innerHTML = 'Hàng giả.';
