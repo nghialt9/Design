@@ -336,11 +336,12 @@ function createDot() {
 
 /* start check barcode */
 function check() {
+    
+    var str1 = String(document.getElementById('maVach').value);
     if(str1.length === 0){
         document.getElementById('resultC').innerHTML = '';
         return;
     }
-    var str1 = String(document.getElementById('maVach').value);
     var str = new RegExp(/\D/);
 
     //check number
