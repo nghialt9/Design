@@ -281,12 +281,12 @@ angular.module('app', [])
 var slideIndex = 1;
 //-- use angular --
 angular.element(document).ready(function () {
-    createDot();
-    showSlides(slideIndex);
-    var x = setInterval(function () {
-        showSlides(slideIndex);
-        slideIndex += 1;
-    }, 3000);
+    // createDot();
+    // showSlides(slideIndex);
+    // var x = setInterval(function () {
+    //     showSlides(slideIndex);
+    //     slideIndex += 1;
+    // }, 3000);
 });
 
 $(document).ready(function () {

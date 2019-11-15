@@ -12,32 +12,42 @@
 <script src="./js/notify.js"></script>
 
 <body class="body" ng-controller="appCtrl">
-    <div class="slideshow-container swiper-container">
-        <div class="mySlides fade swiper-wrapper" ng-repeat="slide in slidesShow">
+    <!-- <div class="slideshow-container">
+        <div class="mySlides fade" ng-repeat="slide in slidesShow">
             <div class="numbertext">{{slide.numbertext}}</div>
-            <div class="swiper-slide"><img class="img-slide" ng-src="{{slide.image}}"></div>
+            <img class="img-slide" ng-src="{{slide.image}}">
             <div class="text">{{slide.text}}</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div> -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" ng-repeat="slide in slidesShow">
+                <div class="numbertext">{{slide.numbertext}}</div>
+                <img class="img-slide" ng-src="{{slide.image}}">
+                <div class="text">{{slide.text}}</div>
+            </div>
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true,
-                    renderBullet: function (index, className) {
-                        return '<span class="' + className + '">' + (index + 1) + '</span>';
-                    },
-                },
-            });
-        </script>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + '</span>';
+                },
+            },
+        });
+    </script>
+
     <br>
-    <div style="text-align:center" id="dot"></div>
+    <div style="text-align:center; display: none;" id="dot"></div>
     <div class="container">
         <p class="time">Today is: {{dateNow|date:'MMM dd, yyyy EEEE. a - HH:mm:ss:sss'}}</p>
         <main>
