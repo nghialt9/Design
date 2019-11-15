@@ -15,7 +15,7 @@
     <div class="slideshow-container swiper-container">
         <div class="mySlides fade swiper-wrapper" ng-repeat="slide in slidesShow">
             <div class="numbertext">{{slide.numbertext}}</div>
-            <img class="img-slide swiper-slide" ng-src="{{slide.image}}">
+            <div class="swiper-slide"><img class="img-slide" ng-src="{{slide.image}}"></div>
             <div class="text">{{slide.text}}</div>
         </div>
         <!-- Add Pagination -->
