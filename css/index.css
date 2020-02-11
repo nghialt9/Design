@@ -937,7 +937,7 @@ table th {
 table td {
     border: 1px solid #ededed;
     background: snow;
-    text-align: center;
+    padding: 2px 0 2px 3%;
 }
 
 table {
