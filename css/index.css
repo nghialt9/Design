@@ -928,19 +928,27 @@ progress[value] {
 }
 
 table th {
-    text-align: left;
-    border: 1px solid #ededed;
+    text-align: center;
+    border: 1px solid burlywood;
     padding: 2px 8px;
+    background: darkkhaki;
 }
 
 table td {
     border: 1px solid #ededed;
-    padding: 2px 8px;
+    background: snow;
+    text-align: center;
 }
 
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    width: 80%;
+    margin: auto;
+}
+
+tbody th {
+    background: darkkhaki;
 }
 
 @media screen and (max-width: 500px) {
