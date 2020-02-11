@@ -927,25 +927,27 @@ progress[value] {
     }
 }
 
-table th {
+#content4 table th {
     text-align: center;
     border: 1px solid burlywood;
     padding: 2px 8px;
     background: darkkhaki;
 }
 
-table td {
+#content4 table td {
     border: 1px solid #ededed;
     padding: 2px 8px;
     background: snow;
 }
 
-table {
+#content4 table {
     border-collapse: collapse;
     border-spacing: 0;
+    width: 80%;
+    margin: auto;
 }
 
-tbody th {
+#content4 tbody th {
     background: darkkhaki;
 }
 
