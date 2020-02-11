@@ -927,6 +927,22 @@ progress[value] {
     }
 }
 
+table th {
+    text-align: left;
+    border: 1px solid #ededed;
+    padding: 2px 8px;
+}
+
+table td {
+    border: 1px solid #ededed;
+    padding: 2px 8px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
 @media screen and (max-width: 500px) {
     label {
         padding: 15px;
