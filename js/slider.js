@@ -1,83 +1,132 @@
 var regex = /(\d)(?=(\d{3})+(?!\d))/g;
-var work;
-angular.element(document).ready(function() {
-    var sliderMoney = document.getElementById("moneyRange");
-    var outputMoney = document.getElementById("money");
-    var sliderDay = document.getElementById("dayRange");
-    var outputDay = document.getElementById("day");
-    var outputTotalMoney = document.getElementById("totalMoney");
-    var studentRadio = document.getElementById("student");
-    var moneyProgress = document.getElementById("moneyProgress");
-    var dayProgress = document.getElementById("dayProgress");
-    var numMoneyEnd = document.getElementById("num-money-end");
-    outputMoney.innerHTML = sliderMoney.value.replace(regex, '$1,');
-    outputDay.innerHTML = sliderDay.value + " Ngày";
-    calMonney();
-    sliderMoney.oninput = function(e) {
-        calMonney();
-        outputMoney.innerHTML = sliderMoney.value.replace(regex, '$1,');
-        var value = e.target.value - 1000000;
-        moneyProgress.value = value;
-    }
+angular.element(document).ready(function () {
+	var sliderMoney = document.getElementById("moneyRange");
+	var outputMoney = document.getElementById("money");
+	var sliderMonth = document.getElementById("monthRange");
+	var outputMonth = document.getElementById("month");
+	var haityRadio = document.getElementById("haity");
+	var moneyProgress = document.getElementById("moneyProgress");
+	var monthProgress = document.getElementById("monthProgress");
+	outputMoney.innerHTML = Number.parseInt(sliderMoney.value) === 0 ? "20000000".replace(regex, '$1,') + " vnđ" : sliderMoney.value.replace(regex, '$1,') + " vnđ";
+	outputMonth.innerHTML = Number.parseInt(sliderMonth.value) === 0 ? "1 Tháng" : sliderMonth.value + " Tháng";
+	calMonney();
+	sliderMoney.oninput = function (e) {
+		calMonney();
+		var value;
+		if (haityRadio.checked === true) {
+			value = e.target.value;
+		}
+		else {
+			value = e.target.value - 2000000000;
+		}
+		moneyProgress.value = value;
+	}
 
-    sliderDay.oninput = function(e) {
-        calMonney();
-        outputDay.innerHTML = this.value + " Ngày";
-        var value = e.target.value;
-        dayProgress.value = value;
-    }
-
-    function calMonney() {
-        work = true;
-        var num = 0.55;
-        sliderMoney.max = "10000000";
-        moneyProgress.max = "9000000";
-        numMoneyEnd.innerText = "10,000,000";
-        if (studentRadio.checked == true) {
-            if (work) {
-                if (sliderMoney.value > 5000000) {
-                    sliderMoney.value = "5000000";
-                    moneyProgress.value = "4000000";
-                    outputMoney.innerHTML = sliderMoney.value.replace(regex, '$1,');
-                }
-            }
-            num = 0.36;
-            sliderMoney.max = "5000000";
-            moneyProgress.max = "4000000";
-            numMoneyEnd.innerText = "5,000,000";
-            work = false;
-        }
-        var numPer = Number.parseInt(sliderMoney.value) * num / 365;
-        var numDay = Number.parseInt(sliderDay.value);
-        var numMoney = Number.parseInt(sliderMoney.value);
-        var total = Math.floor(numPer * numDay + numMoney).toString();
-        outputTotalMoney.innerHTML = total.replace(regex, '$1,') + " VNÐ";
-    }
+	sliderMonth.oninput = function (e) {
+		calMonney();
+		var value = e.target.value;
+		monthProgress.value = value;
+	}
 });
-
 function calMonney() {
-    work = true;
-    var num = 0.55;
-    document.getElementById("moneyRange").max = "10000000";
-    document.getElementById("moneyProgress").max = "9000000";
-    document.getElementById("num-money-end").innerText = "10,000,000";
-    if (document.getElementById("student").checked == true) {
-        if (work) {
-            if (document.getElementById("moneyRange").value > 5000000) {
-                document.getElementById("moneyRange").value = "5000000";
-                document.getElementById("moneyProgress").value = "4000000";
-                document.getElementById("money").innerHTML = document.getElementById("moneyRange").value.replace(regex, '$1,');
-            }
-        }
-        num = 0.36;
-        document.getElementById("moneyRange").max = "5000000";
-        document.getElementById("moneyProgress").max = "4000000";
-        document.getElementById("num-money-end").innerText = "5,000,000";
-        work = false;
-    }
-    var numPer = Number.parseInt(document.getElementById("moneyRange").value) * num / 365;
-    var numDay = Number.parseInt(document.getElementById("dayRange").value);
-    var numMoney = Number.parseInt(document.getElementById("moneyRange").value);
-    var total = Math.floor(numPer * numDay + numMoney).toString();
-    document.getElementById("totalMoney").innerHTML = total.replace(regex, '$1,') + " VNÐ";
+	var outputTotalMoney = document.getElementById("totalMoney");
+	var outputMontlyMoney = document.getElementById("montlyMoney");
+	var numMoneyStart = document.getElementById("num-money-start");
+	var numMoneyEnd = document.getElementById("num-money-end");
+	var monthStart = document.getElementById("monthStart");
+	var numMonth = Number.parseInt(sliderMonth.value);
+	var laiSuat;
+	if (haityRadio.checked === true) {
+		if (numMonth === 0) numMonth = 1;
+		switch (numMonth) {
+			case 1:
+				laiSuat = 0.08;
+				break;
+			case 3:
+				laiSuat = 0.09;
+				break;
+			case 6:
+				laiSuat = 0.10;
+				break;
+			case 9:
+				laiSuat = 0.11;
+				break;
+			case 12:
+				laiSuat = 0.12;
+				break;
+			default:
+			// code block
+		}
+		document.getElementById("txtHaiTy").style.color = "#2450D7";
+		document.getElementById("txtBonTy").style.color = "black";
+		if (sliderMonth.value === "0") {
+			outputMonth.innerHTML = (Number.parseInt(sliderMonth.value) + 1) + " Tháng";
+		}
+		else {
+			outputMonth.innerHTML = sliderMonth.value + " Tháng";
+		}
+		if (Number.parseInt(sliderMoney.value) > 1980000000) {
+			sliderMoney.max = "1980000000";
+			sliderMoney.min = "0";
+			sliderMoney.step = "20000000";
+			moneyProgress.max = "1980000000";
+			moneyProgress.value = "0";
+			sliderMoney.value = "0";
+		}
+		if (sliderMoney.value === "0") {
+			outputMoney.innerHTML = "20000000".replace(regex, '$1,') + " vnđ";
+		}
+		else {
+			outputMoney.innerHTML = sliderMoney.value.replace(regex, '$1,') + " vnđ";
+		}
+		monthProgress.max = "12";
+		sliderMonth.max = "12";
+		monthStart.innerText = "1 Tháng";
+		numMoneyEnd.innerText = "1 tỷ 980";
+		numMoneyStart.innerText = "20 triệu";
+	} else {
+		if (numMonth === 0) numMonth = 3;
+		switch (numMonth) {
+			case 3:
+				laiSuat = 0.095;
+				break;
+			case 6:
+				laiSuat = 0.105;
+				break;
+			case 9:
+				laiSuat = 0.115;
+				break;
+			case 12:
+				laiSuat = 0.125;
+				break;
+			default:
+			// code block
+		}
+		document.getElementById("txtBonTy").style.color = "#2450D7";
+		document.getElementById("txtHaiTy").style.color = "black";
+
+		if (Number.parseInt(sliderMoney.value) < 2000000000) {
+			sliderMoney.max = "4000000000";
+			sliderMoney.min = "2000000000";
+			sliderMoney.step = "50000000";
+			moneyProgress.max = "2000000000";
+			moneyProgress.value = "0";
+			sliderMoney.value = "2000000000";
+		}
+		monthProgress.max = "9";
+		sliderMonth.max = "9";
+		monthStart.innerText = "3 tháng";
+		outputMonth.innerHTML = (Number.parseInt(sliderMonth.value) + 3) + " Tháng"
+		outputMoney.innerHTML = sliderMoney.value.replace(regex, '$1,') + " vnđ";
+		numMoneyEnd.innerText = "4 tỷ";
+		numMoneyStart.innerText = "2 tỷ";
+	}
+
+	var numMoney = Number.parseInt(sliderMoney.value);
+	if (numMoney === 0) numMoney = 20000000;
+	var numPer = numMoney * laiSuat / 12;
+	var montly = Math.floor(numPer * 1).toString();
+	var total = Math.floor(numPer * numMonth + numMoney).toString();
+	outputTotalMoney.innerHTML = total.replace(regex, '$1,');
+	outputMontlyMoney.innerHTML = montly.replace(regex, '$1,');
 }

@@ -1,56 +1,60 @@
 ﻿<div class="sli-form-money">
-    <div class="sli-title">THANH TÍNH KHOẢN VAY</div>
+    <div class="sli-title">CÔNG CỤ TÍNH TOÁN</div>
     <div class="sli-line"></div>
-    <div class="sli-borrow-money">
-        <div class="sli-lbl-money">SỐ TIỀN VAY</div>
-        <div class="sli-num-money" id="money"></div>
-    </div>
-    <div class="sli-root-slider-wrap">
-        <div class="sli-root-slider">
-            <input type="range" min="1000000" value="3000000" max="10000000" step="100000" class="sli-slider" id="moneyRange">
-            <progress id="moneyProgress" value="2000000"></progress>
-        </div>
-    </div>
-    <div class="sli-lbl-money-te">
-        <div class="sli-num-money-start">1,000,000</div>
-        <div class="sli-num-money-end" id="num-money-end"></div>
-    </div>
-    <div class="sli-borrow-money">
-        <div class="sli-lbl-money">THỜI HẠN VAY</div>
-        <div class="sli-num-money" id="day"></div>
-    </div>
-    <div class="sli-root-slider-wrap">
-        <div class="sli-root-slider">
-            <input type="range" min="1" max="31" value="7" step="1" class="sli-slider" id="dayRange">
-            <progress id="dayProgress" value="7" max="31"></progress>
-        </div>
-    </div>
-    <div class="sli-lbl-money-te">
-        <div class="sli-num-money-start">1 Ngày</div>
-        <div class="sli-num-money-end">31 Ngày</div>
-    </div>
-    <div class="sli-radio-audience">
-        <div class="sli-group-student">
-            <input class="sli-radio" type="radio" id="student" name="job" checked="true" onclick="calMonney()">
-            <label for="student" class="sli-txtRadio">Sinh Viên</label>
-            <span class="sli-checkmark"></span>
-        </div>
-        <div class="sli-group-officer">
-            <input class="sli-radio" type="radio" id="officer" name="job" onclick="calMonney()">
-            <label for="officer" class="sli-txtRadio">Nguời Ði Làm</label>
-            <span class="sli-checkmark"></span>
-        </div>
-    </div>
-    <div class="sli-lbl-money-total">
-        <div class="sli-lbl-total">Tổng tiền thanh toán:</div>
-        <div class="sli-num-money-total" id="totalMoney"></div>
-    </div>
-    <div class="sli-group-latest">
-        <img class="sli-img-security" src="https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/clock-1559736409.png" />
-        <div class="sli-lbl-text">Bảo mật tuyệt đối thông tin của Quý khách</div>
-        <div class="sli-btnImg">
-            <a href="#GROUP446" class="sli-btn-register">ĐĂNG KÝ VAY</a>
-            <img class="sli-img-finger" src="https://static.ladipage.net/5cc2c9c8cf6a2f655f09c1e4/icon_vantay-1559736348.png" />
-        </div>
-    </div>
+	<div class="row">
+		<div class="left-col">
+			<div class="sli-radio-audience">
+				<div class="sli-group-haity">
+					<input class="sli-radio" type="radio" id="haity" name="job" checked="true" onclick="calMonney()">
+					<label for="haity" class="sli-txtRadio" id="txtHaiTy">Dưới 2 tỷ</label>
+					<span class="sli-checkmark"></span>
+				</div>
+				<div class="sli-group-bonty">
+					<input class="sli-radio" type="radio" id="bonty" name="job" onclick="calMonney()">
+					<label for="bonty" class="sli-txtRadio" id="txtBonTy">Trên 2 tỷ</label>
+					<span class="sli-checkmark"></span>
+				</div>
+			</div>
+			<div class="sli-borrow-money">
+				<div class="sli-lbl-money"><div class="num">1</div>Số tiền hợp tác</div>
+				<div class="sli-num-money" id="money"></div>
+			</div>
+			<div class="sli-root-slider-wrap">
+				<div class="sli-root-slider">
+					<input type="range" min="0" value="0" max="1980000000" step="20000000" class="sli-slider" id="moneyRange">
+					<progress id="moneyProgress" value="0" max="1980000000"></progress>
+				</div>
+			</div>
+			<div class="sli-lbl-money-te">
+				<div class="sli-num-money-start" id="num-money-start">20 triệu</div>
+				<div class="sli-num-money-end" id="num-money-end"></div>
+			</div>
+			<div class="sli-borrow-money">
+				<div class="sli-lbl-money"><div class="num">2</div>Thời hạn hợp tác</div>
+				<div class="sli-num-money" id="month"></div>
+			</div>
+			<div class="sli-root-slider-wrap">
+				<div class="sli-root-slider">
+					<input type="range" min="0" max="12" value="0" step="3" class="sli-slider" id="monthRange">
+					<progress id="monthProgress" value="0" max="12"></progress>
+				</div>
+			</div>
+			<div class="sli-lbl-money-te">
+				<div class="sli-num-money-start" id="monthStart">1 Tháng</div>
+				<div class="sli-num-money-end">12 Tháng</div>
+			</div>
+		</div>
+		<div class="right-col">
+			<div class="sli-lbl-money-total">
+				<div class="montly-money">
+					<div class="sli-lbl-total">Số tiền lãi nhận hàng tháng</div>
+					<div class="sli-num-money-total" id="montlyMoney"></div>
+				</div>
+				<div class="final-money">
+					<div class="sli-lbl-total">Tổng lãi và vốn nhận cuối kỳ</div>
+					<div class="sli-num-money-total" id="totalMoney"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>

@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="./css/index.css">
 <link rel="stylesheet" href="./css/swiper.min.css">
 <link rel="stylesheet" href="./css/luckydraw.css">
+<link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
@@ -13,15 +14,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
 
 <body class="body" ng-controller="appCtrl">
-    <!-- <div class="slideshow-container">
-        <div class="mySlides fade" ng-repeat="slide in slidesShow">
-            <div class="numbertext">{{slide.numbertext}}</div>
-            <img class="img-slide" ng-src="{{slide.image}}">
-            <div class="text">{{slide.text}}</div>
-        </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div> -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide" ng-repeat="slide in slidesShow">

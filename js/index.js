@@ -106,18 +106,6 @@ angular.module('app', [])
         $scope.strQuantity = '';
         $scope.strQuantity = $scope.Quantity.toString();
         initSoNgauNhien();
-        //lấy kết quả Quantity từ API
-        // vm.getQuantity = function () {
-        //     $scope.listsShow = null;
-        //     vm.loading = true;
-        //     $http.post('/cus/count', vm.requestQuantityModel).then(function (response) {
-        //         $scope.Quantity = response.data.count;
-        //         $scope.strQuantity = $scope.Quantity.toString();
-        //         initSoNgauNhien();
-        //         vm.loading = false;
-        //     });
-        // }
-        //hiện dialog
         vm.showDialog = function () {
             if (vm.requestResultsModel.award === null) {
                 $(".notify").notify("Bạn phải chọn giải để quay", { className: "warn", elementPosition: "top left" });
@@ -390,3 +378,157 @@ function check() {
     } 
 }
 /* end check barcode */
+
+function formatNumber(number) {
+	return new Intl.NumberFormat().format(number);
+}
+
+function isConsecutiveNumbers(nums) {
+	nums = nums.sort((a, b) => (a > b ? -1 : 1)); //desc
+	const max = nums[0];
+	for (let i = 0; i < nums.length; i++) {
+		if (nums[i] !== max - i) return false;
+	}
+	return true;
+}
+
+function numberToWords() {
+    var vn = document.getElementById("vn");
+	var money = document.getElementById("Tiền");
+    var language = vn.checked ? "vn" : "en";
+	number = parseInt(money);
+	if (language === 'vn') {
+        document.getElementById("resultD").innerHTML = numberToWordsVn(number);
+		return;
+	}
+	if (language === 'en') {
+        document.getElementById("resultD").innerHTML = numberToWordsEn(number, '');
+		return;
+	}
+	return numberToWordsEn(number, language);
+}
+
+const digit = [' không ', ' một ', ' hai ', ' ba ', ' bốn ', ' năm ', ' sáu ', ' bảy ', ' tám ', ' chín '];
+const money = ['', ' nghìn', ' triệu', ' tỷ', ' nghìn', ' triệu'];
+const ext = [' linh ', ' mốt ', ' lăm ', ' mươi', ' mười ', ' trăm '];
+
+function readThreeNumber(threeNumber) {
+	var result = '';
+	var hundred = parseInt(threeNumber / 100);
+	var dozen = parseInt((threeNumber % 100) / 10);
+	var unit = threeNumber % 10;
+	if (hundred === 0 && dozen === 0 && unit === 0) return '';
+	result += digit[hundred] + ext[5];
+	if (dozen === 0 && unit !== 0) result += ext[dozen];
+	if (dozen !== 0 && dozen !== 1) {
+		result += digit[dozen] + ext[3];
+		if (dozen === 0 && unit !== 0) result = result + ext[dozen];
+	}
+	if (dozen === 1) result += ext[4];
+	switch (unit) {
+		case 1:
+			if (dozen !== 0 && dozen !== 1) {
+				result += ext[1];
+			} else {
+				result += digit[unit];
+			}
+			break;
+		case 5:
+			if (dozen === 0) {
+				result += digit[unit];
+			} else {
+				result += ext[2];
+			}
+			break;
+		default:
+			if (unit !== 0) {
+				result += digit[unit];
+			}
+			break;
+	}
+	return result;
+}
+
+function numberToWordsVn(num) {
+	num = parseInt(num);
+	var times = 0,
+		number = 0,
+		i = 0;
+	var result = '',
+		tmp = '';
+	var location = [];
+	if (num < 0) return 'Số tiền âm !';
+	if (num === 0) return 'Không đồng !';
+	if (num > 0) {
+		number = num;
+	} else {
+		number = -num;
+	}
+	if (num > 8999999999999999) {
+		return 'Số quá lớn!';
+	}
+	location[5] = Math.floor(number / 1000000000000000);
+	if (isNaN(location[5])) location[5] = '0';
+	number = number - parseFloat(location[5].toString()) * 1000000000000000;
+	location[4] = Math.floor(number / 1000000000000);
+	if (isNaN(location[4])) location[4] = '0';
+	number = number - parseFloat(location[4].toString()) * 1000000000000;
+	location[3] = Math.floor(number / 1000000000);
+	if (isNaN(location[3])) location[3] = '0';
+	number = number - parseFloat(location[3].toString()) * 1000000000;
+	location[2] = parseInt(number / 1000000);
+	if (isNaN(location[2])) location[2] = '0';
+	location[1] = parseInt((number % 1000000) / 1000);
+	if (isNaN(location[1])) location[1] = '0';
+	location[0] = parseInt(number % 1000);
+	if (isNaN(location[0])) location[0] = '0';
+	if (location[5] > 0) {
+		times = 5;
+	} else if (location[4] > 0) {
+		times = 4;
+	} else if (location[3] > 0) {
+		times = 3;
+	} else if (location[2] > 0) {
+		times = 2;
+	} else if (location[1] > 0) {
+		times = 1;
+	} else {
+		times = 0;
+	}
+	for (i = times; i >= 0; i--) {
+		tmp = readThreeNumber(location[i]);
+		if (i === times && tmp.startsWith(digit[0])) tmp = tmp.replace(digit[0], '').replace(ext[0], '').replace(ext[5], '');
+		result += tmp;
+		if (location[i] > 0) result += money[i];
+		if (i > 0 && tmp.length > 0) result += ' ';
+	}
+	if (times > 3 && result.trim().split(" ").length <= 5) result += money[3];
+	if (result.substring(result.length - 1) === ',') {
+		result = result.substring(0, result.length - 1);
+	}
+	result = result.substring(1, 2).toUpperCase() + result.substring(2);
+	return result + ' đồng';
+}
+
+var a = ['','one ','two ','three ','four ', 'five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','nineteen '];
+var b = ['', '', 'twenty','thirty','forty','fifty', 'sixty','seventy','eighty','ninety'];
+
+function numberToWordsEn (num, l) {
+	if (num === 0) return l === '' ? 'Zero dollars !' : 'Zero ' + l;
+    if ((num = num.toString()).length > 17) return 'overflow';
+    var n = ('00000000000000000' + num).substr(-17).match(/^(\d{2})(\d{1})(\d{2})(\d{1})(\d{2})(\d{1})(\d{2})(\d{1})(\d{2})(\d{1})(\d{2})$/);
+    if (!n) return; var str = '';
+	str += (n[1] !== "00") ? (a[Number(n[1])] || b[n[1][0]] + ' ' + a[n[1][1]]) + 'milion ' : '';
+    str += (n[2] !== "0") ? (a[Number(n[2])] || b[n[2][0]] + ' ' + a[n[2][1]]) + 'hundred ' : (n[1] !== "00") ? 'bilion ' : '';
+    str += (n[3] !== "00") ? (a[Number(n[3])] || b[n[3][0]] + ' ' + a[n[3][1]]) + 'thousand ' : (n[2] !== "0") ? 'thousand bilion ' : '';
+    str += (n[4] !== "0") ? (a[Number(n[4])] || b[n[4][0]] + ' ' + a[n[4][1]]) + 'hundred ' : (n[3] !== "00") ? 'bilion ' : '';
+    str += (n[5] !== "00") ? (a[Number(n[5])] || b[n[5][0]] + ' ' + a[n[5][1]]) + 'bilion ' : (n[4] !== "0") ? 'bilion ' : '';
+	str += (n[6] !== "0") ? (a[Number(n[6])] || b[n[6][0]] + ' ' + a[n[6][1]]) + 'hundred ' : '';
+	str += (n[7] !== "00") ? (a[Number(n[7])] || b[n[7][0]] + ' ' + a[n[7][1]]) + 'milion ' : (n[6] !== "0") ? 'milion ' : '';
+	str += (n[8] !== "0") ? (a[Number(n[8])] || b[n[8][0]] + ' ' + a[n[8][1]]) + 'hundred ' : '';
+	str += (n[9] !== "00") ? (a[Number(n[9])] || b[n[9][0]] + ' ' + a[n[9][1]]) + 'thousand ' : (n[8] !== "0") ? 'thousand ' : '';
+	str += (n[10] !== "0") ? (a[Number(n[10])] || b[n[10][0]] + ' ' + a[n[10][1]]) + 'hundred ' : '';
+    str += (n[11] !== "00") ? ((str != '') ? 'and ' : '') + (a[Number(n[11])] || b[n[11][0]] + ' ' + a[n[11][1]]) : '';
+    str = str.substring(0, 1).toUpperCase() + str.substring(1);
+	return l === '' ? str + 'dollars' : str + ' ' + l;
+}

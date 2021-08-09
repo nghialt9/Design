@@ -1,0 +1,283 @@
+body {
+	font-family: "Century Gothic";
+	font-weight: bold;
+}
+.sli-form-money {
+    background: #f1f1f1;
+    height: 320px;
+    -webkit-border-radius: 10px;
+}
+
+.sli-title {
+    font-size: 30px;
+    color: #2544A2;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    margin: 10px 0px;
+}
+
+.sli-line {
+    border: 1px solid #2544A2;
+    width: 80px;
+	margin: auto;
+    margin-bottom: 30px;
+	background: #2544A2;
+}
+
+.row {
+	display:flex;
+}
+
+.left-col {
+	width: 50%;
+}
+
+.right-col {
+	width: 50%;
+}
+
+.sli-root-slider-wrap {
+    padding: 0 10%;
+}
+
+.sli-root-slider {
+    text-align: center;
+    height: 21px;
+    position: relative;
+    MARGIN-TOP: 8PX;
+}
+
+.sli-slider {
+    -webkit-appearance: none;
+    width: 100%;
+    background: none;
+    outline: none;
+}
+
+.sli-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* This controls the size. */
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2450d7;
+	box-shadow: 0px 0px 5px #00000073;
+    position: relative;
+    border-radius: 10px;
+    top: 5px;
+	left: -2px;
+    background: #fff;
+	z-index: 1;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    /* This controls the size. */
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2450d7;
+	box-shadow: 0px 0px 5px #00000073;
+    position: relative;
+    border-radius: 10px;
+    top: 5px;
+	left: -2px;
+    background: #fff;
+    cursor: pointer;
+	z-index: 1;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #2450d7;
+}
+
+progress[value]::-webkit-progress-bar {
+    background-color: #d5d5d5;
+    border-radius: 1px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    border: none;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 10.5px;
+	z-index: 0;
+}
+
+.sli-borrow-money {
+    display: flex;
+    width: 100%;
+    margin-top: 21px;
+    margin-bottom: -2px;
+}
+
+.sli-lbl-money {
+    font-size: 18px;
+    color: black;
+    width: 50%;
+    margin-left: 10%;
+	display: flex;
+}
+
+.sli-num-money {
+    font-size: 16px;
+    color: black;
+    margin-right: 10%;
+    width: 50%;
+    text-align: right;
+}
+
+.sli-lbl-money-te {
+    display: flex;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.sli-num-money-start {
+    font-size: 14px;
+    color: black;
+    width: 50%;
+    margin-left: 10%;
+	font-weight: normal;
+}
+
+.sli-num-money-end {
+    font-size: 14px;
+    color: black;
+    margin-right: 10%;
+    width: 50%;
+    text-align: right;
+	font-weight: normal;
+}
+
+.sli-txtRadio {
+    margin-left: 6px;
+	font-size: 18px;
+
+}
+
+.sli-radio-audience {
+    color: black;
+    display: flex;
+    font-weight: bold;
+}
+
+.sli-group-haity {
+    margin-left: 50px;
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.sli-group-bonty {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 50px;
+}
+
+/* Create a custom checkbox */
+
+.sli-checkmark {
+    pointer-events: none;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.sli-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+
+#haity:checked~.sli-checkmark:after {
+    display: block;
+}
+
+#bonty:checked~.sli-checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+
+.sli-checkmark:after {
+    left: -1px;
+    top: -1px;
+    width: 6px;
+    height: 6px;
+    border: 6px solid #426EF5;
+	border-radius: 10px;
+}
+
+.sli-lbl-money-total {
+    background: white;
+    width: 90%;
+    border-radius: 10px;
+    border-top: 10px solid #2450d7;
+    font-family: "Century Gothic";
+}
+
+.montly-money, .final-money {
+	display: flex;
+	padding-bottom: 5%;
+	position: relative;
+}
+
+.montly-money:before {
+  content : "";
+  position: absolute;
+  left    : 0;
+  right   : 0;
+  bottom  : 0;
+  height  : 1px;
+  width   : 90%;  /* or 100px */
+  border-bottom:1px solid #c7c7c7;
+  margin: auto;
+}
+
+.sli-lbl-total {
+    font-size: 20px;
+    color: black;
+    width: fit-content;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: "Century Gothic";
+}
+
+.sli-num-money-total {
+    font-size: 30px;
+    color: #3450d7;
+    margin-left: 10px;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.num {
+	color: white;
+    background: #3450d7;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 5px;
+}
