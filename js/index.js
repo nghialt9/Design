@@ -396,16 +396,14 @@ function numberToWords() {
     var vn = document.getElementById("vn");
 	var money = document.getElementById("Tien");
     var language = vn.checked ? "vn" : "en";
+    var result = document.getElementById("resultTien");
 	number = parseInt(money.value);
-    var text = '';
 	if (language === 'vn') {
-        text = numberToWordsVn(number);
-        document.getElementById('resultD').innerText = text;
+        result.innerHTML = numberToWordsVn(number);
 		return;
 	}
 	if (language === 'en') {
-        text = numberToWordsEn(number, '');
-        document.getElementById('resultD').innerText = text;
+        result.innerHTML = numberToWordsEn(number, '');
 		return;
 	}
 	return numberToWordsEn(number, language);
