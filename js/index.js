@@ -400,12 +400,12 @@ function numberToWords() {
     var text = '';
 	if (language === 'vn') {
         text = numberToWordsVn(number);
-        document.getElementById('resultD').innerHTML = text;
+        document.getElementById('resultD').innerText = text;
 		return;
 	}
 	if (language === 'en') {
         text = numberToWordsEn(number, '');
-        document.getElementById('resultD').innerHTML = text;
+        document.getElementById('resultD').innerText = text;
 		return;
 	}
 	return numberToWordsEn(number, language);

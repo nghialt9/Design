@@ -11,9 +11,30 @@
         <label class="c2s-lbl"> Result: </label>
         <label class="c2s-lbl-full" id="resultC"></label>
     </div>
-</form>
-<form class="c2s-form" id="contactform1" name="contact1" method="post" action="#">
     <div class="c2s-row">
+        <label class="c2s-lbl-full">Đổi tiền số sang tiền chữ</label>
+    </div>
+    <div class="sli-radio-audience">
+        <div class="sli-group-haity">
+            <input class="sli-radio" type="radio" id="vn" name="job" checked="true" onclick="numberToWords()">
+            <label for="vn" class="sli-txtRadio">Tiền Việt</label>
+            <span class="sli-checkmark"></span>
+        </div>
+        <div class="sli-group-bonty">
+            <input class="sli-radio" type="radio" id="en" name="job" onclick="numberToWords()">
+            <label for="en" class="sli-txtRadio">Tiền Đô</label>
+            <span class="sli-checkmark"></span>
+        </div>
+    </div>
+    <div class="c2s-row">
+        <label class="c2s-lbl">Nhập số tiền: </label>
+        <input type="number" id="Tien" class="c2s-txt" autocomplete="off" onkeydown="return isNumberKey(event)"
+            oninput="numberToWords()" class="txt" tabindex="1" placeholder="Nhập số tiền" maxlength="17">
+    </div>
+    <div class="c2s-row">
+        <label class="c2s-lbl"> Kết quả: </label>
+        <label class="c2s-lbl-full" id="resultD"></label>
+    </div><div class="c2s-row">
         <label class="c2s-lbl-full">Đổi tiền số sang tiền chữ</label>
     </div>
     <div class="sli-radio-audience">
