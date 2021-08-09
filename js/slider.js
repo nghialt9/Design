@@ -30,7 +30,7 @@ angular.element(document).ready(function () {
 });
 function calMonney() {
 	var outputMoney = document.getElementById("money");
-	var sliderMonth = document.getElementById("monthRange");
+	var sliderMoney = document.getElementById("moneyRange");
 	var outputMonth = document.getElementById("month");
 	var haityRadio = document.getElementById("haity");
 	var monthProgress = document.getElementById("monthProgress");
