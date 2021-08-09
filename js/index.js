@@ -394,9 +394,9 @@ function isConsecutiveNumbers(nums) {
 
 function numberToWords() {
     var vn = document.getElementById("vn");
-	var money = document.getElementById("Tiền");
+	var money = document.getElementById("Tien");
     var language = vn.checked ? "vn" : "en";
-	number = parseInt(money);
+	number = parseInt(money.value);
 	if (language === 'vn') {
         document.getElementById("resultD").innerHTML = numberToWordsVn(number);
 		return;
