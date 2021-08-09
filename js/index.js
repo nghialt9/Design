@@ -397,12 +397,15 @@ function numberToWords() {
 	var money = document.getElementById("Tien");
     var language = vn.checked ? "vn" : "en";
 	number = parseInt(money.value);
+    var text = '';
 	if (language === 'vn') {
-        document.getElementById('resultD').innerHTML = numberToWordsVn(number);
+        text = numberToWordsVn(number);
+        document.getElementById('resultD').innerHTML = text;
 		return;
 	}
 	if (language === 'en') {
-        document.getElementById('resultD').innerHTML = numberToWordsEn(number, '');
+        text = numberToWordsEn(number, '');
+        document.getElementById('resultD').innerHTML = text;
 		return;
 	}
 	return numberToWordsEn(number, language);
