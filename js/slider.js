@@ -29,6 +29,12 @@ angular.element(document).ready(function () {
 	}
 });
 function calMonney() {
+	var outputMoney = document.getElementById("money");
+	var sliderMonth = document.getElementById("monthRange");
+	var outputMonth = document.getElementById("month");
+	var haityRadio = document.getElementById("haity");
+	var monthProgress = document.getElementById("monthProgress");
+	var sliderMonth = document.getElementById("monthRange");
 	var outputTotalMoney = document.getElementById("totalMoney");
 	var outputMontlyMoney = document.getElementById("montlyMoney");
 	var numMoneyStart = document.getElementById("num-money-start");
