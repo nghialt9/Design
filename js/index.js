@@ -398,11 +398,11 @@ function numberToWords() {
     var language = vn.checked ? "vn" : "en";
 	number = parseInt(money.value);
 	if (language === 'vn') {
-        document.getElementById("resultD").innerHTML = numberToWordsVn(number);
+        document.getElementById('resultD').innerHTML = numberToWordsVn(number);
 		return;
 	}
 	if (language === 'en') {
-        document.getElementById("resultD").innerHTML = numberToWordsEn(number, '');
+        document.getElementById('resultD').innerHTML = numberToWordsEn(number, '');
 		return;
 	}
 	return numberToWordsEn(number, language);
