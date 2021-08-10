@@ -190,7 +190,7 @@ progress[value] {
     pointer-events: none;
     position: absolute;
     top: 3px;
-    left: 4px;
+    left: -1px;
     height: 16px;
     width: 16px;
     background-color: #fff;
@@ -216,13 +216,21 @@ progress[value] {
     display: block;
 }
 
+#vn:checked~.sli-checkmark:after {
+    display: block;
+}
+
+#en:checked~.sli-checkmark:after {
+    display: block;
+}
+
 /* Style the checkmark/indicator */
 
 .sli-checkmark:after {
-    left: -1px;
-    top: -1px;
-    width: 6px;
-    height: 6px;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
     border: 6px solid #426EF5;
 	border-radius: 10px;
 }
