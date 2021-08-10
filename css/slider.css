@@ -102,8 +102,8 @@ progress[value] {
     height: 2px;
     width: 100%;
     position: absolute;
-    left: 0;
-    top: 10.5px;
+    left: -2px;
+    top: 9px;
 	z-index: 0;
 }
 
