@@ -6,14 +6,14 @@ angular.element(document).ready(function() {
         dateFormat: "dd/mm/yy"
     });
 
-    var newdate = new Date();
+    var newdate = new Date("31/12/2005");
     var dd = newdate.getDate();
     var mm = newdate.getMonth() + 1;
     var y = newdate.getFullYear();
     var someFormattedDate = (dd > 9 ? dd : '0' + dd) + '/' + (mm > 9 ? mm : '0' + mm) + '/' + y;
     document.getElementById('date1').value = someFormattedDate;
 
-    var newdate1 = new Date("01/25/2020");
+    var newdate1 = new Date();
     var dd1 = newdate1.getDate();
     var mm1 = newdate1.getMonth() + 1;
     var y1 = newdate1.getFullYear();
