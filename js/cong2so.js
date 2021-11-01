@@ -6,7 +6,7 @@ angular.element(document).ready(function() {
         dateFormat: "dd/mm/yy"
     });
 
-    var newdate = new Date("31/12/2005");
+    var newdate = new Date("12/31/2005");
     var dd = newdate.getDate();
     var mm = newdate.getMonth() + 1;
     var y = newdate.getFullYear();
