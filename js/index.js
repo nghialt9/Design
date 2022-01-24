@@ -275,6 +275,10 @@ angular.element(document).ready(function () {
     //     showSlides(slideIndex);
     //     slideIndex += 1;
     // }, 3000);
+	var deviceID = MediaDeviceInfo.deviceId
+	var dev = document.createElement("span");
+        dev.innerHTML  = deviceID;
+        document.getElementById(contactform).appendChild(dev);
 });
 
 $(document).ready(function () {
