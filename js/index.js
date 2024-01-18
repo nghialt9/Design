@@ -21,6 +21,9 @@ angular.module('app', [])
     .component('luckydraw', {
         templateUrl: './html/luckydraw.html'
     })
+    .component('flapybird', {
+        templateUrl: './html/flappy.html'
+    })
     .controller('appCtrl', function ($scope, $interval, $http) {
         var vm = this;
         //khởi tạo hàm chạy và khai báo biến
