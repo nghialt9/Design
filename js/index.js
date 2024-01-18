@@ -21,7 +21,7 @@ angular.module('app', [])
     .component('luckydraw', {
         templateUrl: './html/luckydraw.html'
     })
-    .component('flapybird', {
+    .component('flappy', {
         templateUrl: './html/flappy.html'
     })
     .controller('appCtrl', function ($scope, $interval, $http) {
