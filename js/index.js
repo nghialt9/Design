@@ -284,7 +284,10 @@ angular.element(document).ready(function () {
 	var deviceID = MediaDeviceInfo.deviceId
 	var dev = document.createElement("span");
         dev.innerHTML  = deviceID;
-        document.getElementById(contactform).appendChild(dev);
+	var contact = document.getElementById(contactform);
+	if(contact) {
+		document.getElementById(contactform).appendChild(dev);
+	}
 });
 
 $(document).ready(function () {
