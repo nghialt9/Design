@@ -49,14 +49,18 @@ var x = setInterval(function() {
         miliseconds = '00' + miliseconds;
     }
     // Output the result in an element with id="demo"
-    document.getElementById("resultT").innerHTML = "Left " + days + " day(s) " + hours + " hour(s) " +
+    var resultT = document.getElementById("resultT");
+    if(resultT){
+        resultT.innerHTML = "Left " + days + " day(s) " + hours + " hour(s) " +
         minutes + " minute(s) " + seconds + " seconds " + miliseconds + " milliseconds to New Year's Eve";
 
-    // If the count down is over, write some text 
-    if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("resultT").innerHTML = "EXPIRED";
+        // If the count down is over, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            resultT.innerHTML = "EXPIRED";
+        }
     }
+    
 }, 1);
 
 function caldate() {
