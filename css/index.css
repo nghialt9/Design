@@ -198,6 +198,14 @@ section {
     content: '\f06b';
 }
 
+.main-label[for*='8']:before {
+    content: '\f520';
+}
+
+.main-label[for*='9']:before {
+    content: '\f19d';
+}
+
 .main-label:hover {
     color: #789;
     cursor: pointer;
@@ -210,7 +218,7 @@ section {
     border-bottom: 1px solid #eee;
 }
 
-#tab1:checked~#content1, #tab2:checked~#content2, #tab3:checked~#content3, #tab4:checked~#content4, #tab5:checked~#content5, #tab6:checked~#content6, #tab7:checked~#content7 {
+#tab1:checked~#content1, #tab2:checked~#content2, #tab3:checked~#content3, #tab4:checked~#content4, #tab5:checked~#content5, #tab6:checked~#content6, #tab7:checked~#content7, #tab8:checked~#content8, #tab9:checked~#content9 {
     display: block;
 }
 
