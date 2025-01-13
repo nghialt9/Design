@@ -24,6 +24,9 @@ angular.module('app', [])
     .component('flappy', {
         templateUrl: './html/flappy.html'
     })
+    .component('khtn', {
+        templateUrl: 'https://dttx-hcmus.web.app/'
+    })
     .controller('appCtrl', function ($scope, $interval, $http) {
         var vm = this;
         //khởi tạo hàm chạy và khai báo biến
