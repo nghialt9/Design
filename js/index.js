@@ -25,7 +25,7 @@ angular.module('app', [])
         templateUrl: './html/flappy.html'
     })
     .component('khtn', {
-        templateUrl: 'https://dttx-hcmus.web.app/'
+        templateUrl: 'https://dttx-hcmus.web.app'
     })
     .controller('appCtrl', function ($scope, $interval, $http) {
         var vm = this;
